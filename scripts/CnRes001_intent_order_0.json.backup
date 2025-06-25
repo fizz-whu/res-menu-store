@@ -1,0 +1,3151 @@
+{
+  "name": "OrderFood",
+  "description": "Intent for ordering food from Chinese restaurant menu",
+  "sampleUtterances": [
+    {
+      "utterance": "One order of {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'd like {Quantity}0 orders of {DishName} on Rice"
+    },
+    {
+      "utterance": "I'd like {Quantity}n {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve the {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'll have #{Quantity}8"
+    },
+    {
+      "utterance": "I'd like {DishName} on Rice well d{Quantity}"
+    },
+    {
+      "utterance": "I'd like {Quantity} orders of {DishName}"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} P{Quantity}n Fried Noodles extr{Quantity} spicy"
+    },
+    {
+      "utterance": "Can I have {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I want {Quantity} orders of {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve the {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Let me get {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} extr{Quantity} veget{Quantity}bles"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "We'll h{Quantity}ve {Quantity} {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'll have #{Quantity}0"
+    },
+    {
+      "utterance": "{Quantity}0 orders of {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "Number {Quantity}9"
+    },
+    {
+      "utterance": "We w{Quantity}nt {Quantity}n {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I w{Quantity}nt to order {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'd like the {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I want number {Quantity}2"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} P{Quantity}n Fried Noodles extr{Quantity} spicy"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity}n order of {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'll have #{Quantity}2"
+    },
+    {
+      "utterance": "I'd like {Quantity}0 {DishName} on Rice"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} P{Quantity}n Fried Noodles {Customization}"
+    },
+    {
+      "utterance": "{Quantity} {DishName}"
+    },
+    {
+      "utterance": "C{Quantity}n I get the {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} on Rice {Customization}"
+    },
+    {
+      "utterance": "Let me get {Quantity} {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity}n orders of {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "Can I get number family_peking_style_{Quantity}"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I need {Quantity} {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} on Rice extr{Quantity} veget{Quantity}bles"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve {Quantity}n {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "Give me {Quantity}n {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve {Quantity}n {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Can I get number {Quantity}{Quantity}"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} P{Quantity}n Fried Noodles extr{Quantity} veget{Quantity}bles"
+    },
+    {
+      "utterance": "Number family_peking_style_{Quantity}"
+    },
+    {
+      "utterance": "I'd like the {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve the {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I w{Quantity}nt to order {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "{Quantity} {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I want {Quantity}0 {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve #f{Quantity}mily_hong_kong_style"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve {Quantity}n {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "C{Quantity}n I get {Quantity} {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve {Quantity} {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Give me {Quantity}0 {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "C{Quantity}n I get {Quantity} {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'll take {Quantity}0 {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} P{Quantity}n Fried Noodles extr{Quantity} veget{Quantity}bles"
+    },
+    {
+      "utterance": "Give me {Quantity}n {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} less s{Quantity}lt"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} P{Quantity}n Fried Noodles extr{Quantity} veget{Quantity}bles"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity} {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} extr{Quantity} veget{Quantity}bles"
+    },
+    {
+      "utterance": "We'll have {Quantity}0 {DishName}"
+    },
+    {
+      "utterance": "{Quantity}0 orders of {DishName} Chow Fun"
+    },
+    {
+      "utterance": "{DishName} Chow Fun well d{Quantity}"
+    },
+    {
+      "utterance": "We'll have {Quantity}0 {DishName} Chow Fun"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve {Quantity}n {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "{Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} extr{Quantity} s{Quantity}uce"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity}n order of {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} Chow Fun extr{Quantity} spicy"
+    },
+    {
+      "utterance": "I want {Quantity} orders of {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {Quantity} orders of {DishName} on Rice"
+    },
+    {
+      "utterance": "We want {Quantity}0 {DishName} on Rice"
+    },
+    {
+      "utterance": "I'd like number f{Quantity}mily_hong_kong_style"
+    },
+    {
+      "utterance": "I need {Quantity} {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} Chow Fun extr{Quantity} s{Quantity}uce"
+    },
+    {
+      "utterance": "We need {Quantity}0 {DishName} Chow Fun"
+    },
+    {
+      "utterance": "Let me get {Quantity}n {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'll have #{Quantity}4"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke {Quantity} {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} extr{Quantity} spicy"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve #f{Quantity}mily_peking_style"
+    },
+    {
+      "utterance": "I need {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} P{Quantity}n Fried Noodles less s{Quantity}lt"
+    },
+    {
+      "utterance": "I want {DishName} Chow Fun well d{Quantity}"
+    },
+    {
+      "utterance": "I need {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "We'll h{Quantity}ve {Quantity} {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "{Quantity}0 {DishName} on Rice"
+    },
+    {
+      "utterance": "{Quantity}0 orders of {DishName}"
+    },
+    {
+      "utterance": "{DishName} well d{Quantity}"
+    },
+    {
+      "utterance": "I'll take {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "Can I have {Quantity}0 {DishName}"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} P{Quantity}n Fried Noodles extr{Quantity} s{Quantity}uce"
+    },
+    {
+      "utterance": "I want {Quantity}0 orders of {DishName} on Rice"
+    },
+    {
+      "utterance": "I'd like number {Quantity}6"
+    },
+    {
+      "utterance": "{Quantity} {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "{Quantity}n orders of {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "We'll h{Quantity}ve {Quantity}n {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Let me get {Quantity}0 {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I want {Quantity}0 {DishName}"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "C{Quantity}n I get number f{Quantity}mily_hong_kong_style"
+    },
+    {
+      "utterance": "We w{Quantity}nt {Quantity} {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "We w{Quantity}nt {Quantity}n {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'd like {Quantity}0 orders of {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'll have #{Quantity}9"
+    },
+    {
+      "utterance": "I want {Quantity}0 {DishName} Chow Fun"
+    },
+    {
+      "utterance": "{Quantity} orders of {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} Chow Fun less s{Quantity}lt"
+    },
+    {
+      "utterance": "I want number {Quantity}"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "Give me the {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "{Quantity} orders of {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "Number {Quantity}3"
+    },
+    {
+      "utterance": "{Quantity}n {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Can I get {Quantity}0 {DishName} on Rice"
+    },
+    {
+      "utterance": "Let me get {Quantity} {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "{Quantity}0 {DishName}"
+    },
+    {
+      "utterance": "One order of {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "Give me {Quantity}n {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} Chow Fun extr{Quantity} spicy"
+    },
+    {
+      "utterance": "I want {Quantity}0 {DishName} on Rice"
+    },
+    {
+      "utterance": "We need {Quantity}n {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} on Rice extr{Quantity} spicy"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity}n orders of {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Give me {Quantity}0 {DishName} Chow Fun"
+    },
+    {
+      "utterance": "C{Quantity}n I get {Quantity} {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'd like {Quantity}0 {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve {Quantity}n {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "Can I get {Quantity}0 {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} extr{Quantity} s{Quantity}uce"
+    },
+    {
+      "utterance": "I w{Quantity}nt the {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Can I have {Quantity}0 {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I'd like number {Quantity}3"
+    },
+    {
+      "utterance": "I want {Quantity}0 orders of {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} on Rice extr{Quantity} s{Quantity}uce"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve {Quantity} {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "We'll have {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I'll take {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke {Quantity} {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "One order of {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} P{Quantity}n Fried Noodles extr{Quantity} s{Quantity}uce"
+    },
+    {
+      "utterance": "We want {Quantity}0 {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity} orders of {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "C{Quantity}n I get {Quantity}n {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "We want {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "C{Quantity}n I get {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I need {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "We need {Quantity}0 {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "Let me get {Quantity} {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "C{Quantity}n I get the {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity} orders of {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve the {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {Quantity}n orders of {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "Give me {Quantity}0 {DishName} on Rice"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "{Quantity}0 orders of {DishName} on Rice"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke {Quantity} {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "Number {Quantity}7"
+    },
+    {
+      "utterance": "We need {Quantity}0 {DishName}"
+    },
+    {
+      "utterance": "I w{Quantity}nt the {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity} {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} on Rice extr{Quantity} s{Quantity}uce"
+    },
+    {
+      "utterance": "I'd like number {Quantity}8"
+    },
+    {
+      "utterance": "{Quantity}n {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'd like number {Quantity}4"
+    },
+    {
+      "utterance": "I'll have {Quantity}0 {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I need {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "We w{Quantity}nt {Quantity} {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I need {Quantity}n {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "We need {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} on Rice extr{Quantity} veget{Quantity}bles"
+    },
+    {
+      "utterance": "I want number {Quantity}{Quantity}"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve {Quantity} {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "We want {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "An order of {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke the {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve {Quantity} {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'll have #{Quantity}5"
+    },
+    {
+      "utterance": "I'd like {Quantity}n {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "{Quantity} orders of {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I want number family_hong_kong_style_{Quantity}"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} less s{Quantity}lt"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I need {Quantity}0 {DishName}"
+    },
+    {
+      "utterance": "Let me get {Quantity} {DishName}"
+    },
+    {
+      "utterance": "Number family_hong_kong_style_{Quantity}"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} P{Quantity}n Fried Noodles less s{Quantity}lt"
+    },
+    {
+      "utterance": "We need {Quantity} {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke the {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "We'll have {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} P{Quantity}n Fried Noodles {Customization}"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} on Rice extr{Quantity} spicy"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve {Quantity} {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'd like number family_hong_kong_style_{Quantity}"
+    },
+    {
+      "utterance": "Can I have {Quantity} {DishName}"
+    },
+    {
+      "utterance": "C{Quantity}n I get {Quantity} {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "We'll have {Quantity}0 {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I'll have #family_peking_style_{Quantity}"
+    },
+    {
+      "utterance": "{Quantity}n {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "{Quantity}0 {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "We w{Quantity}nt {Quantity} {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} extr{Quantity} spicy"
+    },
+    {
+      "utterance": "I'd like {Quantity}0 {DishName}"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "We w{Quantity}nt {Quantity}n {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I'd like {Quantity}n {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {Quantity}0 orders of {DishName}"
+    },
+    {
+      "utterance": "We need {Quantity}0 {DishName} on Rice"
+    },
+    {
+      "utterance": "I'd like number f{Quantity}mily_peking_style"
+    },
+    {
+      "utterance": "I'll have #{Quantity}6"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} on Rice extr{Quantity} veget{Quantity}bles"
+    },
+    {
+      "utterance": "Number {Quantity}4"
+    },
+    {
+      "utterance": "I'd like {Quantity}n order of {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke {Quantity} {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I'd like number {Quantity}9"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} extr{Quantity} veget{Quantity}bles"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I need {Quantity}n {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'll take {Quantity}0 {DishName} on Rice"
+    },
+    {
+      "utterance": "Give me the {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke {Quantity}n {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "Can I get number family_hong_kong_style_{Quantity}"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "{Quantity} orders of {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "Can I get number {Quantity}7"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity} orders of {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "One order of {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} extr{Quantity} s{Quantity}uce"
+    },
+    {
+      "utterance": "I'd like the {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} Chow Fun {Customization}"
+    },
+    {
+      "utterance": "Number {Quantity}6"
+    },
+    {
+      "utterance": "Can I get number {Quantity}"
+    },
+    {
+      "utterance": "C{Quantity}n I get the {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "Can I get number {Quantity}2"
+    },
+    {
+      "utterance": "I'd like number {Quantity}"
+    },
+    {
+      "utterance": "Number f{Quantity}mily_hong_kong_style"
+    },
+    {
+      "utterance": "I want number {Quantity}7"
+    },
+    {
+      "utterance": "I w{Quantity}nt the {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "C{Quantity}n I get number f{Quantity}mily_peking_style"
+    },
+    {
+      "utterance": "I need {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} extr{Quantity} spicy"
+    },
+    {
+      "utterance": "I'll have {Quantity}0 {DishName}"
+    },
+    {
+      "utterance": "{Quantity}n orders of {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke the {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I want {DishName} Pan Fried Noodles well d{Quantity}"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity}n {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'd like to order {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} Chow Fun extr{Quantity} s{Quantity}uce"
+    },
+    {
+      "utterance": "I need {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I w{Quantity}nt the {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "Give me {Quantity}n {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} P{Quantity}n Fried Noodles extr{Quantity} spicy"
+    },
+    {
+      "utterance": "We need {Quantity}n {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'll have {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "Can I get number {Quantity}5"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} Chow Fun extr{Quantity} veget{Quantity}bles"
+    },
+    {
+      "utterance": "I need {Quantity}n {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I need {Quantity}0 {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity}n {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "Give me {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "{Quantity} {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity} orders of {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "We need {Quantity} {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'd like to order {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "Let me get {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "We w{Quantity}nt {Quantity}n {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "Let me get {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} P{Quantity}n Fried Noodles extr{Quantity} s{Quantity}uce"
+    },
+    {
+      "utterance": "An order of {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {Quantity}n orders of {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'll have #family_hong_kong_style_{Quantity}"
+    },
+    {
+      "utterance": "I'd like {Quantity}n orders of {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Can I get number {Quantity}8"
+    },
+    {
+      "utterance": "We need {Quantity} {DishName}"
+    },
+    {
+      "utterance": "We'll have {Quantity}0 {DishName} on Rice"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke {Quantity}n {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "We'll h{Quantity}ve {Quantity} {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I'd like number {Quantity}5"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve the {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Give me {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "{Quantity}0 {DishName} Chow Fun"
+    },
+    {
+      "utterance": "Can I get number {Quantity}6"
+    },
+    {
+      "utterance": "We want {Quantity}0 {DishName}"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity} {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "{Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} Chow Fun extr{Quantity} spicy"
+    },
+    {
+      "utterance": "An order of {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "Let me get {Quantity}n {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "An order of {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "Can I get number {Quantity}3"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} Chow Fun extr{Quantity} s{Quantity}uce"
+    },
+    {
+      "utterance": "I'd like {DishName} Pan Fried Noodles well d{Quantity}"
+    },
+    {
+      "utterance": "We need {Quantity} {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Let me get {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {Quantity}n {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "Can I have {Quantity}0 {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'll take {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I w{Quantity}nt to order {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "We need {Quantity} {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} Chow Fun extr{Quantity} veget{Quantity}bles"
+    },
+    {
+      "utterance": "I want number family_peking_style_{Quantity}"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve {Quantity}n {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I want {Quantity}0 orders of {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {Quantity} orders of {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "{Quantity} orders of {DishName} on Rice"
+    },
+    {
+      "utterance": "{DishName} on Rice well d{Quantity}"
+    },
+    {
+      "utterance": "{Quantity}n orders of {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} on Rice less s{Quantity}lt"
+    },
+    {
+      "utterance": "We'll h{Quantity}ve {Quantity} {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "Number {Quantity}2"
+    },
+    {
+      "utterance": "We'll h{Quantity}ve {Quantity}n {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "Let me get {Quantity}n {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {Quantity}n order of {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Let me get {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "We'll h{Quantity}ve {Quantity}n {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity}n orders of {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "We need {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "We need {Quantity}n {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I want {Quantity} orders of {DishName}"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'd like {Quantity}0 {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {Quantity}n order of {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "C{Quantity}n I get {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} Chow Fun {Customization}"
+    },
+    {
+      "utterance": "Can I get {Quantity}0 {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I want {Quantity}0 orders of {DishName}"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "Can I get {Quantity}0 {DishName}"
+    },
+    {
+      "utterance": "I'll have #{Quantity}3"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity} {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "Give me {Quantity}0 {DishName}"
+    },
+    {
+      "utterance": "I want {DishName} well d{Quantity}"
+    },
+    {
+      "utterance": "Let me get {Quantity}0 {DishName} on Rice"
+    },
+    {
+      "utterance": "I'd like number {Quantity}{Quantity}"
+    },
+    {
+      "utterance": "Give me {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {DishName} Chow Fun well d{Quantity}"
+    },
+    {
+      "utterance": "I'd like {Quantity} orders of {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I want number {Quantity}5"
+    },
+    {
+      "utterance": "Can I have {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve {Quantity} {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'll have {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity}n order of {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'd like {Quantity}n orders of {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} {Customization}"
+    },
+    {
+      "utterance": "{Quantity}n orders of {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "Can I get number {Quantity}9"
+    },
+    {
+      "utterance": "We'll h{Quantity}ve {Quantity}n {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "Let me get {Quantity} {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "{Quantity} orders of {DishName}"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve {Quantity}n {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I want number {Quantity}0"
+    },
+    {
+      "utterance": "I w{Quantity}nt to order {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I'll take {Quantity}0 {DishName}"
+    },
+    {
+      "utterance": "Number {Quantity}0"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'd like the {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "C{Quantity}n I get {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity}n {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'll have #{Quantity}7"
+    },
+    {
+      "utterance": "Number {Quantity}{Quantity}"
+    },
+    {
+      "utterance": "We w{Quantity}nt {Quantity} {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "C{Quantity}n I get {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'd like {Quantity}n order of {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I need {Quantity} {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I want number {Quantity}6"
+    },
+    {
+      "utterance": "{Quantity}n {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "Let me get {Quantity}n {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} on Rice extr{Quantity} spicy"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "{Quantity} {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I need {Quantity} {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve {Quantity}n {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'd like number {Quantity}7"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} on Rice {Customization}"
+    },
+    {
+      "utterance": "I need {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve {Quantity} {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'll have {Quantity}0 {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'll have #{Quantity}{Quantity}"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} on Rice less s{Quantity}lt"
+    },
+    {
+      "utterance": "We want {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I want number {Quantity}8"
+    },
+    {
+      "utterance": "We'll have {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'll have {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} on Rice {Customization}"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} less s{Quantity}lt"
+    },
+    {
+      "utterance": "I want {DishName} on Rice well d{Quantity}"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName}"
+    },
+    {
+      "utterance": "Give me {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} on Rice less s{Quantity}lt"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity}n {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Give me the {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'd like {Quantity} orders of {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "{Quantity} orders of {DishName} Chow Fun"
+    },
+    {
+      "utterance": "{DishName} Pan Fried Noodles well d{Quantity}"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} Chow Fun extr{Quantity} veget{Quantity}bles"
+    },
+    {
+      "utterance": "I'd like {DishName} well d{Quantity}"
+    },
+    {
+      "utterance": "Can I have {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I'd like to order {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Let me get {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I want number {Quantity}3"
+    },
+    {
+      "utterance": "C{Quantity}n I get {Quantity}n {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "We want {Quantity} {DishName}"
+    },
+    {
+      "utterance": "Number {Quantity}5"
+    },
+    {
+      "utterance": "I'd like {Quantity} orders of {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve the {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'll have {Quantity}0 {DishName} on Rice"
+    },
+    {
+      "utterance": "Can I get number {Quantity}0"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Let me get {Quantity}0 {DishName}"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity}n orders of {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve the {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "Can I get number {Quantity}4"
+    },
+    {
+      "utterance": "{DishN{Quantity}me}"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve {Quantity} {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I want number {Quantity}9"
+    },
+    {
+      "utterance": "We need {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "C{Quantity}n I get {Quantity}n {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "Let me get {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} P{Quantity}n Fried Noodles {Customization}"
+    },
+    {
+      "utterance": "We'll have {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "Number f{Quantity}mily_peking_style"
+    },
+    {
+      "utterance": "{Quantity} orders of {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I'd like {Quantity} orders of {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I'll have {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "Let me get {Quantity}0 {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I need {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "C{Quantity}n I get the {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "Can I have {Quantity}0 {DishName} on Rice"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} {Customization}"
+    },
+    {
+      "utterance": "I need {Quantity}0 {DishName} on Rice"
+    },
+    {
+      "utterance": "I'd like number {Quantity}2"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke the {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'd like number family_peking_style_{Quantity}"
+    },
+    {
+      "utterance": "C{Quantity}n I get {Quantity}n {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} Chow Fun less s{Quantity}lt"
+    },
+    {
+      "utterance": "I'll take {Quantity} {DishName}"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishName}"
+    },
+    {
+      "utterance": "{Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} on Rice extr{Quantity} s{Quantity}uce"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke {Quantity}n {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "We need {Quantity}n {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "I'd like to order {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I w{Quantity}nt {Quantity}n order of {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {Quantity}0 orders of {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'll take {Quantity}0 {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} Chow Fun less s{Quantity}lt"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} P{Quantity}n Fried Noodles less s{Quantity}lt"
+    },
+    {
+      "utterance": "I need {Quantity}0 {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I w{Quantity}nt number f{Quantity}mily_hong_kong_style"
+    },
+    {
+      "utterance": "Number {Quantity}"
+    },
+    {
+      "utterance": "C{Quantity}n I h{Quantity}ve the {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I need {Quantity}n {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} Chow Fun {Customization}"
+    },
+    {
+      "utterance": "I'd like number {Quantity}0"
+    },
+    {
+      "utterance": "I'll t{Quantity}ke {Quantity}n {DishN{Quantity}me}"
+    },
+    {
+      "utterance": "I want {Quantity} orders of {DishName} on Rice"
+    },
+    {
+      "utterance": "Number {Quantity}8"
+    },
+    {
+      "utterance": "{DishN{Quantity}me} {Customization}"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I want number {Quantity}4"
+    },
+    {
+      "utterance": "I'd like {Quantity} orders of {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'll have #{Quantity}"
+    },
+    {
+      "utterance": "I w{Quantity}nt number f{Quantity}mily_peking_style"
+    },
+    {
+      "utterance": "I'd like {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "Give me the {DishN{Quantity}me} on Rice"
+    },
+    {
+      "utterance": "I'll h{Quantity}ve {DishN{Quantity}me} P{Quantity}n Fried Noodles"
+    },
+    {
+      "utterance": "I w{Quantity}nt {DishN{Quantity}me} Chow Fun"
+    },
+    {
+      "utterance": "We want {Quantity}0 {DishName} Pan Fried Noodles"
+    }
+  ],
+  "slots": [
+    {
+      "name": "DishName",
+      "description": "The name of the dish to order",
+      "slotConstraint": "Required",
+      "slotType": "DishType",
+      "slotTypeVersion": "$LATEST",
+      "priority": 1,
+      "prompts": {
+        "elicitationPrompt": {
+          "messages": [
+            {
+              "contentType": "PlainText",
+              "content": "What would you like to order from our menu?"
+            }
+          ],
+          "maxRetries": 3
+        }
+      }
+    },
+    {
+      "name": "Quantity",
+      "description": "The quantity of the dish",
+      "slotConstraint": "Optional",
+      "slotType": "AMAZON.NUMBER",
+      "slotTypeVersion": "$LATEST",
+      "priority": 2
+    },
+    {
+      "name": "Customization",
+      "description": "Special customizations for the dish",
+      "slotConstraint": "Optional",
+      "slotType": "CustomizationType",
+      "slotTypeVersion": "$LATEST",
+      "priority": 3
+    }
+  ],
+  "slotTypes": [
+    {
+      "name": "DishType",
+      "description": "All available dishes from the menu",
+      "slotTypeConfigurations": [
+        {
+          "regexConfiguration": {
+            "pattern": ".*"
+          }
+        }
+      ],
+      "values": [
+        {
+          "value": "Hong Kong Style Family Dinner",
+          "synonyms": [
+            "family_hong_kong_style",
+            "number family_hong_kong_style",
+            "#family_hong_kong_style"
+          ]
+        },
+        {
+          "value": "Spring Egg Rolls",
+          "synonyms": [
+            "family_hong_kong_style_1",
+            "#family_hong_kong_style_1",
+            "number family_hong_kong_style_1"
+          ]
+        },
+        {
+          "value": "Beef or Pork w/ Broccoli",
+          "synonyms": [
+            "family_hong_kong_style_2",
+            "#family_hong_kong_style_2",
+            "number family_hong_kong_style_2",
+            "Beef or Pork w/ Broccli"
+          ]
+        },
+        {
+          "value": "Shrimp w/ Bacon Fried Rice",
+          "synonyms": [
+            "number family_hong_kong_style_3",
+            "Shrimp w/ Bacon Rice",
+            "#family_hong_kong_style_3",
+            "family_hong_kong_style_3"
+          ]
+        },
+        {
+          "value": "Barbecue w/ Fried Ribs",
+          "synonyms": [
+            "number family_hong_kong_style_4",
+            "family_hong_kong_style_4",
+            "#family_hong_kong_style_4"
+          ]
+        },
+        {
+          "value": "Peking Style Family Dinner",
+          "synonyms": [
+            "#family_peking_style",
+            "number family_peking_style",
+            "family_peking_style"
+          ]
+        },
+        {
+          "value": "Golden Pot Stickers",
+          "synonyms": [
+            "#family_peking_style_6",
+            "number family_peking_style_6",
+            "family_peking_style_6"
+          ]
+        },
+        {
+          "value": "Mongolian Beef",
+          "synonyms": [
+            "#family_peking_style_7",
+            "number family_peking_style_7",
+            "family_peking_style_7"
+          ]
+        },
+        {
+          "value": "House Special Shrimp",
+          "synonyms": [
+            "number family_peking_style_8",
+            "#family_peking_style_8",
+            "family_peking_style_8"
+          ]
+        },
+        {
+          "value": "Sweet & Sour Pork",
+          "synonyms": [
+            "Sweet and Sour Pork",
+            "Sweet Sour Pork",
+            "family_peking_style_9",
+            "number family_peking_style_9",
+            "#family_peking_style_9"
+          ]
+        },
+        {
+          "value": "Spicy Salt Pepper Shrimp",
+          "synonyms": [
+            "1",
+            "#1",
+            "椒盐虾",
+            "number 1"
+          ]
+        },
+        {
+          "value": "Minced Chicken in Lettuce Cup",
+          "synonyms": [
+            "2",
+            "生菜包鸡粒",
+            "number 2",
+            "#2"
+          ]
+        },
+        {
+          "value": "Walnut Prawns",
+          "synonyms": [
+            "3",
+            "#3",
+            "核桃虾",
+            "number 3"
+          ]
+        },
+        {
+          "value": "Rainbow Fish Fillet",
+          "synonyms": [
+            "4",
+            "彩虹鱼",
+            "#4",
+            "number 4"
+          ]
+        },
+        {
+          "value": "Orange Peel Beef",
+          "synonyms": [
+            "number 5",
+            "5",
+            "陈皮牛",
+            "#5"
+          ]
+        },
+        {
+          "value": "Orange Peel Chicken",
+          "synonyms": [
+            "number 6",
+            "6",
+            "#6",
+            "陈皮鸡"
+          ]
+        },
+        {
+          "value": "Ginger Green Onion w/ Oyster",
+          "synonyms": [
+            "number 7",
+            "#7",
+            "姜葱生蚝",
+            "7"
+          ]
+        },
+        {
+          "value": "Crispy Fried Oyster",
+          "synonyms": [
+            "#8",
+            "8",
+            "酥炸生蚝",
+            "number 8"
+          ]
+        },
+        {
+          "value": "Ginger Soy Chicken",
+          "synonyms": [
+            "9",
+            "#9",
+            "number 9",
+            "豉油鸡"
+          ]
+        },
+        {
+          "value": "Crispy Fried Squid w/ Spicy Pepper",
+          "synonyms": [
+            "椒盐鲜鱿",
+            "#10",
+            "number 10",
+            "10"
+          ]
+        },
+        {
+          "value": "Fried Tofu w/ Green Bean in Dry Spicy Garlic",
+          "synonyms": [
+            "11",
+            "number 11",
+            "#11",
+            "干豆豆腐"
+          ]
+        },
+        {
+          "value": "Eggplant w/ Chicken, Shrimp in Special Sauce",
+          "synonyms": [
+            "茄子煲",
+            "Egg Plant w/ Chicken, Shrimp in Special Sauce",
+            "12",
+            "number 12",
+            "#12"
+          ]
+        },
+        {
+          "value": "Spicy Salt Pepper Pork Chop",
+          "synonyms": [
+            "椒盐猪扒",
+            "13",
+            "number 13",
+            "#13"
+          ]
+        },
+        {
+          "value": "Yellow Onion Pork",
+          "synonyms": [
+            "洋葱猪扒",
+            "number 14",
+            "#14",
+            "14"
+          ]
+        },
+        {
+          "value": "Spicy Salt Pepper Chicken Wings",
+          "synonyms": [
+            "number 15",
+            "#15",
+            "椒盐鸡翼",
+            "15"
+          ]
+        },
+        {
+          "value": "Generals Chicken Wings",
+          "synonyms": [
+            "number 16",
+            "左宗鸡翼",
+            "16",
+            "#16"
+          ]
+        },
+        {
+          "value": "Honey Glazed Barbecued Pork",
+          "synonyms": [
+            "1",
+            "Honey Glazed Cha Siu",
+            "Honey Glazed Char Siu",
+            "Honey Glazed BBQ Pork",
+            "蜜汁叉烧",
+            "#1",
+            "number 1"
+          ]
+        },
+        {
+          "value": "Crispy Fried Prawns",
+          "synonyms": [
+            "2",
+            "number 2",
+            "#2",
+            "脆皮炸虾"
+          ]
+        },
+        {
+          "value": "Golden Pot Stickers",
+          "synonyms": [
+            "3",
+            "锅贴",
+            "#3",
+            "number 3"
+          ]
+        },
+        {
+          "value": "Spring Egg Rolls",
+          "synonyms": [
+            "4",
+            "#4",
+            "春卷",
+            "number 4"
+          ]
+        },
+        {
+          "value": "Chicken Salad",
+          "synonyms": [
+            "number 5",
+            "鸡沙律",
+            "5",
+            "#5"
+          ]
+        },
+        {
+          "value": "Hot & Sour Soup",
+          "synonyms": [
+            "酸辣汤",
+            "#1",
+            "1",
+            "number 1"
+          ]
+        },
+        {
+          "value": "Minced Beef w/ Egg White Soup",
+          "synonyms": [
+            "2",
+            "number 2",
+            "蛋花牛肉汤",
+            "#2"
+          ]
+        },
+        {
+          "value": "Mixed Vegetable Soup",
+          "synonyms": [
+            "3",
+            "#3",
+            "number 3",
+            "杂菜汤"
+          ]
+        },
+        {
+          "value": "Seaweed w/ Egg Flower Soup",
+          "synonyms": [
+            "紫菜蛋花汤",
+            "#4",
+            "number 4",
+            "4"
+          ]
+        },
+        {
+          "value": "Seafood Bean Cake Soup",
+          "synonyms": [
+            "海鲜豆腐汤",
+            "number 5",
+            "Seafood Tofu Soup",
+            "Sea Food Bean Cake Soup",
+            "5",
+            "#5"
+          ]
+        },
+        {
+          "value": "Wor Wonton Soup",
+          "synonyms": [
+            "窝云吞",
+            "Wor Won Ton Soup",
+            "#6",
+            "6",
+            "number 6"
+          ]
+        },
+        {
+          "value": "Chicken w/ Corn Soup",
+          "synonyms": [
+            "16",
+            "number 16",
+            "#16",
+            "鸡蓉玉米汤"
+          ]
+        },
+        {
+          "value": "Cashew Almond Chicken",
+          "synonyms": [
+            "1",
+            "Cashews Almond Chicken",
+            "腰果杏仁鸡",
+            "Cashew Almonds Chicken",
+            "#1",
+            "number 1"
+          ]
+        },
+        {
+          "value": "Sweet & Sour Chicken",
+          "synonyms": [
+            "2",
+            "#2",
+            "甜酸鸡",
+            "Sweet and Sour Chicken",
+            "number 2",
+            "Sweet Sour Chicken"
+          ]
+        },
+        {
+          "value": "Lemon Chicken",
+          "synonyms": [
+            "3",
+            "#3",
+            "number 3",
+            "柠檬鸡"
+          ]
+        },
+        {
+          "value": "Chicken w/ Double Mushrooms",
+          "synonyms": [
+            "#4",
+            "4",
+            "Chicken w/ Double Mushroomss",
+            "Chicken w/ Mushroomss",
+            "number 4",
+            "双菇鸡"
+          ]
+        },
+        {
+          "value": "Rainbow Chicken",
+          "synonyms": [
+            "number 5",
+            "彩虹鸡",
+            "5",
+            "#5"
+          ]
+        },
+        {
+          "value": "Chicken w/ Black Bean Sauce",
+          "synonyms": [
+            "Chicken w/ Black Bean",
+            "#6",
+            "Chicken w/ Bean Sauce",
+            "6",
+            "number 6",
+            "豉汁鸡"
+          ]
+        },
+        {
+          "value": "Curry Chicken",
+          "synonyms": [
+            "number 7",
+            "#7",
+            "咖喱鸡",
+            "7"
+          ]
+        },
+        {
+          "value": "Kung Pao Chicken",
+          "synonyms": [
+            "宫保鸡丁",
+            "Gong Bao Chicken",
+            "#8",
+            "Kong Pao Chicken",
+            "number 8",
+            "8"
+          ]
+        },
+        {
+          "value": "Chicken w/ Broccoli",
+          "synonyms": [
+            "Chicken w/ Broccli",
+            "西兰花鸡",
+            "9",
+            "#9",
+            "number 9"
+          ]
+        },
+        {
+          "value": "Roasted Duck Half",
+          "synonyms": [
+            "number 10",
+            "#10",
+            "10",
+            "烤鸭半只"
+          ]
+        },
+        {
+          "value": "Fried Chicken Half",
+          "synonyms": [
+            "11",
+            "number 11",
+            "#11",
+            "炸鸡半只"
+          ]
+        },
+        {
+          "value": "Chicken w/ Mixed Vegetables",
+          "synonyms": [
+            "Chicken w/ Vegetables",
+            "杂菜鸡",
+            "12",
+            "number 12",
+            "#12",
+            "Chicken w/ Mixed Veggies"
+          ]
+        },
+        {
+          "value": "Cantonese Style Spareribs",
+          "synonyms": [
+            "1",
+            "#1",
+            "number 1",
+            "Cantonese Style Spare Ribs",
+            "豉汁排骨",
+            "Cantonese Style Ribs"
+          ]
+        },
+        {
+          "value": "Spicy Hot Bean Curd w/ Minced Pork",
+          "synonyms": [
+            "2",
+            "number 2",
+            "#2",
+            "麻婆豆腐"
+          ]
+        },
+        {
+          "value": "Succulent Spicy Pork w/ Garlic Sauce",
+          "synonyms": [
+            "鱼香肉丝",
+            "3",
+            "#3",
+            "number 3"
+          ]
+        },
+        {
+          "value": "Supremed Pork, Ham & Sour Pork",
+          "synonyms": [
+            "4",
+            "#4",
+            "咕噜肉",
+            "number 4"
+          ]
+        },
+        {
+          "value": "Mu Shu Pork (Four Pan Cake)",
+          "synonyms": [
+            "number 5",
+            "5",
+            "木须肉",
+            "#5"
+          ]
+        },
+        {
+          "value": "Spareribs w/ Black Bean Sauce",
+          "synonyms": [
+            "Spareribs w/ Black Bean",
+            "Spare Ribs w/ Black Bean Sauce",
+            "#6",
+            "6",
+            "number 6",
+            "Spareribs w/ Bean Sauce",
+            "豉汁排骨",
+            "Ribs w/ Black Bean Sauce"
+          ]
+        },
+        {
+          "value": "Barbecued Pork w/ Bean Cake",
+          "synonyms": [
+            "BBQ Pork w/ Bean Cake",
+            "叉烧豆腐",
+            "Barbecued Pork w/ Tofu",
+            "#7",
+            "7",
+            "number 7",
+            "Char Siu w/ Bean Cake",
+            "Cha Siu w/ Bean Cake"
+          ]
+        },
+        {
+          "value": "Barbecued Pork w/ Mixed Vegetables",
+          "synonyms": [
+            "Barbecued Pork w/ Mixed Veggies",
+            "叉烧杂菜",
+            "Cha Siu w/ Mixed Vegetables",
+            "Barbecued Pork w/ Vegetables",
+            "#8",
+            "Char Siu w/ Mixed Vegetables",
+            "number 8",
+            "8",
+            "BBQ Pork w/ Mixed Vegetables"
+          ]
+        },
+        {
+          "value": "Peking Spicy Beef",
+          "synonyms": [
+            "1",
+            "#1",
+            "京都牛肉",
+            "number 1"
+          ]
+        },
+        {
+          "value": "Mongolian Beef",
+          "synonyms": [
+            "2",
+            "number 2",
+            "#2",
+            "蒙古牛肉"
+          ]
+        },
+        {
+          "value": "Curry Beef",
+          "synonyms": [
+            "3",
+            "#3",
+            "number 3",
+            "咖喱牛肉"
+          ]
+        },
+        {
+          "value": "Beef w/ Black Bean Sauce",
+          "synonyms": [
+            "#4",
+            "4",
+            "number 4",
+            "Beef w/ Bean Sauce",
+            "豉汁牛肉",
+            "Beef w/ Black Bean"
+          ]
+        },
+        {
+          "value": "Beef w/ Broccoli",
+          "synonyms": [
+            "number 5",
+            "Beef w/ Broccli",
+            "西兰花牛肉",
+            "5",
+            "#5"
+          ]
+        },
+        {
+          "value": "Beef w/ Oyster Sauce",
+          "synonyms": [
+            "number 6",
+            "6",
+            "蚝油牛肉",
+            "#6"
+          ]
+        },
+        {
+          "value": "Beef w/ Snow Peas",
+          "synonyms": [
+            "Beef w/ Snow Pea",
+            "#7",
+            "雪豆牛肉",
+            "number 7",
+            "7"
+          ]
+        },
+        {
+          "value": "Beef w/ Mixed Vegetables",
+          "synonyms": [
+            "#8",
+            "Beef w/ Mixed Veggies",
+            "Beef w/ Vegetables",
+            "杂菜牛肉",
+            "number 8",
+            "8"
+          ]
+        },
+        {
+          "value": "Shrimp Chicken w/ Cashew Almond",
+          "synonyms": [
+            "1",
+            "Shrimp Chicken w/ Cashews Almond",
+            "Shrimp Chicken w/ Cashew Almonds",
+            "腰果杏仁虾",
+            "#1",
+            "number 1"
+          ]
+        },
+        {
+          "value": "Shrimp w/ Snow Peas",
+          "synonyms": [
+            "Shrimp w/ Snow Pea",
+            "2",
+            "#2",
+            "number 2",
+            "雪豆虾"
+          ]
+        },
+        {
+          "value": "Shrimp w/ Double Mushrooms",
+          "synonyms": [
+            "双菇虾",
+            "number 3",
+            "3",
+            "Shrimp w/ Double Mushroomss",
+            "Shrimp w/ Mushroomss",
+            "#3"
+          ]
+        },
+        {
+          "value": "Shrimp w/ Lobster Sauce",
+          "synonyms": [
+            "4",
+            "#4",
+            "number 4",
+            "虾龙虾汁"
+          ]
+        },
+        {
+          "value": "Supremed Sweet & Sour Shrimp",
+          "synonyms": [
+            "number 5",
+            "Supremed Sweet Sour Shrimp",
+            "甜酸虾",
+            "Supremed Sweet and Sour Shrimp",
+            "5",
+            "#5"
+          ]
+        },
+        {
+          "value": "Kung Pao Shrimp",
+          "synonyms": [
+            "宫保虾",
+            "#6",
+            "Gong Bao Shrimp",
+            "6",
+            "number 6",
+            "Kong Pao Shrimp"
+          ]
+        },
+        {
+          "value": "Curry Shrimp",
+          "synonyms": [
+            "7",
+            "#7",
+            "咖喱虾",
+            "number 7"
+          ]
+        },
+        {
+          "value": "Shrimp w/ Cashew",
+          "synonyms": [
+            "腰果虾",
+            "#8",
+            "Shrimp w/ Cashews",
+            "number 8",
+            "8"
+          ]
+        },
+        {
+          "value": "Seafood Deluxe",
+          "synonyms": [
+            "9",
+            "Sea Food Deluxe",
+            "#9",
+            "海鲜大会",
+            "number 9"
+          ]
+        },
+        {
+          "value": "Clams w/ Ginger Scallions",
+          "synonyms": [
+            "number 10",
+            "姜葱蚬",
+            "10",
+            "#10"
+          ]
+        },
+        {
+          "value": "Clams w/ Black Bean Sauce",
+          "synonyms": [
+            "豉汁蚬",
+            "number 11",
+            "11",
+            "Clams w/ Bean Sauce",
+            "#11",
+            "Clams w/ Black Bean"
+          ]
+        },
+        {
+          "value": "Braised Fish Fillet",
+          "synonyms": [
+            "number 12",
+            "12",
+            "#12",
+            "红烧鱼片"
+          ]
+        },
+        {
+          "value": "Fish Fillet in Black Bean Sauce",
+          "synonyms": [
+            "Fish Fillet in Bean Sauce",
+            "number 13",
+            "13",
+            "Fish Fillet in Black Bean",
+            "#13",
+            "豉汁鱼片"
+          ]
+        },
+        {
+          "value": "Sweet and Sour Whole Fish",
+          "synonyms": [
+            "甜酸全鱼",
+            "number 14",
+            "#14",
+            "14"
+          ]
+        },
+        {
+          "value": "Steamed Whole Fish",
+          "synonyms": [
+            "number 15",
+            "#15",
+            "清蒸全鱼",
+            "15"
+          ]
+        },
+        {
+          "value": "Fresh Vegetables Deluxe",
+          "synonyms": [
+            "1",
+            "时菜",
+            "#1",
+            "number 1"
+          ]
+        },
+        {
+          "value": "Snow Peas w/ Water Chestnuts",
+          "synonyms": [
+            "2",
+            "#2",
+            "number 2",
+            "雪豆马蹄",
+            "Snow Pea w/ Water Chestnuts"
+          ]
+        },
+        {
+          "value": "Eggplant w/ Garlic Sauce",
+          "synonyms": [
+            "number 3",
+            "3",
+            "Egg Plant w/ Garlic Sauce",
+            "鱼香茄子",
+            "#3"
+          ]
+        },
+        {
+          "value": "Broccoli w/ Oyster Sauce",
+          "synonyms": [
+            "#4",
+            "4",
+            "number 4",
+            "蚝油西兰花",
+            "Broccli w/ Oyster Sauce"
+          ]
+        },
+        {
+          "value": "Vegetarian's Special",
+          "synonyms": [
+            "number 5",
+            "素食特色",
+            "5",
+            "#5"
+          ]
+        },
+        {
+          "value": "Double Mushroom w/ Oyster Sauce",
+          "synonyms": [
+            "Double Mushrooms w/ Oyster Sauce",
+            "#6",
+            "6",
+            "蚝油双菇",
+            "number 6",
+            "Mushrooms w/ Oyster Sauce"
+          ]
+        },
+        {
+          "value": "Braised Bean Cake",
+          "synonyms": [
+            "红烧豆腐",
+            "#7",
+            "Braised Tofu",
+            "number 7",
+            "7"
+          ]
+        },
+        {
+          "value": "Mixed Vegetables w/ Bean Cake",
+          "synonyms": [
+            "Mixed Veggies w/ Bean Cake",
+            "#8",
+            "Vegetables w/ Bean Cake",
+            "number 8",
+            "Mixed Vegetables w/ Tofu",
+            "8",
+            "杂菜豆腐"
+          ]
+        },
+        {
+          "value": "House Special Bean Cake",
+          "synonyms": [
+            "House Special Tofu",
+            "招牌豆腐",
+            "9",
+            "#9",
+            "number 9"
+          ]
+        },
+        {
+          "value": "Kung Pao To Fu",
+          "synonyms": [
+            "Gong Bao To Fu",
+            "Kong Pao To Fu",
+            "#10",
+            "10",
+            "number 10",
+            "宫保豆腐"
+          ]
+        },
+        {
+          "value": "Barbecued Pork Wonton Soup",
+          "synonyms": [
+            "1",
+            "Barbecued Pork Won Ton Soup",
+            "Char Siu Wonton Soup",
+            "#1",
+            "number 1",
+            "叉烧云吞面",
+            "BBQ Pork Wonton Soup",
+            "Cha Siu Wonton Soup"
+          ]
+        },
+        {
+          "value": "Beef Wonton Soup",
+          "synonyms": [
+            "2",
+            "#2",
+            "牛肉云吞面",
+            "number 2",
+            "Beef Won Ton Soup"
+          ]
+        },
+        {
+          "value": "Chicken Wonton Soup",
+          "synonyms": [
+            "鸡肉云吞面",
+            "number 3",
+            "3",
+            "Chicken Won Ton Soup",
+            "#3"
+          ]
+        },
+        {
+          "value": "Roasted Duck Wonton Soup",
+          "synonyms": [
+            "#4",
+            "烧鸭云吞面",
+            "4",
+            "number 4",
+            "Roasted Duck Won Ton Soup"
+          ]
+        },
+        {
+          "value": "Shrimp Wonton Soup",
+          "synonyms": [
+            "number 5",
+            "虾云吞面",
+            "Shrimp Won Ton Soup",
+            "5",
+            "#5"
+          ]
+        },
+        {
+          "value": "Barbecued Pork Noodle Soup",
+          "synonyms": [
+            "BBQ Pork Noodle Soup",
+            "#6",
+            "6",
+            "number 6",
+            "叉烧汤面",
+            "Char Siu Noodle Soup",
+            "Cha Siu Noodle Soup"
+          ]
+        },
+        {
+          "value": "Beef Noodle Soup",
+          "synonyms": [
+            "number 7",
+            "#7",
+            "牛肉汤面",
+            "7"
+          ]
+        },
+        {
+          "value": "Chicken Noodle Soup",
+          "synonyms": [
+            "8",
+            "#8",
+            "鸡肉汤面",
+            "number 8"
+          ]
+        },
+        {
+          "value": "Roasted Duck Noodle Soup",
+          "synonyms": [
+            "9",
+            "烧鸭汤面",
+            "#9",
+            "number 9"
+          ]
+        },
+        {
+          "value": "Shrimp Noodle Soup",
+          "synonyms": [
+            "number 10",
+            "虾汤面",
+            "10",
+            "#10"
+          ]
+        },
+        {
+          "value": "House Special Chow Mein",
+          "synonyms": [
+            "1",
+            "招牌炒面",
+            "House Special Chow Main",
+            "#1",
+            "number 1",
+            "House Special Lo Mein"
+          ]
+        },
+        {
+          "value": "Barbecued Pork Chow Mein",
+          "synonyms": [
+            "Barbecued Pork Lo Mein",
+            "Char Siu Chow Mein",
+            "2",
+            "#2",
+            "BBQ Pork Chow Mein",
+            "number 2",
+            "叉烧炒面",
+            "Barbecued Pork Chow Main",
+            "Cha Siu Chow Mein"
+          ]
+        },
+        {
+          "value": "Chicken Chow Mein",
+          "synonyms": [
+            "Chicken Lo Mein",
+            "Chicken Chow Main",
+            "number 3",
+            "3",
+            "鸡丝炒面",
+            "#3"
+          ]
+        },
+        {
+          "value": "Beef w/ Tomato Chow Mein",
+          "synonyms": [
+            "#4",
+            "番茄牛肉炒面",
+            "Beef w/ Tomato Chow Main",
+            "Beef w/ Tomato Lo Mein",
+            "4",
+            "number 4"
+          ]
+        },
+        {
+          "value": "Shrimp Chow Mein",
+          "synonyms": [
+            "number 5",
+            "Shrimp Lo Mein",
+            "虾炒面",
+            "Shrimp Chow Main",
+            "5",
+            "#5"
+          ]
+        },
+        {
+          "value": "House Special Pan Fried Noodles",
+          "synonyms": [
+            "1",
+            "招牌炒粉面",
+            "#1",
+            "number 1"
+          ]
+        },
+        {
+          "value": "Seafood Pan Fried Noodles",
+          "synonyms": [
+            "2",
+            "#2",
+            "海鲜炒粉面",
+            "number 2",
+            "Sea Food Pan Fried Noodles"
+          ]
+        },
+        {
+          "value": "Beef w/ Tender Green Pan Fried Noodles",
+          "synonyms": [
+            "3",
+            "芥兰牛炒粉面",
+            "#3",
+            "number 3"
+          ]
+        },
+        {
+          "value": "Beef w/ Broccoli Pan Fried Noodles",
+          "synonyms": [
+            "#4",
+            "Beef w/ Broccli Pan Fried Noodles",
+            "4",
+            "number 4",
+            "西兰花牛炒粉面"
+          ]
+        },
+        {
+          "value": "Beef w/ Black Bean Sauce Pan Fried Noodles",
+          "synonyms": [
+            "number 5",
+            "Beef w/ Black Bean Pan Fried Noodles",
+            "Beef w/ Bean Sauce Pan Fried Noodles",
+            "#5",
+            "5",
+            "豉汁牛炒粉面"
+          ]
+        },
+        {
+          "value": "Chicken w/ Tender Green Pan Fried Noodles",
+          "synonyms": [
+            "芥兰鸡炒粉面",
+            "6",
+            "number 6",
+            "#6"
+          ]
+        },
+        {
+          "value": "Chicken w/ Black Bean Sauce Pan Fried Noodles",
+          "synonyms": [
+            "Chicken w/ Bean Sauce Pan Fried Noodles",
+            "#7",
+            "Chicken w/ Black Bean Pan Fried Noodles",
+            "豉汁鸡炒粉面",
+            "number 7",
+            "7"
+          ]
+        },
+        {
+          "value": "Shrimp w/ Tender Green Pan Fried Noodles",
+          "synonyms": [
+            "芥兰虾炒粉面",
+            "8",
+            "#8",
+            "number 8"
+          ]
+        },
+        {
+          "value": "Shrimp w/ Mixed Vegetable Pan Fried Noodles",
+          "synonyms": [
+            "9",
+            "#9",
+            "杂菜虾炒粉面",
+            "number 9"
+          ]
+        },
+        {
+          "value": "Shrimp w/ Black Bean Sauce Pan Fried Noodles",
+          "synonyms": [
+            "Shrimp w/ Black Bean Pan Fried Noodles",
+            "豉汁虾炒粉面",
+            "Shrimp w/ Bean Sauce Pan Fried Noodles",
+            "#10",
+            "10",
+            "number 10"
+          ]
+        },
+        {
+          "value": "House Special Fried Rice",
+          "synonyms": [
+            "招牌炒饭",
+            "number 11",
+            "11",
+            "House Special Rice",
+            "#11"
+          ]
+        },
+        {
+          "value": "Shrimp Fried Rice",
+          "synonyms": [
+            "Shrimp Rice",
+            "12",
+            "number 12",
+            "#12",
+            "虾炒饭"
+          ]
+        },
+        {
+          "value": "Yang Chow Fried Rice",
+          "synonyms": [
+            "number 13",
+            "扬州炒饭",
+            "13",
+            "#13",
+            "Yang Chow Rice"
+          ]
+        },
+        {
+          "value": "Barbecued Pork Fried Rice",
+          "synonyms": [
+            "叉烧炒饭",
+            "BBQ Pork Fried Rice",
+            "number 14",
+            "Barbecued Pork Rice",
+            "Char Siu Fried Rice",
+            "Cha Siu Fried Rice",
+            "14",
+            "#14"
+          ]
+        },
+        {
+          "value": "Chicken Fried Rice",
+          "synonyms": [
+            "Chicken Rice",
+            "15",
+            "#15",
+            "number 15",
+            "鸡丝炒饭"
+          ]
+        },
+        {
+          "value": "Beef Fried Rice",
+          "synonyms": [
+            "number 16",
+            "#16",
+            "牛肉炒饭",
+            "Beef Rice",
+            "16"
+          ]
+        },
+        {
+          "value": "Fresh Vegetables Fried Rice",
+          "synonyms": [
+            "菜炒饭",
+            "17",
+            "#17",
+            "number 17",
+            "Fresh Vegetables Rice"
+          ]
+        },
+        {
+          "value": "Chicken w/ Salted Fish Fried Rice",
+          "synonyms": [
+            "#18",
+            "number 18",
+            "Chicken w/ Salted Fish Rice",
+            "咸鱼鸡粒炒饭",
+            "18"
+          ]
+        },
+        {
+          "value": "Steamed Rice",
+          "synonyms": [
+            "白饭",
+            "number 19",
+            "#19",
+            "19"
+          ]
+        },
+        {
+          "value": "House Special Chow Fun",
+          "synonyms": [
+            "1",
+            "#1",
+            "招牌炒粉",
+            "number 1"
+          ]
+        },
+        {
+          "value": "Seafood Chow Fun",
+          "synonyms": [
+            "2",
+            "#2",
+            "海鲜炒粉",
+            "number 2",
+            "Sea Food Chow Fun"
+          ]
+        },
+        {
+          "value": "Shrimp w/ Tender Green Chow Fun",
+          "synonyms": [
+            "3",
+            "芥兰虾炒粉",
+            "number 3",
+            "#3"
+          ]
+        },
+        {
+          "value": "Shrimp w/ Black Bean Sauce Chow Fun",
+          "synonyms": [
+            "#4",
+            "Shrimp w/ Bean Sauce Chow Fun",
+            "豉汁虾炒粉",
+            "Shrimp w/ Black Bean Chow Fun",
+            "4",
+            "number 4"
+          ]
+        },
+        {
+          "value": "Beef w/ Bean Sprout Chow Fun",
+          "synonyms": [
+            "number 5",
+            "5",
+            "豆芽牛炒粉",
+            "#5"
+          ]
+        },
+        {
+          "value": "Beef w/ Black Bean Sauce Chow Fun",
+          "synonyms": [
+            "豉汁牛炒粉",
+            "Beef w/ Bean Sauce Chow Fun",
+            "Beef w/ Black Bean Chow Fun",
+            "#6",
+            "6",
+            "number 6"
+          ]
+        },
+        {
+          "value": "Singapore Style Rice Noodle",
+          "synonyms": [
+            "number 7",
+            "星洲炒米粉",
+            "#7",
+            "7"
+          ]
+        },
+        {
+          "value": "House Special on Rice",
+          "synonyms": [
+            "1",
+            "#1",
+            "招牌饭",
+            "number 1"
+          ]
+        },
+        {
+          "value": "Seafood on Rice",
+          "synonyms": [
+            "海鲜饭",
+            "2",
+            "#2",
+            "number 2",
+            "Sea Food on Rice"
+          ]
+        },
+        {
+          "value": "Shrimp w/ Mixed Vegetables on Rice",
+          "synonyms": [
+            "number 3",
+            "Shrimp w/ Mixed Veggies on Rice",
+            "3",
+            "Shrimp w/ Vegetables on Rice",
+            "杂菜虾饭",
+            "#3"
+          ]
+        },
+        {
+          "value": "Shrimp w/ Scrambled Egg on Rice",
+          "synonyms": [
+            "4",
+            "#4",
+            "滑蛋虾饭",
+            "number 4"
+          ]
+        },
+        {
+          "value": "Shrimp w/ Black Bean Sauce on Rice",
+          "synonyms": [
+            "豉汁虾饭",
+            "number 5",
+            "Shrimp w/ Bean Sauce on Rice",
+            "Shrimp w/ Black Bean on Rice",
+            "5",
+            "#5"
+          ]
+        },
+        {
+          "value": "B.B.Q Pork w/ Bean Cake on Rice",
+          "synonyms": [
+            "叉烧豆腐饭",
+            "#6",
+            "6",
+            "number 6",
+            "B.B.Q Pork w/ Tofu on Rice"
+          ]
+        },
+        {
+          "value": "Pork w/ Original Juice on Rice",
+          "synonyms": [
+            "7",
+            "#7",
+            "原汁猪扒饭",
+            "number 7"
+          ]
+        },
+        {
+          "value": "Beef w/ Broccoli on Rice",
+          "synonyms": [
+            "西兰花牛饭",
+            "#8",
+            "Beef w/ Broccli on Rice",
+            "number 8",
+            "8"
+          ]
+        },
+        {
+          "value": "Beef w/ Oyster Sauce on Rice",
+          "synonyms": [
+            "9",
+            "#9",
+            "蚝油牛饭",
+            "number 9"
+          ]
+        },
+        {
+          "value": "Beef w/ Ginger & Green Onions on Rice",
+          "synonyms": [
+            "number 10",
+            "#10",
+            "10",
+            "姜葱牛饭"
+          ]
+        },
+        {
+          "value": "Beef w/ Tender Green on Rice",
+          "synonyms": [
+            "11",
+            "number 11",
+            "#11",
+            "芥兰牛饭"
+          ]
+        },
+        {
+          "value": "Chicken w/ Black Bean Sauce on Rice",
+          "synonyms": [
+            "Chicken w/ Black Bean on Rice",
+            "豉汁鸡饭",
+            "12",
+            "Chicken w/ Bean Sauce on Rice",
+            "number 12",
+            "#12"
+          ]
+        },
+        {
+          "value": "Chicken w/ Mixed Vegetables on Rice",
+          "synonyms": [
+            "杂菜鸡饭",
+            "number 13",
+            "Chicken w/ Mixed Veggies on Rice",
+            "Chicken w/ Vegetables on Rice",
+            "13",
+            "#13"
+          ]
+        },
+        {
+          "value": "Chicken w/ Curry on Rice",
+          "synonyms": [
+            "number 14",
+            "#14",
+            "咖喱鸡饭",
+            "14"
+          ]
+        },
+        {
+          "value": "Beef Stew w/ Curry on Rice",
+          "synonyms": [
+            "咖喱牛腩饭",
+            "number 15",
+            "#15",
+            "15"
+          ]
+        },
+        {
+          "value": "Beef Stew w/ Original Juice on Rice",
+          "synonyms": [
+            "原汁牛腩饭",
+            "16",
+            "number 16",
+            "#16"
+          ]
+        },
+        {
+          "value": "Spareribs w/ Black Bean Sauce on Rice",
+          "synonyms": [
+            "Spareribs w/ Black Bean on Rice",
+            "Spareribs w/ Bean Sauce on Rice",
+            "17",
+            "豉汁排骨饭",
+            "#17",
+            "number 17",
+            "Ribs w/ Black Bean Sauce on Rice",
+            "Spare Ribs w/ Black Bean Sauce on Rice"
+          ]
+        },
+        {
+          "value": "Spareribs w/ Bean Cake on Rice",
+          "synonyms": [
+            "#18",
+            "豆腐排骨饭",
+            "number 18",
+            "Spareribs w/ Tofu on Rice",
+            "Spare Ribs w/ Bean Cake on Rice",
+            "Ribs w/ Bean Cake on Rice",
+            "18"
+          ]
+        },
+        {
+          "value": "Roasted Duck on Rice",
+          "synonyms": [
+            "烧鸭饭",
+            "number 19",
+            "#19",
+            "19"
+          ]
+        },
+        {
+          "value": "Roasted Duck w/ Bean Cake on Rice",
+          "synonyms": [
+            "#20",
+            "Roasted Duck w/ Tofu on Rice",
+            "20",
+            "豆腐烧鸭饭",
+            "number 20"
+          ]
+        },
+        {
+          "value": "Tsing Tao",
+          "synonyms": [
+            "1",
+            "#1",
+            "青岛啤酒",
+            "number 1"
+          ]
+        },
+        {
+          "value": "Heineken",
+          "synonyms": [
+            "2",
+            "喜力啤酒",
+            "number 2",
+            "#2"
+          ]
+        },
+        {
+          "value": "Corona",
+          "synonyms": [
+            "3",
+            "number 3",
+            "#3",
+            "科罗娜啤酒"
+          ]
+        },
+        {
+          "value": "Deep Fried Banana",
+          "synonyms": [
+            "4",
+            "#4",
+            "number 4",
+            "炸香蕉"
+          ]
+        },
+        {
+          "value": "Drinks",
+          "synonyms": [
+            "number 5",
+            "各式饮料",
+            "5",
+            "#5"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "CustomizationType",
+      "description": "Common customizations for dishes",
+      "values": [
+        {
+          "value": "no MSG",
+          "synonyms": []
+        },
+        {
+          "value": "extra sauce",
+          "synonyms": []
+        },
+        {
+          "value": "on the side",
+          "synonyms": []
+        },
+        {
+          "value": "extra spicy",
+          "synonyms": []
+        },
+        {
+          "value": "not spicy",
+          "synonyms": []
+        },
+        {
+          "value": "well done",
+          "synonyms": []
+        },
+        {
+          "value": "medium",
+          "synonyms": []
+        },
+        {
+          "value": "extra vegetables",
+          "synonyms": []
+        },
+        {
+          "value": "less salt",
+          "synonyms": []
+        },
+        {
+          "value": "no onions",
+          "synonyms": []
+        }
+      ]
+    }
+  ],
+  "fulfillmentActivity": {
+    "type": "ReturnIntent"
+  },
+  "confirmationPrompt": {
+    "messages": [
+      {
+        "contentType": "PlainText",
+        "content": "So you want {Quantity} {DishName}. Is that correct?"
+      }
+    ],
+    "maxRetries": 2
+  },
+  "rejectionStatement": {
+    "messages": [
+      {
+        "contentType": "PlainText",
+        "content": "Okay, let me know what you'd like to order."
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "priority": 1,
+    "slotName": "DishName"
+  },
+  {
+    "priority": 2,
+    "slotName": "Quantity"
+  },
+  {
+    "priority": 3,
+    "slotName": "Customization"
+  }
+]

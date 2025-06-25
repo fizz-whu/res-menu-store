@@ -1,0 +1,57 @@
+{
+  "slotTypeName": "CustomizationType",
+  "description": "Common customizations for dishes",
+  "slotTypeValues": [
+    {
+      "sampleValue": {
+        "value": "no MSG"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "extra sauce"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "on the side"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "extra spicy"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "not spicy"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "well done"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "medium"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "extra vegetables"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "less salt"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "no onions"
+      }
+    }
+  ],
+  "valueSelectionStrategy": "TOP_RESOLUTION"
+}

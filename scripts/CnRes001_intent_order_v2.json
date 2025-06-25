@@ -1,0 +1,332 @@
+{
+  "intentName": "OrderFood",
+  "description": "Intent for ordering food from Chinese restaurant menu",
+  "sampleUtterances": [
+    {
+      "utterance": "I'll have {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'd like {Quantity} orders of {DishName}"
+    },
+    {
+      "utterance": "Can I have the {DishName}"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishName} {Customization}"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "Can I get {DishName} on Rice"
+    },
+    {
+      "utterance": "Give me {DishName} Chow Fun"
+    },
+    {
+      "utterance": "Can I get number {Quantity}"
+    },
+    {
+      "utterance": "I'd like number {Quantity}"
+    },
+    {
+      "utterance": "Can I get {DishName}"
+    },
+    {
+      "utterance": "Can I get {DishName} Chow Fun"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName} {Customization}"
+    },
+    {
+      "utterance": "I'd like to order {DishName}"
+    },
+    {
+      "utterance": "I'll have {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I want to order {DishName}"
+    },
+    {
+      "utterance": "{DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "Can I have {DishName}"
+    },
+    {
+      "utterance": "Give me {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "Give me {DishName}"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I'd like {DishName} on Rice"
+    },
+    {
+      "utterance": "I'd like {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "{Quantity} {DishName} {Customization}"
+    },
+    {
+      "utterance": "I'll have {DishName}"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "Give me {DishName} on Rice"
+    },
+    {
+      "utterance": "I'll have #{Quantity}"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I'd like the {DishName}"
+    },
+    {
+      "utterance": "I'll have {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I want {Quantity} orders of {DishName}"
+    },
+    {
+      "utterance": "I'll have {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "Let me get {Quantity} {DishName}"
+    },
+    {
+      "utterance": "An order of {DishName}"
+    },
+    {
+      "utterance": "{DishName} {Customization}"
+    },
+    {
+      "utterance": "I need {DishName}"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "{Quantity} {DishName}"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishName} {Customization}"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I want the {DishName}"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I want {DishName} on Rice"
+    },
+    {
+      "utterance": "Give me the {DishName}"
+    },
+    {
+      "utterance": "We'll have {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'll have {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I want {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "One order of {DishName}"
+    },
+    {
+      "utterance": "I need {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I want {DishName}"
+    },
+    {
+      "utterance": "I'd like {DishName} {Customization}"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName} {Customization}"
+    },
+    {
+      "utterance": "I want {DishName} {Customization}"
+    },
+    {
+      "utterance": "Can I get {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "{Quantity} orders of {DishName}"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "Let me get {DishName}"
+    },
+    {
+      "utterance": "I'll have {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I want an order of {DishName}"
+    },
+    {
+      "utterance": "I'll take {Quantity} {DishName}"
+    },
+    {
+      "utterance": "Can I have {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I want number {Quantity}"
+    },
+    {
+      "utterance": "I'd like {DishName} Chow Fun"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I'll have {DishName} on Rice"
+    },
+    {
+      "utterance": "I want {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I'd like {DishName}"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishName}"
+    },
+    {
+      "utterance": "We want {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I'd like an order of {DishName}"
+    },
+    {
+      "utterance": "Can I get the {DishName}"
+    },
+    {
+      "utterance": "{DishName} on Rice"
+    },
+    {
+      "utterance": "Number {Quantity}"
+    },
+    {
+      "utterance": "I'll take the {DishName}"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "{DishName}"
+    },
+    {
+      "utterance": "I'll take {DishName}"
+    },
+    {
+      "utterance": "{DishName} Chow Fun"
+    },
+    {
+      "utterance": "We need {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'll have the {DishName}"
+    }
+  ],
+  "slotPriorities": [
+    {
+      "priority": 1,
+      "slotName": "DishName"
+    },
+    {
+      "priority": 2,
+      "slotName": "Quantity"
+    },
+    {
+      "priority": 3,
+      "slotName": "Customization"
+    }
+  ],
+  "slots": [
+    {
+      "slotName": "DishName",
+      "description": "The name of the dish to order",
+      "slotTypeName": "DishType",
+      "valueElicitationPrompt": {
+        "messageGroupsList": [
+          {
+            "message": {
+              "plainTextMessage": {
+                "value": "What would you like to order from our menu?"
+              }
+            }
+          }
+        ],
+        "maxRetries": 3
+      }
+    },
+    {
+      "slotName": "Quantity",
+      "description": "The quantity of the dish",
+      "slotTypeName": "AMAZON.Number"
+    },
+    {
+      "slotName": "Customization",
+      "description": "Special customizations for the dish",
+      "slotTypeName": "CustomizationType"
+    }
+  ],
+  "intentConfirmationSetting": {
+    "promptSpecification": {
+      "messageGroupsList": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "So you want {Quantity} {DishName}. Is that correct?"
+            }
+          }
+        }
+      ],
+      "maxRetries": 2
+    },
+    "declinationResponse": {
+      "messageGroupsList": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "Okay, let me know what you'd like to order."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "fulfillmentCodeHook": {
+    "enabled": true
+  }
+}
