@@ -180,16 +180,31 @@
       },
       "synonyms": [
         {
-          "value": "#1"
-        },
-        {
-          "value": "1"
-        },
-        {
           "value": "椒盐虾"
         },
         {
-          "value": "number 1"
+          "value": "Salt Pepper Shrimp"
+        },
+        {
+          "value": "Salt and Pepper Shrimp"
+        },
+        {
+          "value": "Spicy Salt and Pepper Shrimp"
+        },
+        {
+          "value": "Salt Pepper Prawns"
+        },
+        {
+          "value": "Spicy Shrimp"
+        },
+        {
+          "value": "Crispy Salt Pepper Shrimp"
+        },
+        {
+          "value": "Szechuan Salt Pepper Shrimp"
+        },
+        {
+          "value": "Fried Salt Pepper Shrimp"
         }
       ]
     },
@@ -199,16 +214,31 @@
       },
       "synonyms": [
         {
-          "value": "#2"
-        },
-        {
-          "value": "2"
-        },
-        {
           "value": "生菜包鸡粒"
         },
         {
-          "value": "number 2"
+          "value": "Lettuce Wrap Chicken"
+        },
+        {
+          "value": "Chicken Lettuce Wraps"
+        },
+        {
+          "value": "Lettuce Cups"
+        },
+        {
+          "value": "Chicken in Lettuce"
+        },
+        {
+          "value": "Minced Chicken Lettuce Cup"
+        },
+        {
+          "value": "Diced Chicken in Lettuce Cup"
+        },
+        {
+          "value": "Chicken Lettuce Cup"
+        },
+        {
+          "value": "Lettuce Wrapped Chicken"
         }
       ]
     },
@@ -218,16 +248,31 @@
       },
       "synonyms": [
         {
-          "value": "3"
-        },
-        {
           "value": "核桃虾"
         },
         {
-          "value": "#3"
+          "value": "Walnut Shrimp"
         },
         {
-          "value": "number 3"
+          "value": "Honey Walnut Prawns"
+        },
+        {
+          "value": "Honey Walnut Shrimp"
+        },
+        {
+          "value": "Candied Walnut Shrimp"
+        },
+        {
+          "value": "Crispy Walnut Prawns"
+        },
+        {
+          "value": "Sweet Walnut Shrimp"
+        },
+        {
+          "value": "Glazed Walnut Prawns"
+        },
+        {
+          "value": "Shrimp with Walnuts"
         }
       ]
     },
@@ -247,6 +292,27 @@
         },
         {
           "value": "彩虹鱼"
+        },
+        {
+          "value": "Rainbow Fish"
+        },
+        {
+          "value": "Fish Fillet Rainbow Style"
+        },
+        {
+          "value": "Colorful Fish Fillet"
+        },
+        {
+          "value": "Mixed Color Fish"
+        },
+        {
+          "value": "Rainbow Style Fish"
+        },
+        {
+          "value": "Steamed Rainbow Fish"
+        },
+        {
+          "value": "Rainbow Fish Slice"
         }
       ]
     },
@@ -266,6 +332,30 @@
         },
         {
           "value": "#5"
+        },
+        {
+          "value": "Orange Beef"
+        },
+        {
+          "value": "Citrus Beef"
+        },
+        {
+          "value": "Orange Flavored Beef"
+        },
+        {
+          "value": "Tangerine Beef"
+        },
+        {
+          "value": "Orange Peel Beef Stir Fry"
+        },
+        {
+          "value": "Crispy Orange Beef"
+        },
+        {
+          "value": "Sweet Orange Beef"
+        },
+        {
+          "value": "Orange Glazed Beef"
         }
       ]
     },
@@ -285,6 +375,30 @@
         },
         {
           "value": "#6"
+        },
+        {
+          "value": "Orange Chicken"
+        },
+        {
+          "value": "Citrus Chicken"
+        },
+        {
+          "value": "Orange Flavored Chicken"
+        },
+        {
+          "value": "Tangerine Chicken"
+        },
+        {
+          "value": "Orange Peel Chicken Stir Fry"
+        },
+        {
+          "value": "Crispy Orange Chicken"
+        },
+        {
+          "value": "Sweet Orange Chicken"
+        },
+        {
+          "value": "Orange Glazed Chicken"
         }
       ]
     },
@@ -304,6 +418,27 @@
         },
         {
           "value": "7"
+        },
+        {
+          "value": "Ginger Scallion Oyster"
+        },
+        {
+          "value": "Oyster with Ginger Green Onion"
+        },
+        {
+          "value": "Fresh Oyster Ginger Scallion"
+        },
+        {
+          "value": "Steamed Oyster Ginger Onion"
+        },
+        {
+          "value": "Ginger Onion Oyster"
+        },
+        {
+          "value": "Oyster Ginger Style"
+        },
+        {
+          "value": "Scallion Ginger Oyster"
         }
       ]
     },
@@ -323,6 +458,27 @@
         },
         {
           "value": "8"
+        },
+        {
+          "value": "Fried Oyster"
+        },
+        {
+          "value": "Deep Fried Oyster"
+        },
+        {
+          "value": "Crispy Oyster"
+        },
+        {
+          "value": "Battered Fried Oyster"
+        },
+        {
+          "value": "Golden Fried Oyster"
+        },
+        {
+          "value": "Tempura Oyster"
+        },
+        {
+          "value": "Crunchy Fried Oyster"
         }
       ]
     },
@@ -342,6 +498,24 @@
         },
         {
           "value": "number 9"
+        },
+        {
+          "value": "Soy Sauce Chicken"
+        },
+        {
+          "value": "Soy Chicken"
+        },
+        {
+          "value": "Braised Soy Chicken"
+        },
+        {
+          "value": "Dark Soy Chicken"
+        },
+        {
+          "value": "Cantonese Soy Chicken"
+        },
+        {
+          "value": "Steamed Ginger Soy Chicken"
         }
       ]
     },
@@ -361,6 +535,27 @@
         },
         {
           "value": "10"
+        },
+        {
+          "value": "Salt Pepper Squid"
+        },
+        {
+          "value": "Salt and Pepper Squid"
+        },
+        {
+          "value": "Spicy Salt Squid"
+        },
+        {
+          "value": "Fried Squid with Spicy Pepper"
+        },
+        {
+          "value": "Crispy Squid"
+        },
+        {
+          "value": "Deep Fried Squid"
+        },
+        {
+          "value": "Szechuan Salt Pepper Squid"
         }
       ]
     },
@@ -380,6 +575,24 @@
         },
         {
           "value": "11"
+        },
+        {
+          "value": "Dry Fried Tofu with Green Bean"
+        },
+        {
+          "value": "Tofu Green Bean Dry Style"
+        },
+        {
+          "value": "Spicy Garlic Tofu Green Bean"
+        },
+        {
+          "value": "Szechuan Dry Tofu"
+        },
+        {
+          "value": "Bean Curd Green Bean"
+        },
+        {
+          "value": "Garlic Sauce Tofu"
         }
       ]
     },
@@ -402,6 +615,24 @@
         },
         {
           "value": "12"
+        },
+        {
+          "value": "Eggplant Casserole"
+        },
+        {
+          "value": "Braised Eggplant"
+        },
+        {
+          "value": "Stuffed Eggplant"
+        },
+        {
+          "value": "Eggplant with Chicken and Shrimp"
+        },
+        {
+          "value": "Aubergine Casserole"
+        },
+        {
+          "value": "Clay Pot Eggplant"
         }
       ]
     },
@@ -421,6 +652,24 @@
         },
         {
           "value": "number 13"
+        },
+        {
+          "value": "Salt Pepper Pork Chop"
+        },
+        {
+          "value": "Salt and Pepper Pork Chop"
+        },
+        {
+          "value": "Spicy Pork Chop"
+        },
+        {
+          "value": "Crispy Pork Chop"
+        },
+        {
+          "value": "Fried Pork Chop"
+        },
+        {
+          "value": "Szechuan Pork Chop"
         }
       ]
     },
@@ -440,6 +689,24 @@
         },
         {
           "value": "number 14"
+        },
+        {
+          "value": "Onion Pork"
+        },
+        {
+          "value": "Pork with Yellow Onion"
+        },
+        {
+          "value": "Onion Pork Chop"
+        },
+        {
+          "value": "Pork Chop with Onions"
+        },
+        {
+          "value": "Sweet Onion Pork"
+        },
+        {
+          "value": "Stir Fried Onion Pork"
         }
       ]
     },
@@ -459,6 +726,24 @@
         },
         {
           "value": "15"
+        },
+        {
+          "value": "Salt Pepper Chicken Wings"
+        },
+        {
+          "value": "Salt and Pepper Wings"
+        },
+        {
+          "value": "Spicy Salt Wings"
+        },
+        {
+          "value": "Crispy Chicken Wings"
+        },
+        {
+          "value": "Fried Chicken Wings"
+        },
+        {
+          "value": "Chinese Style Wings"
         }
       ]
     },
@@ -478,6 +763,24 @@
         },
         {
           "value": "16"
+        },
+        {
+          "value": "General Tso Chicken Wings"
+        },
+        {
+          "value": "General Tso Wings"
+        },
+        {
+          "value": "General's Wings"
+        },
+        {
+          "value": "Sweet and Sour Wings"
+        },
+        {
+          "value": "Glazed Chicken Wings"
+        },
+        {
+          "value": "TSO Wings"
         }
       ]
     },
@@ -525,6 +828,24 @@
         },
         {
           "value": "number 2"
+        },
+        {
+          "value": "Fried Prawns"
+        },
+        {
+          "value": "Deep Fried Prawns"
+        },
+        {
+          "value": "Crispy Prawns"
+        },
+        {
+          "value": "Battered Prawns"
+        },
+        {
+          "value": "Tempura Prawns"
+        },
+        {
+          "value": "Golden Prawns"
         }
       ]
     },
@@ -544,6 +865,24 @@
         },
         {
           "value": "number 3"
+        },
+        {
+          "value": "Pot Stickers"
+        },
+        {
+          "value": "Potstickers"
+        },
+        {
+          "value": "Pan Fried Dumplings"
+        },
+        {
+          "value": "Gyoza"
+        },
+        {
+          "value": "Fried Dumplings"
+        },
+        {
+          "value": "Chinese Dumplings"
         }
       ]
     },
@@ -563,6 +902,24 @@
         },
         {
           "value": "4"
+        },
+        {
+          "value": "Egg Rolls"
+        },
+        {
+          "value": "Spring Rolls"
+        },
+        {
+          "value": "Fried Spring Rolls"
+        },
+        {
+          "value": "Chinese Spring Rolls"
+        },
+        {
+          "value": "Crispy Egg Rolls"
+        },
+        {
+          "value": "Vegetable Spring Rolls"
         }
       ]
     },
@@ -582,6 +939,21 @@
         },
         {
           "value": "#5"
+        },
+        {
+          "value": "Chinese Chicken Salad"
+        },
+        {
+          "value": "Cold Chicken Salad"
+        },
+        {
+          "value": "Shredded Chicken Salad"
+        },
+        {
+          "value": "Asian Chicken Salad"
+        },
+        {
+          "value": "Chicken Slaw"
         }
       ]
     },
@@ -601,6 +973,24 @@
         },
         {
           "value": "number 1"
+        },
+        {
+          "value": "Hot and Sour Soup"
+        },
+        {
+          "value": "Spicy Sour Soup"
+        },
+        {
+          "value": "Szechuan Hot Sour Soup"
+        },
+        {
+          "value": "Traditional Hot & Sour"
+        },
+        {
+          "value": "Hot n Sour Soup"
+        },
+        {
+          "value": "Pepper Vinegar Soup"
         }
       ]
     },
@@ -620,6 +1010,21 @@
         },
         {
           "value": "蛋花牛肉汤"
+        },
+        {
+          "value": "Beef Egg Drop Soup"
+        },
+        {
+          "value": "Egg White and Beef Soup"
+        },
+        {
+          "value": "Beef with Egg Flower Soup"
+        },
+        {
+          "value": "Ground Beef Egg Soup"
+        },
+        {
+          "value": "Beef Egg White Soup"
         }
       ]
     },
@@ -639,6 +1044,21 @@
         },
         {
           "value": "number 3"
+        },
+        {
+          "value": "Vegetable Soup"
+        },
+        {
+          "value": "Mixed Veggies Soup"
+        },
+        {
+          "value": "Garden Vegetable Soup"
+        },
+        {
+          "value": "Fresh Vegetable Soup"
+        },
+        {
+          "value": "Chinese Vegetable Soup"
         }
       ]
     },
@@ -658,6 +1078,21 @@
         },
         {
           "value": "number 4"
+        },
+        {
+          "value": "Seaweed Egg Drop Soup"
+        },
+        {
+          "value": "Seaweed and Egg Soup"
+        },
+        {
+          "value": "Nori Egg Flower Soup"
+        },
+        {
+          "value": "Seaweed Egg White Soup"
+        },
+        {
+          "value": "Egg Flower Seaweed Soup"
         }
       ]
     },
@@ -683,6 +1118,18 @@
         },
         {
           "value": "#5"
+        },
+        {
+          "value": "Mixed Seafood Tofu Soup"
+        },
+        {
+          "value": "Tofu Seafood Soup"
+        },
+        {
+          "value": "Bean Curd Seafood Soup"
+        },
+        {
+          "value": "Seafood Bean Curd Soup"
         }
       ]
     },
@@ -736,19 +1183,28 @@
           "value": "腰果杏仁鸡"
         },
         {
-          "value": "#1"
-        },
-        {
           "value": "Cashews Almond Chicken"
-        },
-        {
-          "value": "1"
         },
         {
           "value": "Cashew Almonds Chicken"
         },
         {
-          "value": "number 1"
+          "value": "Cashew Chicken"
+        },
+        {
+          "value": "Almond Chicken"
+        },
+        {
+          "value": "Chicken with Cashews and Almonds"
+        },
+        {
+          "value": "Nuts Chicken"
+        },
+        {
+          "value": "Mixed Nuts Chicken"
+        },
+        {
+          "value": "Cashew Almond Stir Fry"
         }
       ]
     },
@@ -774,6 +1230,21 @@
         },
         {
           "value": "number 2"
+        },
+        {
+          "value": "Sweet n Sour Chicken"
+        },
+        {
+          "value": "Battered Sweet Sour Chicken"
+        },
+        {
+          "value": "Crispy Sweet and Sour Chicken"
+        },
+        {
+          "value": "Pineapple Sweet Sour Chicken"
+        },
+        {
+          "value": "Orange Sweet Sour Chicken"
         }
       ]
     },
@@ -793,6 +1264,21 @@
         },
         {
           "value": "number 3"
+        },
+        {
+          "value": "Lemon Flavored Chicken"
+        },
+        {
+          "value": "Citrus Chicken"
+        },
+        {
+          "value": "Crispy Lemon Chicken"
+        },
+        {
+          "value": "Battered Lemon Chicken"
+        },
+        {
+          "value": "Sweet Lemon Chicken"
         }
       ]
     },
@@ -818,6 +1304,21 @@
         },
         {
           "value": "number 4"
+        },
+        {
+          "value": "Chicken with Mushrooms"
+        },
+        {
+          "value": "Mushroom Chicken"
+        },
+        {
+          "value": "Two Mushroom Chicken"
+        },
+        {
+          "value": "Mixed Mushroom Chicken"
+        },
+        {
+          "value": "Chicken Mushroom Stir Fry"
         }
       ]
     },
@@ -837,6 +1338,21 @@
         },
         {
           "value": "彩虹鸡"
+        },
+        {
+          "value": "Colorful Chicken"
+        },
+        {
+          "value": "Mixed Color Chicken"
+        },
+        {
+          "value": "Rainbow Style Chicken"
+        },
+        {
+          "value": "Multi Color Chicken"
+        },
+        {
+          "value": "Vegetable Rainbow Chicken"
         }
       ]
     },
@@ -881,6 +1397,21 @@
         },
         {
           "value": "7"
+        },
+        {
+          "value": "Curried Chicken"
+        },
+        {
+          "value": "Chicken Curry"
+        },
+        {
+          "value": "Indian Style Chicken"
+        },
+        {
+          "value": "Spicy Curry Chicken"
+        },
+        {
+          "value": "Yellow Curry Chicken"
         }
       ]
     },
@@ -906,6 +1437,24 @@
         },
         {
           "value": "8"
+        },
+        {
+          "value": "Kung Po Chicken"
+        },
+        {
+          "value": "Spicy Diced Chicken"
+        },
+        {
+          "value": "Chicken with Peanuts"
+        },
+        {
+          "value": "Szechuan Chicken"
+        },
+        {
+          "value": "Peanut Chicken"
+        },
+        {
+          "value": "Spicy Peanut Chicken"
         }
       ]
     },
@@ -1003,19 +1552,28 @@
           "value": "豉汁排骨"
         },
         {
-          "value": "#1"
-        },
-        {
-          "value": "1"
-        },
-        {
           "value": "Cantonese Style Spare Ribs"
         },
         {
           "value": "Cantonese Style Ribs"
         },
         {
-          "value": "number 1"
+          "value": "Black Bean Spareribs"
+        },
+        {
+          "value": "Steamed Spareribs"
+        },
+        {
+          "value": "Dim Sum Ribs"
+        },
+        {
+          "value": "Chinese Style Ribs"
+        },
+        {
+          "value": "Spare Ribs Cantonese"
+        },
+        {
+          "value": "Pork Ribs Black Bean"
         }
       ]
     },
@@ -1025,16 +1583,31 @@
       },
       "synonyms": [
         {
-          "value": "#2"
-        },
-        {
-          "value": "2"
-        },
-        {
           "value": "麻婆豆腐"
         },
         {
-          "value": "number 2"
+          "value": "Mapo Tofu"
+        },
+        {
+          "value": "Ma Po Tofu"
+        },
+        {
+          "value": "Szechuan Tofu"
+        },
+        {
+          "value": "Spicy Tofu with Pork"
+        },
+        {
+          "value": "Hot Bean Curd with Minced Pork"
+        },
+        {
+          "value": "Spicy Bean Curd"
+        },
+        {
+          "value": "Tofu in Spicy Sauce"
+        },
+        {
+          "value": "Szechuan Ma Po Doufu"
         }
       ]
     },
@@ -1047,13 +1620,25 @@
           "value": "鱼香肉丝"
         },
         {
-          "value": "3"
+          "value": "Fish Fragrant Pork"
         },
         {
-          "value": "#3"
+          "value": "Yu Xiang Pork"
         },
         {
-          "value": "number 3"
+          "value": "Szechuan Garlic Pork"
+        },
+        {
+          "value": "Spicy Garlic Pork Shreds"
+        },
+        {
+          "value": "Pork in Garlic Sauce"
+        },
+        {
+          "value": "Shredded Pork Garlic Sauce"
+        },
+        {
+          "value": "Sweet and Sour Pork Shreds"
         }
       ]
     },
@@ -1066,13 +1651,25 @@
           "value": "咕噜肉"
         },
         {
-          "value": "#4"
+          "value": "Sweet and Sour Pork"
         },
         {
-          "value": "4"
+          "value": "Goo Lao Pork"
         },
         {
-          "value": "number 4"
+          "value": "Gu Lu Pork"
+        },
+        {
+          "value": "Battered Sweet Sour Pork"
+        },
+        {
+          "value": "Crispy Sweet and Sour Pork"
+        },
+        {
+          "value": "Pineapple Sweet Sour Pork"
+        },
+        {
+          "value": "Cantonese Sweet Sour Pork"
         }
       ]
     },
@@ -1085,13 +1682,25 @@
           "value": "木须肉"
         },
         {
-          "value": "5"
+          "value": "Moo Shu Pork"
         },
         {
-          "value": "number 5"
+          "value": "Mu Xu Pork"
         },
         {
-          "value": "#5"
+          "value": "Pork with Pancakes"
+        },
+        {
+          "value": "Shredded Pork with Pancakes"
+        },
+        {
+          "value": "Pork Pancake Wraps"
+        },
+        {
+          "value": "Mandarin Pancakes with Pork"
+        },
+        {
+          "value": "Egg and Pork Pancakes"
         }
       ]
     },
@@ -1104,16 +1713,7 @@
           "value": "Spareribs w/ Bean Sauce"
         },
         {
-          "value": "number 6"
-        },
-        {
           "value": "豉汁排骨"
-        },
-        {
-          "value": "#6"
-        },
-        {
-          "value": "6"
         },
         {
           "value": "Ribs w/ Black Bean Sauce"
@@ -1123,6 +1723,18 @@
         },
         {
           "value": "Spareribs w/ Black Bean"
+        },
+        {
+          "value": "Pork Ribs Black Bean Sauce"
+        },
+        {
+          "value": "Steamed Spareribs"
+        },
+        {
+          "value": "Black Bean Pork Ribs"
+        },
+        {
+          "value": "Cantonese Spareribs"
         }
       ]
     },
@@ -1207,6 +1819,24 @@
         },
         {
           "value": "number 1"
+        },
+        {
+          "value": "Beijing Spicy Beef"
+        },
+        {
+          "value": "Spicy Beef"
+        },
+        {
+          "value": "Hot Beef"
+        },
+        {
+          "value": "Szechuan Spicy Beef"
+        },
+        {
+          "value": "Peking Style Beef"
+        },
+        {
+          "value": "Chili Beef"
         }
       ]
     },
@@ -1226,6 +1856,24 @@
         },
         {
           "value": "number 2"
+        },
+        {
+          "value": "Mongolian Stir Fry"
+        },
+        {
+          "value": "Mongolian Style Beef"
+        },
+        {
+          "value": "Beef Mongolian"
+        },
+        {
+          "value": "Onion Beef"
+        },
+        {
+          "value": "Scallion Beef"
+        },
+        {
+          "value": "Asian Beef Stir Fry"
         }
       ]
     },
@@ -1292,6 +1940,21 @@
         },
         {
           "value": "#5"
+        },
+        {
+          "value": "Beef and Broccoli"
+        },
+        {
+          "value": "Broccoli Beef"
+        },
+        {
+          "value": "Beef Broccoli Stir Fry"
+        },
+        {
+          "value": "Stir Fried Beef with Broccoli"
+        },
+        {
+          "value": "Classic Beef Broccoli"
         }
       ]
     },
@@ -1518,6 +2181,21 @@
         },
         {
           "value": "7"
+        },
+        {
+          "value": "Curried Shrimp"
+        },
+        {
+          "value": "Shrimp Curry"
+        },
+        {
+          "value": "Indian Style Shrimp"
+        },
+        {
+          "value": "Spicy Curry Shrimp"
+        },
+        {
+          "value": "Yellow Curry Shrimp"
         }
       ]
     },
@@ -1760,19 +2438,28 @@
       },
       "synonyms": [
         {
-          "value": "#4"
-        },
-        {
-          "value": "4"
-        },
-        {
-          "value": "number 4"
-        },
-        {
           "value": "Broccli w/ Oyster Sauce"
         },
         {
           "value": "蚝油西兰花"
+        },
+        {
+          "value": "Broccoli in Oyster Sauce"
+        },
+        {
+          "value": "Chinese Broccoli"
+        },
+        {
+          "value": "Gai Lan"
+        },
+        {
+          "value": "Oyster Sauce Broccoli"
+        },
+        {
+          "value": "Steamed Broccoli Oyster Sauce"
+        },
+        {
+          "value": "Cantonese Broccoli"
         }
       ]
     },
@@ -1804,19 +2491,28 @@
           "value": "蚝油双菇"
         },
         {
-          "value": "number 6"
-        },
-        {
           "value": "Mushrooms w/ Oyster Sauce"
-        },
-        {
-          "value": "#6"
         },
         {
           "value": "Double Mushrooms w/ Oyster Sauce"
         },
         {
-          "value": "6"
+          "value": "Mixed Mushrooms"
+        },
+        {
+          "value": "Two Mushroom Dish"
+        },
+        {
+          "value": "Shiitake and Button Mushrooms"
+        },
+        {
+          "value": "Mushroom Medley"
+        },
+        {
+          "value": "Oyster Sauce Mushrooms"
+        },
+        {
+          "value": "Chinese Mushrooms"
         }
       ]
     },
@@ -1935,16 +2631,19 @@
           "value": "Cha Siu Wonton Soup"
         },
         {
-          "value": "#1"
-        },
-        {
-          "value": "1"
-        },
-        {
           "value": "BBQ Pork Wonton Soup"
         },
         {
-          "value": "number 1"
+          "value": "Chinese BBQ Pork Wonton"
+        },
+        {
+          "value": "Roast Pork Wonton Soup"
+        },
+        {
+          "value": "Wonton Noodle Soup with Pork"
+        },
+        {
+          "value": "Dumpling Soup with BBQ Pork"
         }
       ]
     },
@@ -1954,19 +2653,22 @@
       },
       "synonyms": [
         {
-          "value": "#2"
-        },
-        {
-          "value": "2"
-        },
-        {
           "value": "牛肉云吞面"
         },
         {
           "value": "Beef Won Ton Soup"
         },
         {
-          "value": "number 2"
+          "value": "Beef Wonton Noodle Soup"
+        },
+        {
+          "value": "Beef Dumpling Soup"
+        },
+        {
+          "value": "Wonton Soup with Beef"
+        },
+        {
+          "value": "Beef Noodle Wonton"
         }
       ]
     },
@@ -1979,16 +2681,19 @@
           "value": "鸡肉云吞面"
         },
         {
-          "value": "3"
-        },
-        {
-          "value": "#3"
-        },
-        {
           "value": "Chicken Won Ton Soup"
         },
         {
-          "value": "number 3"
+          "value": "Chicken Wonton Noodle Soup"
+        },
+        {
+          "value": "Chicken Dumpling Soup"
+        },
+        {
+          "value": "Wonton Soup with Chicken"
+        },
+        {
+          "value": "Chicken Noodle Wonton"
         }
       ]
     },
@@ -1998,19 +2703,25 @@
       },
       "synonyms": [
         {
-          "value": "#4"
-        },
-        {
-          "value": "4"
-        },
-        {
-          "value": "number 4"
-        },
-        {
           "value": "Roasted Duck Won Ton Soup"
         },
         {
           "value": "烧鸭云吞面"
+        },
+        {
+          "value": "Roast Duck Wonton Soup"
+        },
+        {
+          "value": "Duck Wonton Noodle Soup"
+        },
+        {
+          "value": "Peking Duck Wonton"
+        },
+        {
+          "value": "Duck Dumpling Soup"
+        },
+        {
+          "value": "Wonton Soup with Duck"
         }
       ]
     },
@@ -2221,6 +2932,18 @@
         },
         {
           "value": "number 3"
+        },
+        {
+          "value": "Chicken Noodles"
+        },
+        {
+          "value": "Chicken Stir Fried Noodles"
+        },
+        {
+          "value": "Fried Noodles with Chicken"
+        },
+        {
+          "value": "Soft Noodles Chicken"
         }
       ]
     },
@@ -2271,6 +2994,18 @@
         },
         {
           "value": "#5"
+        },
+        {
+          "value": "Shrimp Noodles"
+        },
+        {
+          "value": "Prawns Chow Mein"
+        },
+        {
+          "value": "Shrimp Stir Fried Noodles"
+        },
+        {
+          "value": "Fried Noodles with Shrimp"
         }
       ]
     },
@@ -2280,16 +3015,25 @@
       },
       "synonyms": [
         {
-          "value": "#1"
-        },
-        {
-          "value": "1"
-        },
-        {
           "value": "招牌炒粉面"
         },
         {
-          "value": "number 1"
+          "value": "House Special Fried Noodles"
+        },
+        {
+          "value": "Special Pan Fried Noodles"
+        },
+        {
+          "value": "Combination Pan Fried Noodles"
+        },
+        {
+          "value": "Mixed Pan Fried Noodles"
+        },
+        {
+          "value": "Chef Special Noodles"
+        },
+        {
+          "value": "Deluxe Pan Fried Noodles"
         }
       ]
     },
@@ -2299,19 +3043,22 @@
       },
       "synonyms": [
         {
-          "value": "#2"
-        },
-        {
-          "value": "2"
-        },
-        {
           "value": "海鲜炒粉面"
         },
         {
           "value": "Sea Food Pan Fried Noodles"
         },
         {
-          "value": "number 2"
+          "value": "Mixed Seafood Pan Fried Noodles"
+        },
+        {
+          "value": "Seafood Crispy Noodles"
+        },
+        {
+          "value": "Pan Fried Noodles with Seafood"
+        },
+        {
+          "value": "Combination Seafood Noodles"
         }
       ]
     },
@@ -2321,16 +3068,22 @@
       },
       "synonyms": [
         {
-          "value": "#3"
-        },
-        {
           "value": "芥兰牛炒粉面"
         },
         {
-          "value": "3"
+          "value": "Beef with Chinese Broccoli Pan Fried Noodles"
         },
         {
-          "value": "number 3"
+          "value": "Gai Lan Beef Noodles"
+        },
+        {
+          "value": "Beef Tender Green Crispy Noodles"
+        },
+        {
+          "value": "Chinese Kale Beef Noodles"
+        },
+        {
+          "value": "Pan Fried Noodles Beef Greens"
         }
       ]
     },
@@ -2340,19 +3093,22 @@
       },
       "synonyms": [
         {
-          "value": "#4"
-        },
-        {
           "value": "Beef w/ Broccli Pan Fried Noodles"
         },
         {
           "value": "西兰花牛炒粉面"
         },
         {
-          "value": "4"
+          "value": "Beef and Broccoli Pan Fried Noodles"
         },
         {
-          "value": "number 4"
+          "value": "Broccoli Beef Crispy Noodles"
+        },
+        {
+          "value": "Pan Fried Noodles with Beef Broccoli"
+        },
+        {
+          "value": "Beef Broccoli Fried Noodles"
         }
       ]
     },
@@ -2507,6 +3263,24 @@
         },
         {
           "value": "House Special Rice"
+        },
+        {
+          "value": "Special Fried Rice"
+        },
+        {
+          "value": "Combination Fried Rice"
+        },
+        {
+          "value": "Mixed Fried Rice"
+        },
+        {
+          "value": "Chef Special Rice"
+        },
+        {
+          "value": "Deluxe Fried Rice"
+        },
+        {
+          "value": "Supreme Fried Rice"
         }
       ]
     },
@@ -2529,6 +3303,18 @@
         },
         {
           "value": "12"
+        },
+        {
+          "value": "Prawns Fried Rice"
+        },
+        {
+          "value": "Shrimp Fried Rice"
+        },
+        {
+          "value": "Fried Rice with Shrimp"
+        },
+        {
+          "value": "Seafood Fried Rice"
         }
       ]
     },
@@ -2551,6 +3337,24 @@
         },
         {
           "value": "#13"
+        },
+        {
+          "value": "Yangzhou Fried Rice"
+        },
+        {
+          "value": "Yang Zhou Fried Rice"
+        },
+        {
+          "value": "Young Chow Fried Rice"
+        },
+        {
+          "value": "Yeung Chow Rice"
+        },
+        {
+          "value": "Traditional Yang Chow"
+        },
+        {
+          "value": "Classic Yang Chow"
         }
       ]
     },
@@ -2582,6 +3386,15 @@
         },
         {
           "value": "BBQ Pork Fried Rice"
+        },
+        {
+          "value": "Roast Pork Fried Rice"
+        },
+        {
+          "value": "Chinese BBQ Pork Rice"
+        },
+        {
+          "value": "Honey Roast Pork Rice"
         }
       ]
     },
@@ -2604,6 +3417,15 @@
         },
         {
           "value": "15"
+        },
+        {
+          "value": "Fried Rice with Chicken"
+        },
+        {
+          "value": "Chicken Fried Rice"
+        },
+        {
+          "value": "Shredded Chicken Rice"
         }
       ]
     },
@@ -2679,16 +3501,25 @@
       },
       "synonyms": [
         {
-          "value": "19"
-        },
-        {
-          "value": "#19"
-        },
-        {
-          "value": "number 19"
-        },
-        {
           "value": "白饭"
+        },
+        {
+          "value": "White Rice"
+        },
+        {
+          "value": "Plain Rice"
+        },
+        {
+          "value": "Bowl of Rice"
+        },
+        {
+          "value": "Plain White Rice"
+        },
+        {
+          "value": "Steam Rice"
+        },
+        {
+          "value": "Rice Bowl"
         }
       ]
     },
@@ -2698,16 +3529,25 @@
       },
       "synonyms": [
         {
-          "value": "number 1"
-        },
-        {
-          "value": "#1"
-        },
-        {
-          "value": "1"
-        },
-        {
           "value": "招牌炒粉"
+        },
+        {
+          "value": "House Special Chow Fun Noodles"
+        },
+        {
+          "value": "Special Chow Fun"
+        },
+        {
+          "value": "Combination Chow Fun"
+        },
+        {
+          "value": "Mixed Chow Fun"
+        },
+        {
+          "value": "Chef Special Chow Fun"
+        },
+        {
+          "value": "Deluxe Rice Noodles"
         }
       ]
     },
@@ -2717,19 +3557,22 @@
       },
       "synonyms": [
         {
-          "value": "#2"
-        },
-        {
-          "value": "2"
-        },
-        {
           "value": "Sea Food Chow Fun"
         },
         {
           "value": "海鲜炒粉"
         },
         {
-          "value": "number 2"
+          "value": "Mixed Seafood Chow Fun"
+        },
+        {
+          "value": "Seafood Rice Noodles"
+        },
+        {
+          "value": "Combination Seafood Chow Fun"
+        },
+        {
+          "value": "Fresh Seafood Ho Fun"
         }
       ]
     },
@@ -2739,16 +3582,22 @@
       },
       "synonyms": [
         {
-          "value": "#3"
-        },
-        {
           "value": "芥兰虾炒粉"
         },
         {
-          "value": "3"
+          "value": "Shrimp with Chinese Broccoli Chow Fun"
         },
         {
-          "value": "number 3"
+          "value": "Gai Lan Shrimp Rice Noodles"
+        },
+        {
+          "value": "Shrimp Tender Green Ho Fun"
+        },
+        {
+          "value": "Chinese Kale Shrimp Chow Fun"
+        },
+        {
+          "value": "Prawns with Greens Chow Fun"
         }
       ]
     },
@@ -2830,13 +3679,22 @@
           "value": "星洲炒米粉"
         },
         {
-          "value": "#7"
+          "value": "Singapore Rice Noodles"
         },
         {
-          "value": "number 7"
+          "value": "Singapore Fried Rice Noodles"
         },
         {
-          "value": "7"
+          "value": "Curry Singapore Noodles"
+        },
+        {
+          "value": "Singapore Style Mei Fun"
+        },
+        {
+          "value": "Curry Rice Vermicelli"
+        },
+        {
+          "value": "Singapore Mei Fun"
         }
       ]
     },
@@ -2849,13 +3707,22 @@
           "value": "招牌饭"
         },
         {
-          "value": "#1"
+          "value": "House Special Rice Dish"
         },
         {
-          "value": "1"
+          "value": "Special Rice Combination"
         },
         {
-          "value": "number 1"
+          "value": "Chef Special on Rice"
+        },
+        {
+          "value": "Mixed Special Rice"
+        },
+        {
+          "value": "Combination Rice Plate"
+        },
+        {
+          "value": "Deluxe Rice Dish"
         }
       ]
     },
@@ -2865,19 +3732,22 @@
       },
       "synonyms": [
         {
-          "value": "#2"
-        },
-        {
-          "value": "2"
-        },
-        {
           "value": "海鲜饭"
         },
         {
           "value": "Sea Food on Rice"
         },
         {
-          "value": "number 2"
+          "value": "Mixed Seafood on Rice"
+        },
+        {
+          "value": "Seafood Rice Plate"
+        },
+        {
+          "value": "Combination Seafood Rice"
+        },
+        {
+          "value": "Fresh Seafood Rice"
         }
       ]
     },
@@ -3293,6 +4163,18 @@
         },
         {
           "value": "number 1"
+        },
+        {
+          "value": "Tsingtao"
+        },
+        {
+          "value": "Qingdao Beer"
+        },
+        {
+          "value": "Chinese Beer"
+        },
+        {
+          "value": "Tsingtao Beer"
         }
       ]
     },
@@ -3312,6 +4194,15 @@
         },
         {
           "value": "number 2"
+        },
+        {
+          "value": "Heineken Beer"
+        },
+        {
+          "value": "Dutch Beer"
+        },
+        {
+          "value": "Green Bottle Beer"
         }
       ]
     },
@@ -3331,6 +4222,18 @@
         },
         {
           "value": "number 3"
+        },
+        {
+          "value": "Corona Beer"
+        },
+        {
+          "value": "Mexican Beer"
+        },
+        {
+          "value": "Corona Extra"
+        },
+        {
+          "value": "Lime Beer"
         }
       ]
     },
@@ -3350,6 +4253,21 @@
         },
         {
           "value": "number 4"
+        },
+        {
+          "value": "Fried Banana"
+        },
+        {
+          "value": "Banana Fritters"
+        },
+        {
+          "value": "Battered Banana"
+        },
+        {
+          "value": "Crispy Banana"
+        },
+        {
+          "value": "Chinese Fried Banana"
         }
       ]
     },

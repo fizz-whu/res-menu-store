@@ -1857,43 +1857,143 @@
       "values": [
         {
           "value": "no MSG",
-          "synonyms": []
+          "synonyms": [
+            "without MSG",
+            "no monosodium glutamate",
+            "MSG free",
+            "no flavor enhancer",
+            "without flavor enhancer",
+            "natural only",
+            "no artificial seasoning",
+            "no chemical seasoning"
+          ]
         },
         {
           "value": "extra sauce",
-          "synonyms": []
+          "synonyms": [
+            "more sauce",
+            "additional sauce",
+            "lots of sauce",
+            "heavy sauce",
+            "double sauce",
+            "extra gravy",
+            "more gravy",
+            "saucy",
+            "with extra sauce"
+          ]
         },
         {
           "value": "on the side",
-          "synonyms": []
+          "synonyms": [
+            "sauce on side",
+            "dressing on side",
+            "separate sauce",
+            "sauce separately",
+            "dressing separately",
+            "sauce aside",
+            "on side",
+            "separate",
+            "apart"
+          ]
         },
         {
           "value": "extra spicy",
-          "synonyms": []
+          "synonyms": [
+            "very spicy",
+            "more spicy",
+            "super spicy",
+            "make it spicy",
+            "add spice",
+            "hot",
+            "very hot",
+            "extra hot",
+            "make it hot",
+            "spice it up",
+            "more heat",
+            "double spicy"
+          ]
         },
         {
           "value": "not spicy",
-          "synonyms": []
+          "synonyms": [
+            "no spice",
+            "mild",
+            "not hot",
+            "no heat",
+            "without spice",
+            "without heat",
+            "plain",
+            "no chili",
+            "no pepper",
+            "bland",
+            "gentle"
+          ]
         },
         {
           "value": "well done",
-          "synonyms": []
+          "synonyms": [
+            "cooked through",
+            "fully cooked",
+            "extra cooked",
+            "cook it well",
+            "cook longer",
+            "crispy",
+            "well cooked",
+            "thoroughly cooked"
+          ]
         },
         {
           "value": "medium",
-          "synonyms": []
+          "synonyms": [
+            "medium cooked",
+            "normal cooking",
+            "regular cooking",
+            "standard",
+            "normal",
+            "regular"
+          ]
         },
         {
           "value": "extra vegetables",
-          "synonyms": []
+          "synonyms": [
+            "more vegetables",
+            "additional vegetables",
+            "lots of vegetables",
+            "extra veggies",
+            "more veggies",
+            "heavy on vegetables",
+            "vegetable heavy",
+            "lots of veggies",
+            "double vegetables"
+          ]
         },
         {
           "value": "less salt",
-          "synonyms": []
+          "synonyms": [
+            "low salt",
+            "reduced salt",
+            "light salt",
+            "no salt",
+            "without salt",
+            "unsalted",
+            "low sodium",
+            "less sodium",
+            "light on salt",
+            "easy on salt"
+          ]
         },
         {
           "value": "no onions",
-          "synonyms": []
+          "synonyms": [
+            "without onions",
+            "hold the onions",
+            "no onion",
+            "without onion",
+            "skip onions",
+            "leave out onions",
+            "minus onions",
+            "remove onions"
+          ]
         }
       ]
     }
