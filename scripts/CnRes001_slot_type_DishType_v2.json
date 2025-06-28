@@ -1548,7 +1548,7 @@
     },
     {
       "sampleValue": {
-        "value": "Supremed Pork, Ham & Sour Pork"
+        "value": "Supremed Spicy Pork with Garlic Sauce"
       },
       "synonyms": [
         {
@@ -3381,7 +3381,7 @@
         {
           "value": "Mixed Chow Fun"
         },
-        {
+       {
           "value": "Chef Special Chow Fun"
         },
         {
@@ -4102,5 +4102,7 @@
       ]
     }
   ],
-  "valueSelectionStrategy": "TOP_RESOLUTION"
+  "valueSelectionSetting": {
+    "resolutionStrategy": "TopResolution"
+  }
 }

@@ -636,5 +636,7 @@
       ]
     }
   ],
-  "valueSelectionStrategy": "TOP_RESOLUTION"
+  "valueSelectionSetting": {
+    "resolutionStrategy": "TopResolution"
+  }
 }
