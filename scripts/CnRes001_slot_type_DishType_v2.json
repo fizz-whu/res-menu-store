@@ -76,25 +76,13 @@
           "value": "牛肉或猪肉西兰花"
         },
         {
-          "value": "Beef and Broccoli"
-        },
-        {
           "value": "Pork and Broccoli"
-        },
-        {
-          "value": "Broccoli Beef"
         },
         {
           "value": "Broccoli Pork"
         },
         {
-          "value": "Beef with Broccoli"
-        },
-        {
           "value": "Pork with Broccoli"
-        },
-        {
-          "value": "Beef Broccoli Stir Fry"
         },
         {
           "value": "Pork Broccoli Stir Fry"
@@ -500,9 +488,6 @@
           "value": "Tangerine Chicken"
         },
         {
-          "value": "Citrus Chicken"
-        },
-        {
           "value": "Orange Flavored Chicken"
         },
         {
@@ -860,74 +845,6 @@
     },
     {
       "sampleValue": {
-        "value": "Golden Pot Stickers"
-      },
-      "synonyms": [
-        {
-          "value": "黄金锅贴"
-        },
-        {
-          "value": "Pot Stickers"
-        },
-        {
-          "value": "Potstickers"
-        },
-        {
-          "value": "Fried Dumplings"
-        },
-        {
-          "value": "Pan Fried Dumplings"
-        },
-        {
-          "value": "Gyoza"
-        },
-        {
-          "value": "Crispy Bottom Dumplings"
-        },
-        {
-          "value": "Chinese Dumplings"
-        },
-        {
-          "value": "Pork Dumplings"
-        }
-      ]
-    },
-    {
-      "sampleValue": {
-        "value": "Spring Egg Rolls"
-      },
-      "synonyms": [
-        {
-          "value": "春卷"
-        },
-        {
-          "value": "Spring Rolls"
-        },
-        {
-          "value": "Egg Rolls"
-        },
-        {
-          "value": "Fried Spring Rolls"
-        },
-        {
-          "value": "Chinese Spring Rolls"
-        },
-        {
-          "value": "Crispy Spring Rolls"
-        },
-        {
-          "value": "Fresh Spring Rolls"
-        },
-        {
-          "value": "Vietnamese Spring Rolls"
-        },
-        {
-          "value": "Golden Spring Rolls"
-        }
-      ]
-    },
-    {
-      "sampleValue": {
         "value": "Chicken Salad"
       },
       "synonyms": [
@@ -1253,9 +1170,6 @@
           "value": "Multi-colored Chicken"
         },
         {
-          "value": "Mixed Vegetable Chicken"
-        },
-        {
           "value": "Chicken with Rainbow Vegetables"
         },
         {
@@ -1555,25 +1469,10 @@
           "value": "咕噜肉"
         },
         {
-          "value": "Sweet and Sour Pork"
-        },
-        {
           "value": "Goo Lao Pork"
         },
         {
           "value": "Gu Lu Pork"
-        },
-        {
-          "value": "Battered Sweet Sour Pork"
-        },
-        {
-          "value": "Crispy Sweet and Sour Pork"
-        },
-        {
-          "value": "Pineapple Sweet Sour Pork"
-        },
-        {
-          "value": "Cantonese Sweet Sour Pork"
         }
       ]
     },
@@ -1617,9 +1516,6 @@
           "value": "Spareribs with Bean Sauce"
         },
         {
-          "value": "豉汁排骨"
-        },
-        {
           "value": "Ribs with Black Bean Sauce"
         },
         {
@@ -1630,9 +1526,6 @@
         },
         {
           "value": "Pork Ribs Black Bean Sauce"
-        },
-        {
-          "value": "Steamed Spareribs"
         },
         {
           "value": "Black Bean Pork Ribs"
@@ -1714,37 +1607,6 @@
         },
         {
           "value": "Hot Spicy Beef Peking Style"
-        }
-      ]
-    },
-    {
-      "sampleValue": {
-        "value": "Mongolian Beef"
-      },
-      "synonyms": [
-        {
-          "value": "蒙古牛肉"
-        },
-        {
-          "value": "Mongolian Style Beef"
-        },
-        {
-          "value": "Beef Mongolian Style"
-        },
-        {
-          "value": "Mongol Beef"
-        },
-        {
-          "value": "Mongolian Beef Stir Fry"
-        },
-        {
-          "value": "Scallion Beef"
-        },
-        {
-          "value": "Beef with Scallions"
-        },
-        {
-          "value": "Green Onion Beef"
         }
       ]
     },
@@ -2847,9 +2709,6 @@
         },
         {
           "value": "Roast Pork Chow Mein"
-        },
-        {
-          "value": "Chinese BBQ Pork Noodles"
         }
       ]
     },
@@ -3216,13 +3075,7 @@
           "value": "Yang Zhou Fried Rice"
         },
         {
-          "value": "Special Fried Rice"
-        },
-        {
           "value": "House Fried Rice"
-        },
-        {
-          "value": "Combination Fried Rice"
         }
       ]
     },
@@ -3381,7 +3234,7 @@
         {
           "value": "Mixed Chow Fun"
         },
-       {
+        {
           "value": "Chef Special Chow Fun"
         },
         {
@@ -3468,7 +3321,7 @@
       "synonyms": [
         {
           "value": "牛肉豆芽炒粉"
-        },
+               },
         {
           "value": "Bean Sprout Beef Chow Fun"
         },

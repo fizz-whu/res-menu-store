@@ -530,44 +530,6 @@
     },
     {
       "sampleValue": {
-        "value": "Golden Pot Stickers"
-      },
-      "synonyms": [
-        {
-          "value": "3"
-        },
-        {
-          "value": "number 3"
-        },
-        {
-          "value": "#3"
-        },
-        {
-          "value": "锅贴"
-        }
-      ]
-    },
-    {
-      "sampleValue": {
-        "value": "Spring Egg Rolls"
-      },
-      "synonyms": [
-        {
-          "value": "#4"
-        },
-        {
-          "value": "4"
-        },
-        {
-          "value": "number 4"
-        },
-        {
-          "value": "春卷"
-        }
-      ]
-    },
-    {
-      "sampleValue": {
         "value": "Chicken Salad"
       },
       "synonyms": [
@@ -1207,25 +1169,6 @@
         },
         {
           "value": "number 1"
-        }
-      ]
-    },
-    {
-      "sampleValue": {
-        "value": "Mongolian Beef"
-      },
-      "synonyms": [
-        {
-          "value": "#2"
-        },
-        {
-          "value": "2"
-        },
-        {
-          "value": "蒙古牛肉"
-        },
-        {
-          "value": "number 2"
         }
       ]
     },
