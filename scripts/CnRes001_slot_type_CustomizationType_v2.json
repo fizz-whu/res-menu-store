@@ -1,0 +1,642 @@
+{
+  "slotTypeName": "CustomizationType",
+  "description": "Common customizations for dishes",
+  "slotTypeValues": [
+    {
+      "sampleValue": {
+        "value": "no MSG"
+      },
+      "synonyms": [
+        {
+          "value": "without MSG"
+        },
+        {
+          "value": "no monosodium glutamate"
+        },
+        {
+          "value": "MSG free"
+        },
+        {
+          "value": "no flavor enhancer"
+        },
+        {
+          "value": "without flavor enhancer"
+        },
+        {
+          "value": "natural only"
+        },
+        {
+          "value": "no artificial seasoning"
+        },
+        {
+          "value": "no chemical seasoning"
+        },
+        {
+          "value": "hold the MSG"
+        },
+        {
+          "value": "skip the MSG"
+        },
+        {
+          "value": "no additives"
+        },
+        {
+          "value": "natural seasoning only"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "extra sauce"
+      },
+      "synonyms": [
+        {
+          "value": "more sauce"
+        },
+        {
+          "value": "additional sauce"
+        },
+        {
+          "value": "lots of sauce"
+        },
+        {
+          "value": "heavy sauce"
+        },
+        {
+          "value": "double sauce"
+        },
+        {
+          "value": "extra gravy"
+        },
+        {
+          "value": "more gravy"
+        },
+        {
+          "value": "saucy"
+        },
+        {
+          "value": "with extra sauce"
+        },
+        {
+          "value": "plenty of sauce"
+        },
+        {
+          "value": "sauce heavy"
+        },
+        {
+          "value": "drowning in sauce"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "on the side"
+      },
+      "synonyms": [
+        {
+          "value": "sauce on side"
+        },
+        {
+          "value": "dressing on side"
+        },
+        {
+          "value": "separate sauce"
+        },
+        {
+          "value": "sauce separately"
+        },
+        {
+          "value": "dressing separately"
+        },
+        {
+          "value": "sauce aside"
+        },
+        {
+          "value": "on side"
+        },
+        {
+          "value": "separate"
+        },
+        {
+          "value": "apart"
+        },
+        {
+          "value": "serve separately"
+        },
+        {
+          "value": "keep separate"
+        },
+        {
+          "value": "don't mix"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "extra spicy"
+      },
+      "synonyms": [
+        {
+          "value": "very spicy"
+        },
+        {
+          "value": "more spicy"
+        },
+        {
+          "value": "super spicy"
+        },
+        {
+          "value": "make it spicy"
+        },
+        {
+          "value": "add spice"
+        },
+        {
+          "value": "hot"
+        },
+        {
+          "value": "very hot"
+        },
+        {
+          "value": "extra hot"
+        },
+        {
+          "value": "make it hot"
+        },
+        {
+          "value": "spice it up"
+        },
+        {
+          "value": "more heat"
+        },
+        {
+          "value": "double spicy"
+        },
+        {
+          "value": "fiery"
+        },
+        {
+          "value": "blazing"
+        },
+        {
+          "value": "burn my tongue"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "not spicy"
+      },
+      "synonyms": [
+        {
+          "value": "no spice"
+        },
+        {
+          "value": "mild"
+        },
+        {
+          "value": "not hot"
+        },
+        {
+          "value": "no heat"
+        },
+        {
+          "value": "without spice"
+        },
+        {
+          "value": "without heat"
+        },
+        {
+          "value": "plain"
+        },
+        {
+          "value": "no chili"
+        },
+        {
+          "value": "no pepper"
+        },
+        {
+          "value": "bland"
+        },
+        {
+          "value": "gentle"
+        },
+        {
+          "value": "no kick"
+        },
+        {
+          "value": "easy on the spice"
+        },
+        {
+          "value": "sensitive to spice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "well done"
+      },
+      "synonyms": [
+        {
+          "value": "cooked through"
+        },
+        {
+          "value": "fully cooked"
+        },
+        {
+          "value": "extra cooked"
+        },
+        {
+          "value": "cook it well"
+        },
+        {
+          "value": "cook longer"
+        },
+        {
+          "value": "crispy"
+        },
+        {
+          "value": "well cooked"
+        },
+        {
+          "value": "thoroughly cooked"
+        },
+        {
+          "value": "cook it more"
+        },
+        {
+          "value": "extra cooking"
+        },
+        {
+          "value": "done well"
+        },
+        {
+          "value": "cook it hard"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "medium"
+      },
+      "synonyms": [
+        {
+          "value": "medium cooked"
+        },
+        {
+          "value": "normal cooking"
+        },
+        {
+          "value": "regular cooking"
+        },
+        {
+          "value": "standard"
+        },
+        {
+          "value": "normal"
+        },
+        {
+          "value": "regular"
+        },
+        {
+          "value": "average"
+        },
+        {
+          "value": "typical"
+        },
+        {
+          "value": "usual"
+        },
+        {
+          "value": "standard cooking"
+        },
+        {
+          "value": "as usual"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "extra vegetables"
+      },
+      "synonyms": [
+        {
+          "value": "more vegetables"
+        },
+        {
+          "value": "additional vegetables"
+        },
+        {
+          "value": "lots of vegetables"
+        },
+        {
+          "value": "extra veggies"
+        },
+        {
+          "value": "more veggies"
+        },
+        {
+          "value": "heavy on vegetables"
+        },
+        {
+          "value": "vegetable heavy"
+        },
+        {
+          "value": "lots of veggies"
+        },
+        {
+          "value": "double vegetables"
+        },
+        {
+          "value": "plenty of vegetables"
+        },
+        {
+          "value": "load it with vegetables"
+        },
+        {
+          "value": "veggie loaded"
+        },
+        {
+          "value": "add more vegetables"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "less salt"
+      },
+      "synonyms": [
+        {
+          "value": "low salt"
+        },
+        {
+          "value": "reduced salt"
+        },
+        {
+          "value": "light salt"
+        },
+        {
+          "value": "no salt"
+        },
+        {
+          "value": "without salt"
+        },
+        {
+          "value": "unsalted"
+        },
+        {
+          "value": "low sodium"
+        },
+        {
+          "value": "less sodium"
+        },
+        {
+          "value": "light on salt"
+        },
+        {
+          "value": "easy on salt"
+        },
+        {
+          "value": "go easy on the salt"
+        },
+        {
+          "value": "minimal salt"
+        },
+        {
+          "value": "cut the salt"
+        },
+        {
+          "value": "hold the salt"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "no onions"
+      },
+      "synonyms": [
+        {
+          "value": "without onions"
+        },
+        {
+          "value": "hold the onions"
+        },
+        {
+          "value": "no onion"
+        },
+        {
+          "value": "without onion"
+        },
+        {
+          "value": "skip onions"
+        },
+        {
+          "value": "leave out onions"
+        },
+        {
+          "value": "minus onions"
+        },
+        {
+          "value": "remove onions"
+        },
+        {
+          "value": "take off onions"
+        },
+        {
+          "value": "omit onions"
+        },
+        {
+          "value": "no green onions"
+        },
+        {
+          "value": "no scallions"
+        },
+        {
+          "value": "allergic to onions"
+        },
+        {
+          "value": "hate onions"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "no garlic"
+      },
+      "synonyms": [
+        {
+          "value": "without garlic"
+        },
+        {
+          "value": "hold the garlic"
+        },
+        {
+          "value": "skip garlic"
+        },
+        {
+          "value": "leave out garlic"
+        },
+        {
+          "value": "minus garlic"
+        },
+        {
+          "value": "remove garlic"
+        },
+        {
+          "value": "omit garlic"
+        },
+        {
+          "value": "allergic to garlic"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "extra crispy"
+      },
+      "synonyms": [
+        {
+          "value": "very crispy"
+        },
+        {
+          "value": "super crispy"
+        },
+        {
+          "value": "extra crunchy"
+        },
+        {
+          "value": "very crunchy"
+        },
+        {
+          "value": "make it crispy"
+        },
+        {
+          "value": "crisp it up"
+        },
+        {
+          "value": "well fried"
+        },
+        {
+          "value": "golden crispy"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "less oil"
+      },
+      "synonyms": [
+        {
+          "value": "light oil"
+        },
+        {
+          "value": "reduced oil"
+        },
+        {
+          "value": "low oil"
+        },
+        {
+          "value": "no oil"
+        },
+        {
+          "value": "without oil"
+        },
+        {
+          "value": "oil free"
+        },
+        {
+          "value": "easy on oil"
+        },
+        {
+          "value": "minimal oil"
+        },
+        {
+          "value": "cut the oil"
+        },
+        {
+          "value": "dry"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "no peanuts"
+      },
+      "synonyms": [
+        {
+          "value": "without peanuts"
+        },
+        {
+          "value": "hold the peanuts"
+        },
+        {
+          "value": "skip peanuts"
+        },
+        {
+          "value": "leave out peanuts"
+        },
+        {
+          "value": "minus peanuts"
+        },
+        {
+          "value": "remove peanuts"
+        },
+        {
+          "value": "omit peanuts"
+        },
+        {
+          "value": "peanut allergy"
+        },
+        {
+          "value": "allergic to peanuts"
+        },
+        {
+          "value": "no nuts"
+        },
+        {
+          "value": "nut free"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "extra meat"
+      },
+      "synonyms": [
+        {
+          "value": "more meat"
+        },
+        {
+          "value": "additional meat"
+        },
+        {
+          "value": "lots of meat"
+        },
+        {
+          "value": "heavy on meat"
+        },
+        {
+          "value": "meat heavy"
+        },
+        {
+          "value": "double meat"
+        },
+        {
+          "value": "plenty of meat"
+        },
+        {
+          "value": "load it with meat"
+        },
+        {
+          "value": "meat loaded"
+        },
+        {
+          "value": "add more meat"
+        }
+      ]
+    }
+  ],
+  "valueSelectionSetting": {
+    "resolutionStrategy": "TopResolution"
+  }
+}

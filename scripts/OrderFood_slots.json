@@ -1,0 +1,36 @@
+[
+  {
+    "slotName": "DishName",
+    "description": "The name of the dish to order",
+    "slotTypeName": "DishType",
+    "slotConstraint": "Required",
+    "valueElicitationSetting": {
+      "slotConstraint": "Required",
+      "promptSpecification": {
+        "messageGroups": [
+          {
+            "message": {
+              "plainTextMessage": {
+                "value": "What would you like to order from our menu?"
+              }
+            }
+          }
+        ],
+        "maxRetries": 3,
+        "allowInterrupt": true
+      }
+    }
+  },
+  {
+    "slotName": "Quantity",
+    "description": "The quantity of the dish",
+    "slotTypeName": "AMAZON.Number",
+    "slotConstraint": "Optional"
+  },
+  {
+    "slotName": "Customization",
+    "description": "Special customizations for the dish",
+    "slotTypeName": "CustomizationType",
+    "slotConstraint": "Optional"
+  }
+]

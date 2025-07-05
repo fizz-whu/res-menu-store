@@ -1,0 +1,218 @@
+{
+  "restaurant_name": "Chinese Restaurant",
+  "data_source": "CnRes001 folder images",
+  "extraction_date": "2025-06-22",
+  "handwritten_dishes": [
+    "蒸水", "黄瓜", "干锅", "甲鱼", "螺蛳粉", "贝", "春", "投名状", "合下", "房柱", "隔档", "座虎", "王仔店", "左口角", "杂", "南平", "降仙", "瓜皮", "冬瓜粉", "卤菜", "什木丁", "什锦"
+  ],
+  "menu_sections": {
+    "family_dinner": {
+      "description": "SERVICE FOR 2 OR MORE PERSONS",
+      "hong_kong_style": {
+        "price_per_person": 14.75,
+        "minimum_persons": 2,
+        "includes": [
+          "Spring Egg Rolls",
+          "Beef or Pork w/ Broccoli",
+          "Shrimp w/ Bacon Fried Rice",
+          "Barbecue w/ Fried Ribs",
+          "For 3 Add: Succulent Spicy Pork w/ Garlic Sauce",
+          "For 4 Add: Clams w/ Ginger in Black Bean Sauce",
+          "For 5 Add: Braised Fish Fillet",
+          "For 6 Add: Double Mushroom w/ Oyster Sauce"
+        ]
+      },
+      "peking_style": {
+        "price_per_person": 15.75,
+        "minimum_persons": 2,
+        "includes": [
+          "Golden Pot Stickers",
+          "Mongolian Beef",
+          "House Special Shrimp",
+          "Sweet & Sour Pork",
+          "For 3 Add: Spicy Hot Bean Curd w/ Garlic Sauce",
+          "For 4 Add: Squids w/ Green Onion",
+          "For 5 Add: Sliced Rock Cod w/ Special Sauce",
+          "For 6 Add: Snow Peas w/ Mushroom"
+        ]
+      }
+    },
+    "house_special": [
+      {"id": 1, "name_en": "Spicy Salt Pepper Shrimp", "name_zh": "椒盐虾", "price": 16.25},
+      {"id": 2, "name_en": "Minced Chicken in Lettuce Cup", "name_zh": "生菜包鸡粒", "price": 16.25},
+      {"id": 3, "name_en": "Walnut Prawns", "name_zh": "核桃虾", "price": 16.25},
+      {"id": 4, "name_en": "Rainbow Fish Fillet", "name_zh": "彩虹鱼", "price": 13.25},
+      {"id": 5, "name_en": "Orange Peel Beef", "name_zh": "陈皮牛", "price": 13.25},
+      {"id": 6, "name_en": "Orange Peel Chicken", "name_zh": "陈皮鸡", "price": 13.25},
+      {"id": 7, "name_en": "Ginger Green Onion w/ Oyster", "name_zh": "姜葱生蚝", "price": 14.25},
+      {"id": 8, "name_en": "Crispy Fried Oyster", "name_zh": "酥炸生蚝", "price": 14.25},
+      {"id": 9, "name_en": "Ginger Soy Chicken", "name_zh": "豉油鸡", "price": 13.25},
+      {"id": 10, "name_en": "Crispy Fried Squid w/ Spicy Pepper", "name_zh": "椒盐鲜鱿", "price": 14.25},
+      {"id": 11, "name_en": "Fried Tofu w/ Green Bean in Dry Spicy Garlic", "name_zh": "干豆豆腐", "price": 12.75},
+      {"id": 12, "name_en": "Eggplant w/ Chicken, Shrimp in Special Sauce", "name_zh": "茄子煲", "price": 14.75},
+      {"id": 13, "name_en": "Spicy Salt Pepper Pork Chop", "name_zh": "椒盐猪扒", "price": 13.25},
+      {"id": 14, "name_en": "Yellow Onion Pork", "name_zh": "洋葱猪扒", "price": 13.25},
+      {"id": 15, "name_en": "Spicy Salt Pepper Chicken Wings", "name_zh": "椒盐鸡翼", "price": 14.25},
+      {"id": 16, "name_en": "Generals Chicken Wings", "name_zh": "左宗鸡翼", "price": 14.25}
+    ],
+    "appetizers": [
+      {"id": 1, "name_en": "Honey Glazed Barbecued Pork", "name_zh": "蜜汁叉烧", "price": 10.75},
+      {"id": 2, "name_en": "Crispy Fried Prawns", "name_zh": "脆皮炸虾", "price": 14.75},
+      {"id": 3, "name_en": "Golden Pot Stickers", "name_zh": "锅贴", "price": 9.00},
+      {"id": 4, "name_en": "Spring Egg Rolls", "name_zh": "春卷", "price": 9.00},
+      {"id": 5, "name_en": "Chicken Salad", "name_zh": "鸡沙律", "price": 8.75}
+    ],
+    "soup": [
+      {"id": 1, "name_en": "Hot & Sour Soup", "name_zh": "酸辣汤", "price": 9.00},
+      {"id": 2, "name_en": "Minced Beef w/ Egg White Soup", "name_zh": "蛋花牛肉汤", "price": 9.00},
+      {"id": 3, "name_en": "Mixed Vegetable Soup", "name_zh": "杂菜汤", "price": 9.00},
+      {"id": 4, "name_en": "Seaweed w/ Egg Flower Soup", "name_zh": "紫菜蛋花汤", "price": 9.00},
+      {"id": 5, "name_en": "Seafood Bean Cake Soup", "name_zh": "海鲜豆腐汤", "price": 10.50},
+      {"id": 6, "name_en": "Wor Wonton Soup", "name_zh": "窝云吞", "price": 11.50},
+      {"id": 16, "name_en": "Chicken w/ Corn Soup", "name_zh": "鸡蓉玉米汤", "price": 9.00}
+    ],
+    "fowl": [
+      {"id": 1, "name_en": "Cashew Almond Chicken", "name_zh": "腰果杏仁鸡", "price": 13.25},
+      {"id": 2, "name_en": "Sweet & Sour Chicken", "name_zh": "甜酸鸡", "price": 13.25},
+      {"id": 3, "name_en": "Lemon Chicken", "name_zh": "柠檬鸡", "price": 13.25},
+      {"id": 4, "name_en": "Chicken w/ Double Mushrooms", "name_zh": "双菇鸡", "price": 13.25},
+      {"id": 5, "name_en": "Rainbow Chicken", "name_zh": "彩虹鸡", "price": 13.25},
+      {"id": 6, "name_en": "Chicken w/ Black Bean Sauce", "name_zh": "豉汁鸡", "price": 13.25},
+      {"id": 7, "name_en": "Curry Chicken", "name_zh": "咖喱鸡", "price": 13.25},
+      {"id": 8, "name_en": "Kung Pao Chicken", "name_zh": "宫保鸡丁", "price": 13.25},
+      {"id": 9, "name_en": "Chicken w/ Broccoli", "name_zh": "西兰花鸡", "price": 13.25},
+      {"id": 10, "name_en": "Roasted Duck Half", "name_zh": "烤鸭半只", "price": "14.00 Whole 26.00"},
+      {"id": 11, "name_en": "Fried Chicken Half", "name_zh": "炸鸡半只", "price": "12.00 Whole 22.00"},
+      {"id": 12, "name_en": "Chicken w/ Mixed Vegetables", "name_zh": "杂菜鸡", "price": 13.25}
+    ],
+    "pork": [
+      {"id": 1, "name_en": "Cantonese Style Spareribs", "name_zh": "豉汁排骨", "price": 13.25},
+      {"id": 2, "name_en": "Spicy Hot Bean Curd w/ Minced Pork", "name_zh": "麻婆豆腐", "price": 13.25},
+      {"id": 3, "name_en": "Succulent Spicy Pork w/ Garlic Sauce", "name_zh": "鱼香肉丝", "price": 13.25},
+      {"id": 4, "name_en": "Supremed Pork, Ham & Sour Pork", "name_zh": "咕噜肉", "price": 13.25},
+      {"id": 5, "name_en": "Mu Shu Pork (Four Pan Cake)", "name_zh": "木须肉", "price": 13.25},
+      {"id": 6, "name_en": "Spareribs w/ Black Bean Sauce", "name_zh": "豉汁排骨", "price": 13.25},
+      {"id": 7, "name_en": "Barbecued Pork w/ Bean Cake", "name_zh": "叉烧豆腐", "price": 13.25},
+      {"id": 8, "name_en": "Barbecued Pork w/ Mixed Vegetables", "name_zh": "叉烧杂菜", "price": 13.25}
+    ],
+    "beef": [
+      {"id": 1, "name_en": "Peking Spicy Beef", "name_zh": "京都牛肉", "price": 14.25},
+      {"id": 2, "name_en": "Mongolian Beef", "name_zh": "蒙古牛肉", "price": 14.25},
+      {"id": 3, "name_en": "Curry Beef", "name_zh": "咖喱牛肉", "price": 14.25},
+      {"id": 4, "name_en": "Beef w/ Black Bean Sauce", "name_zh": "豉汁牛肉", "price": 14.25},
+      {"id": 5, "name_en": "Beef w/ Broccoli", "name_zh": "西兰花牛肉", "price": 14.25},
+      {"id": 6, "name_en": "Beef w/ Oyster Sauce", "name_zh": "蚝油牛肉", "price": 14.25},
+      {"id": 7, "name_en": "Beef w/ Snow Peas", "name_zh": "雪豆牛肉", "price": 14.25},
+      {"id": 8, "name_en": "Beef w/ Mixed Vegetables", "name_zh": "杂菜牛肉", "price": 14.25}
+    ],
+    "seafood": [
+      {"id": 1, "name_en": "Shrimp Chicken w/ Cashew Almond", "name_zh": "腰果杏仁虾", "price": 14.50},
+      {"id": 2, "name_en": "Shrimp w/ Snow Peas", "name_zh": "雪豆虾", "price": 14.50},
+      {"id": 3, "name_en": "Shrimp w/ Double Mushrooms", "name_zh": "双菇虾", "price": 14.50},
+      {"id": 4, "name_en": "Shrimp w/ Lobster Sauce", "name_zh": "虾龙虾汁", "price": 14.50},
+      {"id": 5, "name_en": "Supremed Sweet & Sour Shrimp", "name_zh": "甜酸虾", "price": 14.50},
+      {"id": 6, "name_en": "Kung Pao Shrimp", "name_zh": "宫保虾", "price": 14.50},
+      {"id": 7, "name_en": "Curry Shrimp", "name_zh": "咖喱虾", "price": 14.50},
+      {"id": 8, "name_en": "Shrimp w/ Cashew", "name_zh": "腰果虾", "price": 14.50},
+      {"id": 9, "name_en": "Seafood Deluxe", "name_zh": "海鲜大会", "price": 14.50},
+      {"id": 10, "name_en": "Clams w/ Ginger Scallions", "name_zh": "姜葱蚬", "price": 14.50},
+      {"id": 11, "name_en": "Clams w/ Black Bean Sauce", "name_zh": "豉汁蚬", "price": 14.50},
+      {"id": 12, "name_en": "Braised Fish Fillet", "name_zh": "红烧鱼片", "price": 14.50},
+      {"id": 13, "name_en": "Fish Fillet in Black Bean Sauce", "name_zh": "豉汁鱼片", "price": 14.50},
+      {"id": 14, "name_en": "Sweet and Sour Whole Fish", "name_zh": "甜酸全鱼", "price": 22.00},
+      {"id": 15, "name_en": "Steamed Whole Fish", "name_zh": "清蒸全鱼", "price": 22.00}
+    ],
+    "vegetables": [
+      {"id": 1, "name_en": "Fresh Vegetables Deluxe", "name_zh": "时菜", "price": 11.00},
+      {"id": 2, "name_en": "Snow Peas w/ Water Chestnuts", "name_zh": "雪豆马蹄", "price": 11.00},
+      {"id": 3, "name_en": "Eggplant w/ Garlic Sauce", "name_zh": "鱼香茄子", "price": 11.00},
+      {"id": 4, "name_en": "Broccoli w/ Oyster Sauce", "name_zh": "蚝油西兰花", "price": 11.00},
+      {"id": 5, "name_en": "Vegetarian's Special", "name_zh": "素食特色", "price": 11.00},
+      {"id": 6, "name_en": "Double Mushroom w/ Oyster Sauce", "name_zh": "蚝油双菇", "price": 11.00},
+      {"id": 7, "name_en": "Braised Bean Cake", "name_zh": "红烧豆腐", "price": 11.00},
+      {"id": 8, "name_en": "Mixed Vegetables w/ Bean Cake", "name_zh": "杂菜豆腐", "price": 12.00},
+      {"id": 9, "name_en": "House Special Bean Cake", "name_zh": "招牌豆腐", "price": 12.00},
+      {"id": 10, "name_en": "Kung Pao To Fu", "name_zh": "宫保豆腐", "price": 12.00}
+    ],
+    "wonton_noodle_soup": [
+      {"id": 1, "name_en": "Barbecued Pork Wonton Soup", "name_zh": "叉烧云吞面", "price": 10.50},
+      {"id": 2, "name_en": "Beef Wonton Soup", "name_zh": "牛肉云吞面", "price": 10.50},
+      {"id": 3, "name_en": "Chicken Wonton Soup", "name_zh": "鸡肉云吞面", "price": 10.50},
+      {"id": 4, "name_en": "Roasted Duck Wonton Soup", "name_zh": "烧鸭云吞面", "price": 10.50},
+      {"id": 5, "name_en": "Shrimp Wonton Soup", "name_zh": "虾云吞面", "price": 10.50},
+      {"id": 6, "name_en": "Barbecued Pork Noodle Soup", "name_zh": "叉烧汤面", "price": 9.75},
+      {"id": 7, "name_en": "Beef Noodle Soup", "name_zh": "牛肉汤面", "price": 9.75},
+      {"id": 8, "name_en": "Chicken Noodle Soup", "name_zh": "鸡肉汤面", "price": 10.50},
+      {"id": 9, "name_en": "Roasted Duck Noodle Soup", "name_zh": "烧鸭汤面", "price": 10.50},
+      {"id": 10, "name_en": "Shrimp Noodle Soup", "name_zh": "虾汤面", "price": 10.50}
+    ],
+    "chow_mein": [
+      {"id": 1, "name_en": "House Special Chow Mein", "name_zh": "招牌炒面", "price": 12.25},
+      {"id": 2, "name_en": "Barbecued Pork Chow Mein", "name_zh": "叉烧炒面", "price": 10.00},
+      {"id": 3, "name_en": "Chicken Chow Mein", "name_zh": "鸡丝炒面", "price": 10.00},
+      {"id": 4, "name_en": "Beef w/ Tomato Chow Mein", "name_zh": "番茄牛肉炒面", "price": 10.00},
+      {"id": 5, "name_en": "Shrimp Chow Mein", "name_zh": "虾炒面", "price": 10.75}
+    ],
+    "hong_kong_style_pan_fried_noodle": [
+      {"id": 1, "name_en": "House Special Pan Fried Noodles", "name_zh": "招牌炒粉面", "price": 13.00},
+      {"id": 2, "name_en": "Seafood Pan Fried Noodles", "name_zh": "海鲜炒粉面", "price": 13.00},
+      {"id": 3, "name_en": "Beef w/ Tender Green Pan Fried Noodles", "name_zh": "芥兰牛炒粉面", "price": 11.25},
+      {"id": 4, "name_en": "Beef w/ Broccoli Pan Fried Noodles", "name_zh": "西兰花牛炒粉面", "price": 11.25},
+      {"id": 5, "name_en": "Beef w/ Black Bean Sauce Pan Fried Noodles", "name_zh": "豉汁牛炒粉面", "price": 11.25},
+      {"id": 6, "name_en": "Chicken w/ Tender Green Pan Fried Noodles", "name_zh": "芥兰鸡炒粉面", "price": 11.25},
+      {"id": 7, "name_en": "Chicken w/ Black Bean Sauce Pan Fried Noodles", "name_zh": "豉汁鸡炒粉面", "price": 11.25},
+      {"id": 8, "name_en": "Shrimp w/ Tender Green Pan Fried Noodles", "name_zh": "芥兰虾炒粉面", "price": 12.25},
+      {"id": 9, "name_en": "Shrimp w/ Mixed Vegetable Pan Fried Noodles", "name_zh": "杂菜虾炒粉面", "price": 12.25},
+      {"id": 10, "name_en": "Shrimp w/ Black Bean Sauce Pan Fried Noodles", "name_zh": "豉汁虾炒粉面", "price": 12.25}
+    ],
+    "fried_rice": [
+      {"id": 11, "name_en": "House Special Fried Rice", "name_zh": "招牌炒饭", "price": 12.00},
+      {"id": 12, "name_en": "Shrimp Fried Rice", "name_zh": "虾炒饭", "price": 11.00},
+      {"id": 13, "name_en": "Yang Chow Fried Rice", "name_zh": "扬州炒饭", "price": 11.00},
+      {"id": 14, "name_en": "Barbecued Pork Fried Rice", "name_zh": "叉烧炒饭", "price": 10.00},
+      {"id": 15, "name_en": "Chicken Fried Rice", "name_zh": "鸡丝炒饭", "price": 10.00},
+      {"id": 16, "name_en": "Beef Fried Rice", "name_zh": "牛肉炒饭", "price": 10.00},
+      {"id": 17, "name_en": "Fresh Vegetables Fried Rice", "name_zh": "菜炒饭", "price": 10.00},
+      {"id": 18, "name_en": "Chicken w/ Salted Fish Fried Rice", "name_zh": "咸鱼鸡粒炒饭", "price": 12.25},
+      {"id": 19, "name_en": "Steamed Rice", "name_zh": "白饭", "price": 1.75}
+    ],
+    "chow_fun": [
+      {"id": 1, "name_en": "House Special Chow Fun", "name_zh": "招牌炒粉", "price": 13.00},
+      {"id": 2, "name_en": "Seafood Chow Fun", "name_zh": "海鲜炒粉", "price": 13.00},
+      {"id": 3, "name_en": "Shrimp w/ Tender Green Chow Fun", "name_zh": "芥兰虾炒粉", "price": 11.50},
+      {"id": 4, "name_en": "Shrimp w/ Black Bean Sauce Chow Fun", "name_zh": "豉汁虾炒粉", "price": 11.50},
+      {"id": 5, "name_en": "Beef w/ Bean Sprout Chow Fun", "name_zh": "豆芽牛炒粉", "price": 11.00},
+      {"id": 6, "name_en": "Beef w/ Black Bean Sauce Chow Fun", "name_zh": "豉汁牛炒粉", "price": 11.00},
+      {"id": 7, "name_en": "Singapore Style Rice Noodle", "name_zh": "星洲炒米粉", "price": 12.00}
+    ],
+    "rice_plate": [
+      {"id": 1, "name_en": "House Special on Rice", "name_zh": "招牌饭", "price": 12.00},
+      {"id": 2, "name_en": "Seafood on Rice", "name_zh": "海鲜饭", "price": 12.00},
+      {"id": 3, "name_en": "Shrimp w/ Mixed Vegetables on Rice", "name_zh": "杂菜虾饭", "price": 10.00},
+      {"id": 4, "name_en": "Shrimp w/ Scrambled Egg on Rice", "name_zh": "滑蛋虾饭", "price": 10.00},
+      {"id": 5, "name_en": "Shrimp w/ Black Bean Sauce on Rice", "name_zh": "豉汁虾饭", "price": 10.00},
+      {"id": 6, "name_en": "B.B.Q Pork w/ Bean Cake on Rice", "name_zh": "叉烧豆腐饭", "price": 10.00},
+      {"id": 7, "name_en": "Pork w/ Original Juice on Rice", "name_zh": "原汁猪扒饭", "price": 10.00},
+      {"id": 8, "name_en": "Beef w/ Broccoli on Rice", "name_zh": "西兰花牛饭", "price": 10.00},
+      {"id": 9, "name_en": "Beef w/ Oyster Sauce on Rice", "name_zh": "蚝油牛饭", "price": 10.00},
+      {"id": 10, "name_en": "Beef w/ Ginger & Green Onions on Rice", "name_zh": "姜葱牛饭", "price": 10.00},
+      {"id": 11, "name_en": "Beef w/ Tender Green on Rice", "name_zh": "芥兰牛饭", "price": 10.00},
+      {"id": 12, "name_en": "Chicken w/ Black Bean Sauce on Rice", "name_zh": "豉汁鸡饭", "price": 10.00},
+      {"id": 13, "name_en": "Chicken w/ Mixed Vegetables on Rice", "name_zh": "杂菜鸡饭", "price": 10.00},
+      {"id": 14, "name_en": "Chicken w/ Curry on Rice", "name_zh": "咖喱鸡饭", "price": 10.00},
+      {"id": 15, "name_en": "Beef Stew w/ Curry on Rice", "name_zh": "咖喱牛腩饭", "price": 10.00},
+      {"id": 16, "name_en": "Beef Stew w/ Original Juice on Rice", "name_zh": "原汁牛腩饭", "price": 10.00},
+      {"id": 17, "name_en": "Spareribs w/ Black Bean Sauce on Rice", "name_zh": "豉汁排骨饭", "price": 10.00},
+      {"id": 18, "name_en": "Spareribs w/ Bean Cake on Rice", "name_zh": "豆腐排骨饭", "price": 10.00},
+      {"id": 19, "name_en": "Roasted Duck on Rice", "name_zh": "烧鸭饭", "price": 11.25},
+      {"id": 20, "name_en": "Roasted Duck w/ Bean Cake on Rice", "name_zh": "豆腐烧鸭饭", "price": 11.25}
+    ],
+    "beverages": [
+      {"id": 1, "name_en": "Tsing Tao", "name_zh": "青岛啤酒", "price": 5.25},
+      {"id": 2, "name_en": "Heineken", "name_zh": "喜力啤酒", "price": 5.25},
+      {"id": 3, "name_en": "Corona", "name_zh": "科罗娜啤酒", "price": 5.25},
+      {"id": 4, "name_en": "Deep Fried Banana", "name_zh": "炸香蕉", "price": 4.00},
+      {"id": 5, "name_en": "Drinks", "name_zh": "各式饮料", "price": 1.85}
+    ]
+  }
+}

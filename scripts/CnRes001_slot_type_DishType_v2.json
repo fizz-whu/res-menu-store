@@ -1,0 +1,3961 @@
+{
+  "slotTypeName": "DishType",
+  "description": "All available dishes from the menu",
+  "slotTypeValues": [
+    {
+      "sampleValue": {
+        "value": "Hong Kong Style Family Dinner"
+      },
+      "synonyms": [
+        {
+          "value": "港式家庭套餐"
+        },
+        {
+          "value": "Hong Kong Family Meal"
+        },
+        {
+          "value": "HK Style Family Dinner"
+        },
+        {
+          "value": "Cantonese Family Dinner"
+        },
+        {
+          "value": "Hong Kong Family Set"
+        },
+        {
+          "value": "Family Dinner Hong Kong Style"
+        },
+        {
+          "value": "HK Family Combo"
+        },
+        {
+          "value": "Hong Kong Dinner Set"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Spring Egg Rolls"
+      },
+      "synonyms": [
+        {
+          "value": "春卷"
+        },
+        {
+          "value": "Spring Rolls"
+        },
+        {
+          "value": "Egg Rolls"
+        },
+        {
+          "value": "Fried Spring Rolls"
+        },
+        {
+          "value": "Chinese Spring Rolls"
+        },
+        {
+          "value": "Crispy Spring Rolls"
+        },
+        {
+          "value": "Fresh Spring Rolls"
+        },
+        {
+          "value": "Vietnamese Spring Rolls"
+        },
+        {
+          "value": "Golden Spring Rolls"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef or Pork with Broccoli"
+      },
+      "synonyms": [
+        {
+          "value": "牛肉或猪肉西兰花"
+        },
+        {
+          "value": "Pork and Broccoli"
+        },
+        {
+          "value": "Broccoli Pork"
+        },
+        {
+          "value": "Pork with Broccoli"
+        },
+        {
+          "value": "Pork Broccoli Stir Fry"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp with Bacon Fried Rice"
+      },
+      "synonyms": [
+        {
+          "value": "虾仁培根炒饭"
+        },
+        {
+          "value": "Shrimp and Bacon Fried Rice"
+        },
+        {
+          "value": "Bacon Shrimp Fried Rice"
+        },
+        {
+          "value": "Shrimp Bacon Rice"
+        },
+        {
+          "value": "Prawns with Bacon Fried Rice"
+        },
+        {
+          "value": "Bacon and Shrimp Rice"
+        },
+        {
+          "value": "Fried Rice Shrimp Bacon"
+        },
+        {
+          "value": "Special Shrimp Bacon Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Barbecue with Fried Ribs"
+      },
+      "synonyms": [
+        {
+          "value": "烧烤炸排骨"
+        },
+        {
+          "value": "BBQ with Fried Ribs"
+        },
+        {
+          "value": "Barbecued Fried Ribs"
+        },
+        {
+          "value": "BBQ Fried Ribs"
+        },
+        {
+          "value": "Barbecue and Fried Ribs"
+        },
+        {
+          "value": "Fried Ribs with BBQ"
+        },
+        {
+          "value": "Chinese BBQ Ribs"
+        },
+        {
+          "value": "Crispy BBQ Ribs"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Peking Style Family Dinner"
+      },
+      "synonyms": [
+        {
+          "value": "北京式家庭套餐"
+        },
+        {
+          "value": "Beijing Style Family Dinner"
+        },
+        {
+          "value": "Peking Family Meal"
+        },
+        {
+          "value": "Beijing Family Dinner"
+        },
+        {
+          "value": "Peking Style Family Set"
+        },
+        {
+          "value": "Northern Style Family Dinner"
+        },
+        {
+          "value": "Peking Family Combo"
+        },
+        {
+          "value": "Beijing Dinner Set"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Golden Pot Stickers"
+      },
+      "synonyms": [
+        {
+          "value": "黄金锅贴"
+        },
+        {
+          "value": "Pot Stickers"
+        },
+        {
+          "value": "Potstickers"
+        },
+        {
+          "value": "Fried Dumplings"
+        },
+        {
+          "value": "Pan Fried Dumplings"
+        },
+        {
+          "value": "Gyoza"
+        },
+        {
+          "value": "Crispy Bottom Dumplings"
+        },
+        {
+          "value": "Chinese Dumplings"
+        },
+        {
+          "value": "Pork Dumplings"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Mongolian Beef"
+      },
+      "synonyms": [
+        {
+          "value": "蒙古牛肉"
+        },
+        {
+          "value": "Mongolian Style Beef"
+        },
+        {
+          "value": "Beef Mongolian Style"
+        },
+        {
+          "value": "Mongol Beef"
+        },
+        {
+          "value": "Mongolian Beef Stir Fry"
+        },
+        {
+          "value": "Scallion Beef"
+        },
+        {
+          "value": "Beef with Scallions"
+        },
+        {
+          "value": "Green Onion Beef"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "House Special Shrimp"
+      },
+      "synonyms": [
+        {
+          "value": "招牌虾仁"
+        },
+        {
+          "value": "Special Shrimp"
+        },
+        {
+          "value": "Chef Special Shrimp"
+        },
+        {
+          "value": "Signature Shrimp"
+        },
+        {
+          "value": "House Style Shrimp"
+        },
+        {
+          "value": "Restaurant Special Shrimp"
+        },
+        {
+          "value": "Special Prawns"
+        },
+        {
+          "value": "House Specialty Shrimp"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Sweet & Sour Pork"
+      },
+      "synonyms": [
+        {
+          "value": "糖醋里脊"
+        },
+        {
+          "value": "Sweet and Sour Pork"
+        },
+        {
+          "value": "Sweet Sour Pork"
+        },
+        {
+          "value": "Pineapple Sweet Sour Pork"
+        },
+        {
+          "value": "Battered Sweet Sour Pork"
+        },
+        {
+          "value": "Crispy Sweet and Sour Pork"
+        },
+        {
+          "value": "Tang Cu Li Ji"
+        },
+        {
+          "value": "Cantonese Sweet Sour Pork"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Spicy Salt Pepper Shrimp"
+      },
+      "synonyms": [
+        {
+          "value": "椒盐虾"
+        },
+        {
+          "value": "Salt Pepper Shrimp"
+        },
+        {
+          "value": "Salt and Pepper Shrimp"
+        },
+        {
+          "value": "Spicy Salt and Pepper Shrimp"
+        },
+        {
+          "value": "Salt Pepper Prawns"
+        },
+        {
+          "value": "Spicy Shrimp"
+        },
+        {
+          "value": "Crispy Salt Pepper Shrimp"
+        },
+        {
+          "value": "Szechuan Salt Pepper Shrimp"
+        },
+        {
+          "value": "Fried Salt Pepper Shrimp"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Minced Chicken in Lettuce Cup"
+      },
+      "synonyms": [
+        {
+          "value": "生菜包鸡粒"
+        },
+        {
+          "value": "Lettuce Wrap Chicken"
+        },
+        {
+          "value": "Chicken Lettuce Wraps"
+        },
+        {
+          "value": "Lettuce Cups"
+        },
+        {
+          "value": "Chicken in Lettuce"
+        },
+        {
+          "value": "Minced Chicken Lettuce Cup"
+        },
+        {
+          "value": "Diced Chicken in Lettuce Cup"
+        },
+        {
+          "value": "Chicken Lettuce Cup"
+        },
+        {
+          "value": "Lettuce Wrapped Chicken"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Walnut Prawns"
+      },
+      "synonyms": [
+        {
+          "value": "核桃虾"
+        },
+        {
+          "value": "Walnut Shrimp"
+        },
+        {
+          "value": "Honey Walnut Prawns"
+        },
+        {
+          "value": "Honey Walnut Shrimp"
+        },
+        {
+          "value": "Candied Walnut Shrimp"
+        },
+        {
+          "value": "Crispy Walnut Prawns"
+        },
+        {
+          "value": "Sweet Walnut Shrimp"
+        },
+        {
+          "value": "Glazed Walnut Prawns"
+        },
+        {
+          "value": "Shrimp with Walnuts"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Rainbow Fish Fillet"
+      },
+      "synonyms": [
+        {
+          "value": "彩虹鱼柳"
+        },
+        {
+          "value": "Rainbow Fish"
+        },
+        {
+          "value": "Colorful Fish Fillet"
+        },
+        {
+          "value": "Mixed Fish Fillet"
+        },
+        {
+          "value": "Fish Fillet Special"
+        },
+        {
+          "value": "Assorted Fish Fillet"
+        },
+        {
+          "value": "Multi-colored Fish"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Orange Peel Beef"
+      },
+      "synonyms": [
+        {
+          "value": "陈皮牛肉"
+        },
+        {
+          "value": "Orange Beef"
+        },
+        {
+          "value": "Dried Orange Peel Beef"
+        },
+        {
+          "value": "Tangerine Beef"
+        },
+        {
+          "value": "Citrus Beef"
+        },
+        {
+          "value": "Orange Flavored Beef"
+        },
+        {
+          "value": "Beef with Orange Peel"
+        },
+        {
+          "value": "Chen Pi Beef"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Orange Peel Chicken"
+      },
+      "synonyms": [
+        {
+          "value": "陈皮鸡"
+        },
+        {
+          "value": "Orange Chicken"
+        },
+        {
+          "value": "Dried Orange Peel Chicken"
+        },
+        {
+          "value": "Tangerine Chicken"
+        },
+        {
+          "value": "Orange Flavored Chicken"
+        },
+        {
+          "value": "Chicken with Orange Peel"
+        },
+        {
+          "value": "Chen Pi Chicken"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Ginger Green Onion with Oyster"
+      },
+      "synonyms": [
+        {
+          "value": "姜葱蠕蛎"
+        },
+        {
+          "value": "Ginger Scallion Oyster"
+        },
+        {
+          "value": "Oyster with Ginger and Green Onion"
+        },
+        {
+          "value": "Ginger Green Onion Oyster"
+        },
+        {
+          "value": "Scallion Ginger Oysters"
+        },
+        {
+          "value": "Fresh Oyster Ginger Scallion"
+        },
+        {
+          "value": "Steamed Oyster Ginger Onion"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Crispy Fried Oyster"
+      },
+      "synonyms": [
+        {
+          "value": "酥炸蠕蛎"
+        },
+        {
+          "value": "Fried Oyster"
+        },
+        {
+          "value": "Deep Fried Oyster"
+        },
+        {
+          "value": "Battered Oyster"
+        },
+        {
+          "value": "Golden Fried Oyster"
+        },
+        {
+          "value": "Crispy Oysters"
+        },
+        {
+          "value": "Fried Fresh Oyster"
+        },
+        {
+          "value": "Crunchy Oyster"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Ginger Soy Chicken"
+      },
+      "synonyms": [
+        {
+          "value": "姜葱豉油鸡"
+        },
+        {
+          "value": "Soy Ginger Chicken"
+        },
+        {
+          "value": "Ginger Soy Sauce Chicken"
+        },
+        {
+          "value": "Steamed Ginger Soy Chicken"
+        },
+        {
+          "value": "Chicken with Ginger Soy"
+        },
+        {
+          "value": "Soy Sauce Ginger Chicken"
+        },
+        {
+          "value": "Cantonese Soy Chicken"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Crispy Fried Squid with Spicy Pepper"
+      },
+      "synonyms": [
+        {
+          "value": "辣椒酥炸鱿鱼"
+        },
+        {
+          "value": "Spicy Pepper Squid"
+        },
+        {
+          "value": "Salt Pepper Squid"
+        },
+        {
+          "value": "Fried Squid with Pepper"
+        },
+        {
+          "value": "Crispy Squid"
+        },
+        {
+          "value": "Pepper Salt Squid"
+        },
+        {
+          "value": "Spicy Fried Squid"
+        },
+        {
+          "value": "Hot Pepper Squid"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Fried Tofu with Green Bean in Dry Spicy Garlic"
+      },
+      "synonyms": [
+        {
+          "value": "干炒豆角豆腐"
+        },
+        {
+          "value": "Dry Fried Tofu Green Bean"
+        },
+        {
+          "value": "Szechuan Tofu Green Bean"
+        },
+        {
+          "value": "Spicy Garlic Tofu Bean"
+        },
+        {
+          "value": "Mapo Style Tofu Green Bean"
+        },
+        {
+          "value": "Garlic Bean Curd Green Bean"
+        },
+        {
+          "value": "Dry Spicy Tofu Vegetables"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Eggplant with Chicken, Shrimp in Special Sauce"
+      },
+      "synonyms": [
+        {
+          "value": "特色茄子鸡肉虾仁"
+        },
+        {
+          "value": "Special Eggplant Chicken Shrimp"
+        },
+        {
+          "value": "Eggplant Chicken Shrimp Combo"
+        },
+        {
+          "value": "Triple Delight Eggplant"
+        },
+        {
+          "value": "Stuffed Eggplant"
+        },
+        {
+          "value": "Mixed Eggplant Special"
+        },
+        {
+          "value": "Eggplant Combo Special"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Spicy Salt Pepper Pork Chop"
+      },
+      "synonyms": [
+        {
+          "value": "椒盐猪排"
+        },
+        {
+          "value": "Salt Pepper Pork Chop"
+        },
+        {
+          "value": "Salt and Pepper Pork Chop"
+        },
+        {
+          "value": "Pepper Salt Pork Chop"
+        },
+        {
+          "value": "Fried Pork Chop Salt Pepper"
+        },
+        {
+          "value": "Crispy Pork Chop"
+        },
+        {
+          "value": "Szechuan Pork Chop"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Yellow Onion Pork"
+      },
+      "synonyms": [
+        {
+          "value": "洋葱猪肉"
+        },
+        {
+          "value": "Onion Pork"
+        },
+        {
+          "value": "Pork with Onions"
+        },
+        {
+          "value": "Stir Fried Onion Pork"
+        },
+        {
+          "value": "Pork Onion Stir Fry"
+        },
+        {
+          "value": "Sweet Onion Pork"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Spicy Salt Pepper Chicken Wings"
+      },
+      "synonyms": [
+        {
+          "value": "椒盐鸡翅"
+        },
+        {
+          "value": "Salt Pepper Chicken Wings"
+        },
+        {
+          "value": "Salt and Pepper Wings"
+        },
+        {
+          "value": "Pepper Salt Wings"
+        },
+        {
+          "value": "Crispy Chicken Wings"
+        },
+        {
+          "value": "Fried Chicken Wings"
+        },
+        {
+          "value": "Szechuan Wings"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Generals Chicken Wings"
+      },
+      "synonyms": [
+        {
+          "value": "左宗棠鸡翅"
+        },
+        {
+          "value": "General Tso Chicken Wings"
+        },
+        {
+          "value": "General's Wings"
+        },
+        {
+          "value": "Tso Wings"
+        },
+        {
+          "value": "Sweet and Sour Wings"
+        },
+        {
+          "value": "Glazed Chicken Wings"
+        },
+        {
+          "value": "Sticky Wings"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Honey Glazed Barbecued Pork"
+      },
+      "synonyms": [
+        {
+          "value": "蜂蜜叉烧"
+        },
+        {
+          "value": "Honey BBQ Pork"
+        },
+        {
+          "value": "Honey Barbecued Pork"
+        },
+        {
+          "value": "Char Siu"
+        },
+        {
+          "value": "Chinese BBQ Pork"
+        },
+        {
+          "value": "Roast Pork"
+        },
+        {
+          "value": "Cantonese BBQ Pork"
+        },
+        {
+          "value": "Glazed Char Siu"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Crispy Fried Prawns"
+      },
+      "synonyms": [
+        {
+          "value": "酥炸大虾"
+        },
+        {
+          "value": "Fried Prawns"
+        },
+        {
+          "value": "Deep Fried Prawns"
+        },
+        {
+          "value": "Crispy Shrimp"
+        },
+        {
+          "value": "Battered Prawns"
+        },
+        {
+          "value": "Golden Prawns"
+        },
+        {
+          "value": "Tempura Prawns"
+        },
+        {
+          "value": "Crunchy Prawns"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken Salad"
+      },
+      "synonyms": [
+        {
+          "value": "鸡肉沙拉"
+        },
+        {
+          "value": "Chinese Chicken Salad"
+        },
+        {
+          "value": "Shredded Chicken Salad"
+        },
+        {
+          "value": "Cold Chicken Salad"
+        },
+        {
+          "value": "Chicken Lettuce Salad"
+        },
+        {
+          "value": "Mixed Chicken Salad"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Hot & Sour Soup"
+      },
+      "synonyms": [
+        {
+          "value": "酸辣汤"
+        },
+        {
+          "value": "Hot and Sour Soup"
+        },
+        {
+          "value": "Sour and Hot Soup"
+        },
+        {
+          "value": "Szechuan Hot Sour Soup"
+        },
+        {
+          "value": "Spicy Sour Soup"
+        },
+        {
+          "value": "Traditional Hot Sour Soup"
+        },
+        {
+          "value": "Chinese Hot Sour Soup"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Minced Beef with Egg White Soup"
+      },
+      "synonyms": [
+        {
+          "value": "牛肉蛋花汤"
+        },
+        {
+          "value": "Beef Egg White Soup"
+        },
+        {
+          "value": "Egg White Beef Soup"
+        },
+        {
+          "value": "Ground Beef Egg Soup"
+        },
+        {
+          "value": "Beef and Egg White Soup"
+        },
+        {
+          "value": "Minced Beef Egg Soup"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Mixed Vegetable Soup"
+      },
+      "synonyms": [
+        {
+          "value": "杂菜汤"
+        },
+        {
+          "value": "Vegetable Soup"
+        },
+        {
+          "value": "Assorted Vegetable Soup"
+        },
+        {
+          "value": "Fresh Vegetable Soup"
+        },
+        {
+          "value": "Garden Vegetable Soup"
+        },
+        {
+          "value": "Seasonal Vegetable Soup"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Seaweed with Egg Flower Soup"
+      },
+      "synonyms": [
+        {
+          "value": "紫菜蛋花汤"
+        },
+        {
+          "value": "Seaweed Egg Drop Soup"
+        },
+        {
+          "value": "Egg Drop Seaweed Soup"
+        },
+        {
+          "value": "Seaweed and Egg Soup"
+        },
+        {
+          "value": "Nori Egg Soup"
+        },
+        {
+          "value": "Kelp Egg Flower Soup"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Seafood Bean Cake Soup"
+      },
+      "synonyms": [
+        {
+          "value": "海鲜豆腐汤"
+        },
+        {
+          "value": "Seafood Tofu Soup"
+        },
+        {
+          "value": "Mixed Seafood Tofu Soup"
+        },
+        {
+          "value": "Bean Curd Seafood Soup"
+        },
+        {
+          "value": "Tofu Seafood Soup"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Wor Wonton Soup"
+      },
+      "synonyms": [
+        {
+          "value": "照烧云吐面"
+        },
+        {
+          "value": "House Special Wonton Soup"
+        },
+        {
+          "value": "Mixed Wonton Soup"
+        },
+        {
+          "value": "Combination Wonton Soup"
+        },
+        {
+          "value": "Deluxe Wonton Soup"
+        },
+        {
+          "value": "Special Wonton Noodle Soup"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken with Corn Soup"
+      },
+      "synonyms": [
+        {
+          "value": "鸡肉玉米汤"
+        },
+        {
+          "value": "Chicken Corn Soup"
+        },
+        {
+          "value": "Corn Chicken Soup"
+        },
+        {
+          "value": "Sweet Corn Chicken Soup"
+        },
+        {
+          "value": "Creamy Chicken Corn Soup"
+        },
+        {
+          "value": "Chicken and Corn Soup"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Cashew Almond Chicken"
+      },
+      "synonyms": [
+        {
+          "value": "腰果杏仁鸡"
+        },
+        {
+          "value": "Cashews Almond Chicken"
+        },
+        {
+          "value": "Cashew Almonds Chicken"
+        },
+        {
+          "value": "Cashew Chicken"
+        },
+        {
+          "value": "Almond Chicken"
+        },
+        {
+          "value": "Chicken with Cashews and Almonds"
+        },
+        {
+          "value": "Nuts Chicken"
+        },
+        {
+          "value": "Mixed Nuts Chicken"
+        },
+        {
+          "value": "Cashew Almond Stir Fry"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Sweet & Sour Chicken"
+      },
+      "synonyms": [
+        {
+          "value": "糖醋鸡"
+        },
+        {
+          "value": "Sweet and Sour Chicken"
+        },
+        {
+          "value": "Sweet Sour Chicken"
+        },
+        {
+          "value": "Pineapple Sweet Sour Chicken"
+        },
+        {
+          "value": "Battered Sweet Sour Chicken"
+        },
+        {
+          "value": "Crispy Sweet and Sour Chicken"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Lemon Chicken"
+      },
+      "synonyms": [
+        {
+          "value": "柠檬鸡"
+        },
+        {
+          "value": "Lemon Flavored Chicken"
+        },
+        {
+          "value": "Chicken with Lemon Sauce"
+        },
+        {
+          "value": "Citrus Chicken"
+        },
+        {
+          "value": "Sweet Lemon Chicken"
+        },
+        {
+          "value": "Battered Lemon Chicken"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken with Double Mushrooms"
+      },
+      "synonyms": [
+        {
+          "value": "双菇鸡"
+        },
+        {
+          "value": "Double Mushroom Chicken"
+        },
+        {
+          "value": "Chicken with Two Mushrooms"
+        },
+        {
+          "value": "Mixed Mushroom Chicken"
+        },
+        {
+          "value": "Shiitake Button Mushroom Chicken"
+        },
+        {
+          "value": "Chicken Mushroom Medley"
+        },
+        {
+          "value": "Two Mushroom Chicken Stir Fry"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Rainbow Chicken"
+      },
+      "synonyms": [
+        {
+          "value": "彩虹鸡"
+        },
+        {
+          "value": "Colorful Chicken"
+        },
+        {
+          "value": "Multi-colored Chicken"
+        },
+        {
+          "value": "Chicken with Rainbow Vegetables"
+        },
+        {
+          "value": "Special Chicken Medley"
+        },
+        {
+          "value": "Assorted Chicken"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken with Black Bean Sauce"
+      },
+      "synonyms": [
+        {
+          "value": "豉汁鸡"
+        },
+        {
+          "value": "Black Bean Chicken"
+        },
+        {
+          "value": "Chicken in Black Bean Sauce"
+        },
+        {
+          "value": "Steamed Chicken Black Bean"
+        },
+        {
+          "value": "Fermented Black Bean Chicken"
+        },
+        {
+          "value": "Cantonese Black Bean Chicken"
+        },
+        {
+          "value": "Dou Chi Chicken"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Curry Chicken"
+      },
+      "synonyms": [
+        {
+          "value": "咖喇鸡"
+        },
+        {
+          "value": "Chicken Curry"
+        },
+        {
+          "value": "Indian Style Curry Chicken"
+        },
+        {
+          "value": "Spicy Curry Chicken"
+        },
+        {
+          "value": "Yellow Curry Chicken"
+        },
+        {
+          "value": "Coconut Curry Chicken"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Kung Pao Chicken"
+      },
+      "synonyms": [
+        {
+          "value": "宫保鸡丁"
+        },
+        {
+          "value": "Gong Bao Chicken"
+        },
+        {
+          "value": "Kung Po Chicken"
+        },
+        {
+          "value": "Szechuan Kung Pao Chicken"
+        },
+        {
+          "value": "Peanut Chicken"
+        },
+        {
+          "value": "Spicy Peanut Chicken"
+        },
+        {
+          "value": "Diced Chicken with Peanuts"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken with Broccoli"
+      },
+      "synonyms": [
+        {
+          "value": "鸡肉西兰花"
+        },
+        {
+          "value": "Chicken and Broccoli"
+        },
+        {
+          "value": "Broccoli Chicken"
+        },
+        {
+          "value": "Chicken Broccoli Stir Fry"
+        },
+        {
+          "value": "Stir Fried Chicken Broccoli"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Roasted Duck Half"
+      },
+      "synonyms": [
+        {
+          "value": "烧鸭半只"
+        },
+        {
+          "value": "Half Roasted Duck"
+        },
+        {
+          "value": "Half Duck"
+        },
+        {
+          "value": "Roast Duck Half"
+        },
+        {
+          "value": "Half Peking Duck"
+        },
+        {
+          "value": "Chinese Roasted Duck Half"
+        },
+        {
+          "value": "BBQ Duck Half"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Fried Chicken Half"
+      },
+      "synonyms": [
+        {
+          "value": "炸鸡半只"
+        },
+        {
+          "value": "Half Fried Chicken"
+        },
+        {
+          "value": "Half Chicken"
+        },
+        {
+          "value": "Deep Fried Chicken Half"
+        },
+        {
+          "value": "Crispy Chicken Half"
+        },
+        {
+          "value": "Golden Fried Chicken Half"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken with Mixed Vegetables"
+      },
+      "synonyms": [
+        {
+          "value": "杂菜鸡"
+        },
+        {
+          "value": "Mixed Vegetable Chicken"
+        },
+        {
+          "value": "Chicken and Mixed Vegetables"
+        },
+        {
+          "value": "Vegetable Chicken Stir Fry"
+        },
+        {
+          "value": "Chicken with Assorted Vegetables"
+        },
+        {
+          "value": "Garden Vegetable Chicken"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Cantonese Style Spareribs"
+      },
+      "synonyms": [
+        {
+          "value": "豉汁排骨"
+        },
+        {
+          "value": "Cantonese Style Spare Ribs"
+        },
+        {
+          "value": "Cantonese Style Ribs"
+        },
+        {
+          "value": "Black Bean Spareribs"
+        },
+        {
+          "value": "Steamed Spareribs"
+        },
+        {
+          "value": "Dim Sum Ribs"
+        },
+        {
+          "value": "Chinese Style Ribs"
+        },
+        {
+          "value": "Spare Ribs Cantonese"
+        },
+        {
+          "value": "Pork Ribs Black Bean"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Spicy Hot Bean Curd with Minced Pork"
+      },
+      "synonyms": [
+        {
+          "value": "麻婆豆腐"
+        },
+        {
+          "value": "Mapo Tofu"
+        },
+        {
+          "value": "Ma Po Tofu"
+        },
+        {
+          "value": "Szechuan Tofu"
+        },
+        {
+          "value": "Spicy Tofu with Pork"
+        },
+        {
+          "value": "Hot Bean Curd with Minced Pork"
+        },
+        {
+          "value": "Spicy Bean Curd"
+        },
+        {
+          "value": "Tofu in Spicy Sauce"
+        },
+        {
+          "value": "Szechuan Ma Po Doufu"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Succulent Spicy Pork with Garlic Sauce"
+      },
+      "synonyms": [
+        {
+          "value": "鱼香肉丝"
+        },
+        {
+          "value": "Fish Fragrant Pork"
+        },
+        {
+          "value": "Yu Xiang Pork"
+        },
+        {
+          "value": "Szechuan Garlic Pork"
+        },
+        {
+          "value": "Spicy Garlic Pork Shreds"
+        },
+        {
+          "value": "Pork in Garlic Sauce"
+        },
+        {
+          "value": "Shredded Pork Garlic Sauce"
+        },
+        {
+          "value": "Sweet and Sour Pork Shreds"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Supremed Spicy Pork with Garlic Sauce"
+      },
+      "synonyms": [
+        {
+          "value": "咕噜肉"
+        },
+        {
+          "value": "Goo Lao Pork"
+        },
+        {
+          "value": "Gu Lu Pork"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Mu Shu Pork (Four Pan Cake)"
+      },
+      "synonyms": [
+        {
+          "value": "木须肉"
+        },
+        {
+          "value": "Moo Shu Pork"
+        },
+        {
+          "value": "Mu Xu Pork"
+        },
+        {
+          "value": "Pork with Pancakes"
+        },
+        {
+          "value": "Shredded Pork with Pancakes"
+        },
+        {
+          "value": "Pork Pancake Wraps"
+        },
+        {
+          "value": "Mandarin Pancakes with Pork"
+        },
+        {
+          "value": "Egg and Pork Pancakes"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Spareribs with Black Bean Sauce"
+      },
+      "synonyms": [
+        {
+          "value": "Spareribs with Bean Sauce"
+        },
+        {
+          "value": "Ribs with Black Bean Sauce"
+        },
+        {
+          "value": "Spare Ribs with Black Bean Sauce"
+        },
+        {
+          "value": "Spareribs with Black Bean"
+        },
+        {
+          "value": "Pork Ribs Black Bean Sauce"
+        },
+        {
+          "value": "Black Bean Pork Ribs"
+        },
+        {
+          "value": "Cantonese Spareribs"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Barbecued Pork with Bean Cake"
+      },
+      "synonyms": [
+        {
+          "value": "叉烧豆腐"
+        },
+        {
+          "value": "Char Siu with Tofu"
+        },
+        {
+          "value": "BBQ Pork with Tofu"
+        },
+        {
+          "value": "Roast Pork Bean Curd"
+        },
+        {
+          "value": "Barbecued Pork Tofu"
+        },
+        {
+          "value": "Chinese BBQ Pork with Bean Curd"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Barbecued Pork with Mixed Vegetables"
+      },
+      "synonyms": [
+        {
+          "value": "叉烧杂菜"
+        },
+        {
+          "value": "Char Siu with Mixed Vegetables"
+        },
+        {
+          "value": "BBQ Pork with Mixed Vegetables"
+        },
+        {
+          "value": "Roast Pork Mixed Vegetables"
+        },
+        {
+          "value": "Chinese BBQ Pork Vegetables"
+        },
+        {
+          "value": "Barbecued Pork Vegetable Medley"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Peking Spicy Beef"
+      },
+      "synonyms": [
+        {
+          "value": "北京辣牛肉"
+        },
+        {
+          "value": "Beijing Spicy Beef"
+        },
+        {
+          "value": "Spicy Beijing Beef"
+        },
+        {
+          "value": "Peking Style Spicy Beef"
+        },
+        {
+          "value": "Northern Style Spicy Beef"
+        },
+        {
+          "value": "Hot Spicy Beef Peking Style"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Curry Beef"
+      },
+      "synonyms": [
+        {
+          "value": "咖喇牛肉"
+        },
+        {
+          "value": "Beef Curry"
+        },
+        {
+          "value": "Indian Style Curry Beef"
+        },
+        {
+          "value": "Spicy Curry Beef"
+        },
+        {
+          "value": "Yellow Curry Beef"
+        },
+        {
+          "value": "Coconut Curry Beef"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Black Bean Sauce"
+      },
+      "synonyms": [
+        {
+          "value": "豉汁牛肉"
+        },
+        {
+          "value": "Black Bean Beef"
+        },
+        {
+          "value": "Beef in Black Bean Sauce"
+        },
+        {
+          "value": "Fermented Black Bean Beef"
+        },
+        {
+          "value": "Cantonese Black Bean Beef"
+        },
+        {
+          "value": "Dou Chi Beef"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Broccoli"
+      },
+      "synonyms": [
+        {
+          "value": "牛肉西兰花"
+        },
+        {
+          "value": "Beef and Broccoli"
+        },
+        {
+          "value": "Broccoli Beef"
+        },
+        {
+          "value": "Beef Broccoli Stir Fry"
+        },
+        {
+          "value": "Stir Fried Beef Broccoli"
+        },
+        {
+          "value": "Classic Beef Broccoli"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Oyster Sauce"
+      },
+      "synonyms": [
+        {
+          "value": "蠕油牛肉"
+        },
+        {
+          "value": "Oyster Sauce Beef"
+        },
+        {
+          "value": "Beef in Oyster Sauce"
+        },
+        {
+          "value": "Cantonese Oyster Beef"
+        },
+        {
+          "value": "Stir Fried Beef Oyster Sauce"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Snow Peas"
+      },
+      "synonyms": [
+        {
+          "value": "牛肉荷兰豆"
+        },
+        {
+          "value": "Snow Pea Beef"
+        },
+        {
+          "value": "Beef and Snow Peas"
+        },
+        {
+          "value": "Snow Peas Beef Stir Fry"
+        },
+        {
+          "value": "Beef with Sugar Snap Peas"
+        },
+        {
+          "value": "Mangetout Beef"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Mixed Vegetables"
+      },
+      "synonyms": [
+        {
+          "value": "牛肉杂菜"
+        },
+        {
+          "value": "Mixed Vegetable Beef"
+        },
+        {
+          "value": "Beef and Mixed Vegetables"
+        },
+        {
+          "value": "Vegetable Beef Stir Fry"
+        },
+        {
+          "value": "Beef with Assorted Vegetables"
+        },
+        {
+          "value": "Garden Vegetable Beef"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp Chicken with Cashew Almond"
+      },
+      "synonyms": [
+        {
+          "value": "虾仁鸡肉腰果杏仁"
+        },
+        {
+          "value": "Cashew Almond Shrimp Chicken"
+        },
+        {
+          "value": "Mixed Nuts Shrimp Chicken"
+        },
+        {
+          "value": "Chicken Shrimp with Nuts"
+        },
+        {
+          "value": "Combination Cashew Almond"
+        },
+        {
+          "value": "Surf and Turf with Nuts"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp with Snow Peas"
+      },
+      "synonyms": [
+        {
+          "value": "虾仁荷兰豆"
+        },
+        {
+          "value": "Snow Pea Shrimp"
+        },
+        {
+          "value": "Prawns with Snow Peas"
+        },
+        {
+          "value": "Shrimp and Snow Peas"
+        },
+        {
+          "value": "Snow Peas Shrimp Stir Fry"
+        },
+        {
+          "value": "Mangetout Shrimp"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp with Double Mushrooms"
+      },
+      "synonyms": [
+        {
+          "value": "虾仁双菇"
+        },
+        {
+          "value": "Double Mushroom Shrimp"
+        },
+        {
+          "value": "Prawns with Two Mushrooms"
+        },
+        {
+          "value": "Mixed Mushroom Shrimp"
+        },
+        {
+          "value": "Shiitake Button Mushroom Shrimp"
+        },
+        {
+          "value": "Shrimp Mushroom Medley"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp with Lobster Sauce"
+      },
+      "synonyms": [
+        {
+          "value": "龙虾仁"
+        },
+        {
+          "value": "Lobster Sauce Shrimp"
+        },
+        {
+          "value": "Prawns in Lobster Sauce"
+        },
+        {
+          "value": "Cantonese Lobster Sauce Shrimp"
+        },
+        {
+          "value": "Shrimp in Black Bean Egg Sauce"
+        },
+        {
+          "value": "Lobster Style Shrimp"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Supremed Sweet & Sour Shrimp"
+      },
+      "synonyms": [
+        {
+          "value": "糖醋虾仁"
+        },
+        {
+          "value": "Sweet and Sour Shrimp"
+        },
+        {
+          "value": "Sweet Sour Prawns"
+        },
+        {
+          "value": "Pineapple Sweet Sour Shrimp"
+        },
+        {
+          "value": "Battered Sweet Sour Shrimp"
+        },
+        {
+          "value": "Crispy Sweet and Sour Shrimp"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Kung Pao Shrimp"
+      },
+      "synonyms": [
+        {
+          "value": "宫保虾仁"
+        },
+        {
+          "value": "Gong Bao Shrimp"
+        },
+        {
+          "value": "Kung Po Shrimp"
+        },
+        {
+          "value": "Szechuan Kung Pao Shrimp"
+        },
+        {
+          "value": "Peanut Shrimp"
+        },
+        {
+          "value": "Spicy Peanut Shrimp"
+        },
+        {
+          "value": "Prawns with Peanuts"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Curry Shrimp"
+      },
+      "synonyms": [
+        {
+          "value": "咖喇虾仁"
+        },
+        {
+          "value": "Shrimp Curry"
+        },
+        {
+          "value": "Prawns Curry"
+        },
+        {
+          "value": "Indian Style Curry Shrimp"
+        },
+        {
+          "value": "Spicy Curry Shrimp"
+        },
+        {
+          "value": "Coconut Curry Shrimp"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp with Cashew"
+      },
+      "synonyms": [
+        {
+          "value": "虾仁腰果"
+        },
+        {
+          "value": "Cashew Shrimp"
+        },
+        {
+          "value": "Prawns with Cashews"
+        },
+        {
+          "value": "Cashew Nuts Shrimp"
+        },
+        {
+          "value": "Shrimp and Cashews"
+        },
+        {
+          "value": "Stir Fried Cashew Shrimp"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Seafood Deluxe"
+      },
+      "synonyms": [
+        {
+          "value": "海鲜大全"
+        },
+        {
+          "value": "Deluxe Seafood"
+        },
+        {
+          "value": "Mixed Seafood Platter"
+        },
+        {
+          "value": "Seafood Combination"
+        },
+        {
+          "value": "Special Seafood Medley"
+        },
+        {
+          "value": "Assorted Seafood"
+        },
+        {
+          "value": "House Special Seafood"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Clams with Ginger Scallions"
+      },
+      "synonyms": [
+        {
+          "value": "姜葱蛤蜆"
+        },
+        {
+          "value": "Ginger Scallion Clams"
+        },
+        {
+          "value": "Clams with Ginger and Green Onion"
+        },
+        {
+          "value": "Steamed Clams Ginger Scallion"
+        },
+        {
+          "value": "Fresh Clams Ginger Style"
+        },
+        {
+          "value": "Cantonese Style Clams"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Clams with Black Bean Sauce"
+      },
+      "synonyms": [
+        {
+          "value": "豉汁蛤蜆"
+        },
+        {
+          "value": "Black Bean Clams"
+        },
+        {
+          "value": "Clams in Black Bean Sauce"
+        },
+        {
+          "value": "Fermented Black Bean Clams"
+        },
+        {
+          "value": "Steamed Clams Black Bean"
+        },
+        {
+          "value": "Dou Chi Clams"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Braised Fish Fillet"
+      },
+      "synonyms": [
+        {
+          "value": "红烧鱼柳"
+        },
+        {
+          "value": "Red Cooked Fish Fillet"
+        },
+        {
+          "value": "Soy Braised Fish"
+        },
+        {
+          "value": "Chinese Braised Fish"
+        },
+        {
+          "value": "Fish Fillet in Brown Sauce"
+        },
+        {
+          "value": "Stewed Fish Fillet"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Fish Fillet in Black Bean Sauce"
+      },
+      "synonyms": [
+        {
+          "value": "豉汁鱼柳"
+        },
+        {
+          "value": "Black Bean Fish Fillet"
+        },
+        {
+          "value": "Fish with Black Bean Sauce"
+        },
+        {
+          "value": "Fermented Black Bean Fish"
+        },
+        {
+          "value": "Steamed Fish Black Bean"
+        },
+        {
+          "value": "Dou Chi Fish"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Sweet and Sour Whole Fish"
+      },
+      "synonyms": [
+        {
+          "value": "糖醋全鱼"
+        },
+        {
+          "value": "Sweet & Sour Whole Fish"
+        },
+        {
+          "value": "Whole Fish Sweet Sour"
+        },
+        {
+          "value": "Pineapple Sweet Sour Fish"
+        },
+        {
+          "value": "Crispy Sweet and Sour Fish"
+        },
+        {
+          "value": "Deep Fried Sweet Sour Fish"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Steamed Whole Fish"
+      },
+      "synonyms": [
+        {
+          "value": "清蒸全鱼"
+        },
+        {
+          "value": "Whole Steamed Fish"
+        },
+        {
+          "value": "Fresh Steamed Fish"
+        },
+        {
+          "value": "Cantonese Steamed Fish"
+        },
+        {
+          "value": "Ginger Scallion Steamed Fish"
+        },
+        {
+          "value": "Traditional Steamed Fish"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Fresh Vegetables Deluxe"
+      },
+      "synonyms": [
+        {
+          "value": "新鲜蔬菜大全"
+        },
+        {
+          "value": "Deluxe Fresh Vegetables"
+        },
+        {
+          "value": "Mixed Fresh Vegetables"
+        },
+        {
+          "value": "Seasonal Vegetable Medley"
+        },
+        {
+          "value": "Garden Fresh Vegetables"
+        },
+        {
+          "value": "Assorted Fresh Vegetables"
+        },
+        {
+          "value": "Special Vegetable Combination"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Snow Peas with Water Chestnuts"
+      },
+      "synonyms": [
+        {
+          "value": "荷兰豆马蹄"
+        },
+        {
+          "value": "Snow Peas and Water Chestnuts"
+        },
+        {
+          "value": "Water Chestnuts Snow Peas"
+        },
+        {
+          "value": "Mangetout with Water Chestnuts"
+        },
+        {
+          "value": "Crispy Snow Peas Water Chestnuts"
+        },
+        {
+          "value": "Stir Fried Snow Peas Chestnuts"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Eggplant with Garlic Sauce"
+      },
+      "synonyms": [
+        {
+          "value": "鱼香茄子"
+        },
+        {
+          "value": "Garlic Sauce Eggplant"
+        },
+        {
+          "value": "Szechuan Eggplant"
+        },
+        {
+          "value": "Yu Xiang Eggplant"
+        },
+        {
+          "value": "Fish Fragrant Eggplant"
+        },
+        {
+          "value": "Spicy Garlic Eggplant"
+        },
+        {
+          "value": "Chinese Eggplant in Garlic Sauce"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Broccoli with Oyster Sauce"
+      },
+      "synonyms": [
+        {
+          "value": "Broccli with Oyster Sauce"
+        },
+        {
+          "value": "蚝油西兰花"
+        },
+        {
+          "value": "Broccoli in Oyster Sauce"
+        },
+        {
+          "value": "Chinese Broccoli"
+        },
+        {
+          "value": "Gai Lan"
+        },
+        {
+          "value": "Oyster Sauce Broccoli"
+        },
+        {
+          "value": "Steamed Broccoli Oyster Sauce"
+        },
+        {
+          "value": "Cantonese Broccoli"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Vegetarian's Special"
+      },
+      "synonyms": [
+        {
+          "value": "素食特色"
+        },
+        {
+          "value": "Vegetarian Special"
+        },
+        {
+          "value": "Veggie Special"
+        },
+        {
+          "value": "Buddhist Delight"
+        },
+        {
+          "value": "Mock Meat Special"
+        },
+        {
+          "value": "Vegetarian Combination"
+        },
+        {
+          "value": "Temple Style Vegetables"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Double Mushroom with Oyster Sauce"
+      },
+      "synonyms": [
+        {
+          "value": "蚝油双菇"
+        },
+        {
+          "value": "Mushrooms with Oyster Sauce"
+        },
+        {
+          "value": "Double Mushrooms with Oyster Sauce"
+        },
+        {
+          "value": "Mixed Mushrooms"
+        },
+        {
+          "value": "Two Mushroom Dish"
+        },
+        {
+          "value": "Shiitake and Button Mushrooms"
+        },
+        {
+          "value": "Mushroom Medley"
+        },
+        {
+          "value": "Oyster Sauce Mushrooms"
+        },
+        {
+          "value": "Chinese Mushrooms"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Braised Bean Cake"
+      },
+      "synonyms": [
+        {
+          "value": "红烧豆腐"
+        },
+        {
+          "value": "Braised Tofu"
+        },
+        {
+          "value": "Red Cooked Bean Curd"
+        },
+        {
+          "value": "Soy Braised Tofu"
+        },
+        {
+          "value": "Chinese Braised Bean Cake"
+        },
+        {
+          "value": "Home Style Tofu"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Mixed Vegetables with Bean Cake"
+      },
+      "synonyms": [
+        {
+          "value": "杂菜豆腐"
+        },
+        {
+          "value": "Mixed Vegetables with Tofu"
+        },
+        {
+          "value": "Vegetable Tofu Medley"
+        },
+        {
+          "value": "Bean Curd with Mixed Vegetables"
+        },
+        {
+          "value": "Tofu and Vegetables"
+        },
+        {
+          "value": "Assorted Vegetables Bean Cake"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "House Special Bean Cake"
+      },
+      "synonyms": [
+        {
+          "value": "招牌豆腐"
+        },
+        {
+          "value": "House Special Tofu"
+        },
+        {
+          "value": "Special Bean Curd"
+        },
+        {
+          "value": "Chef Special Tofu"
+        },
+        {
+          "value": "Signature Bean Cake"
+        },
+        {
+          "value": "Restaurant Style Tofu"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Kung Pao To Fu"
+      },
+      "synonyms": [
+        {
+          "value": "宫保豆腐"
+        },
+        {
+          "value": "Kung Pao Tofu"
+        },
+        {
+          "value": "Gong Bao Tofu"
+        },
+        {
+          "value": "Szechuan Kung Pao Bean Curd"
+        },
+        {
+          "value": "Peanut Tofu"
+        },
+        {
+          "value": "Spicy Peanut Bean Cake"
+        },
+        {
+          "value": "Kung Po Bean Curd"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Barbecued Pork Wonton Soup"
+      },
+      "synonyms": [
+        {
+          "value": "叉烧云吞面"
+        },
+        {
+          "value": "Char Siu Wonton Soup"
+        },
+        {
+          "value": "Barbecued Pork Won Ton Soup"
+        },
+        {
+          "value": "Cha Siu Wonton Soup"
+        },
+        {
+          "value": "BBQ Pork Wonton Soup"
+        },
+        {
+          "value": "Chinese BBQ Pork Wonton"
+        },
+        {
+          "value": "Roast Pork Wonton Soup"
+        },
+        {
+          "value": "Wonton Noodle Soup with Pork"
+        },
+        {
+          "value": "Dumpling Soup with BBQ Pork"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef Wonton Soup"
+      },
+      "synonyms": [
+        {
+          "value": "牛肉云吞面"
+        },
+        {
+          "value": "Beef Won Ton Soup"
+        },
+        {
+          "value": "Beef Wonton Noodle Soup"
+        },
+        {
+          "value": "Beef Dumpling Soup"
+        },
+        {
+          "value": "Wonton Soup with Beef"
+        },
+        {
+          "value": "Beef Noodle Wonton"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken Wonton Soup"
+      },
+      "synonyms": [
+        {
+          "value": "鸡肉云吞面"
+        },
+        {
+          "value": "Chicken Won Ton Soup"
+        },
+        {
+          "value": "Chicken Wonton Noodle Soup"
+        },
+        {
+          "value": "Chicken Dumpling Soup"
+        },
+        {
+          "value": "Wonton Soup with Chicken"
+        },
+        {
+          "value": "Chicken Noodle Wonton"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Roasted Duck Wonton Soup"
+      },
+      "synonyms": [
+        {
+          "value": "Roasted Duck Won Ton Soup"
+        },
+        {
+          "value": "烧鸭云吞面"
+        },
+        {
+          "value": "Roast Duck Wonton Soup"
+        },
+        {
+          "value": "Duck Wonton Noodle Soup"
+        },
+        {
+          "value": "Peking Duck Wonton"
+        },
+        {
+          "value": "Duck Dumpling Soup"
+        },
+        {
+          "value": "Wonton Soup with Duck"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp Wonton Soup"
+      },
+      "synonyms": [
+        {
+          "value": "虾仁云吐面"
+        },
+        {
+          "value": "Shrimp Won Ton Soup"
+        },
+        {
+          "value": "Prawn Wonton Soup"
+        },
+        {
+          "value": "Shrimp Wonton Noodle Soup"
+        },
+        {
+          "value": "Shrimp Dumpling Soup"
+        },
+        {
+          "value": "Wonton Soup with Shrimp"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Barbecued Pork Noodle Soup"
+      },
+      "synonyms": [
+        {
+          "value": "叉烧面"
+        },
+        {
+          "value": "Char Siu Noodle Soup"
+        },
+        {
+          "value": "BBQ Pork Noodle Soup"
+        },
+        {
+          "value": "Roast Pork Noodle Soup"
+        },
+        {
+          "value": "Chinese BBQ Pork Noodles"
+        },
+        {
+          "value": "Cantonese Roast Pork Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef Noodle Soup"
+      },
+      "synonyms": [
+        {
+          "value": "牛肉面"
+        },
+        {
+          "value": "Beef Noodles"
+        },
+        {
+          "value": "Chinese Beef Noodle Soup"
+        },
+        {
+          "value": "Beef Broth Noodles"
+        },
+        {
+          "value": "Taiwanese Beef Noodle"
+        },
+        {
+          "value": "Spicy Beef Noodle Soup"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken Noodle Soup"
+      },
+      "synonyms": [
+        {
+          "value": "鸡肉面"
+        },
+        {
+          "value": "Chicken Noodles"
+        },
+        {
+          "value": "Chinese Chicken Noodle Soup"
+        },
+        {
+          "value": "Chicken Broth Noodles"
+        },
+        {
+          "value": "Comfort Chicken Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Roasted Duck Noodle Soup"
+      },
+      "synonyms": [
+        {
+          "value": "烧鸭面"
+        },
+        {
+          "value": "Roast Duck Noodle Soup"
+        },
+        {
+          "value": "Duck Noodles"
+        },
+        {
+          "value": "Peking Duck Noodle Soup"
+        },
+        {
+          "value": "Chinese Roasted Duck Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp Noodle Soup"
+      },
+      "synonyms": [
+        {
+          "value": "虾仁面"
+        },
+        {
+          "value": "Prawn Noodle Soup"
+        },
+        {
+          "value": "Shrimp Noodles"
+        },
+        {
+          "value": "Seafood Noodle Soup"
+        },
+        {
+          "value": "Fresh Shrimp Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "House Special Chow Mein"
+      },
+      "synonyms": [
+        {
+          "value": "招牌炒面"
+        },
+        {
+          "value": "Special Chow Mein"
+        },
+        {
+          "value": "Combination Chow Mein"
+        },
+        {
+          "value": "Mixed Chow Mein"
+        },
+        {
+          "value": "Chef Special Chow Mein"
+        },
+        {
+          "value": "Deluxe Chow Mein"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Barbecued Pork Chow Mein"
+      },
+      "synonyms": [
+        {
+          "value": "叉烧炒面"
+        },
+        {
+          "value": "Char Siu Chow Mein"
+        },
+        {
+          "value": "BBQ Pork Chow Mein"
+        },
+        {
+          "value": "Roast Pork Chow Mein"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken Chow Mein"
+      },
+      "synonyms": [
+        {
+          "value": "鸡肉炒面"
+        },
+        {
+          "value": "Chicken Lo Mein"
+        },
+        {
+          "value": "Chicken Fried Noodles"
+        },
+        {
+          "value": "Stir Fried Chicken Noodles"
+        },
+        {
+          "value": "Chicken Soft Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Tomato Chow Mein"
+      },
+      "synonyms": [
+        {
+          "value": "番茄牛肉炒面"
+        },
+        {
+          "value": "Tomato Beef Chow Mein"
+        },
+        {
+          "value": "Beef Tomato Lo Mein"
+        },
+        {
+          "value": "Beef and Tomato Noodles"
+        },
+        {
+          "value": "Tomato Beef Fried Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp Chow Mein"
+      },
+      "synonyms": [
+        {
+          "value": "虾仁炒面"
+        },
+        {
+          "value": "Prawn Chow Mein"
+        },
+        {
+          "value": "Shrimp Lo Mein"
+        },
+        {
+          "value": "Shrimp Fried Noodles"
+        },
+        {
+          "value": "Stir Fried Shrimp Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "House Special Pan Fried Noodles"
+      },
+      "synonyms": [
+        {
+          "value": "招牌炒粉面"
+        },
+        {
+          "value": "House Special Fried Noodles"
+        },
+        {
+          "value": "Special Pan Fried Noodles"
+        },
+        {
+          "value": "Combination Pan Fried Noodles"
+        },
+        {
+          "value": "Mixed Pan Fried Noodles"
+        },
+        {
+          "value": "Chef Special Noodles"
+        },
+        {
+          "value": "Deluxe Pan Fried Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Seafood Pan Fried Noodles"
+      },
+      "synonyms": [
+        {
+          "value": "海鲜炒粉面"
+        },
+        {
+          "value": "Sea Food Pan Fried Noodles"
+        },
+        {
+          "value": "Mixed Seafood Pan Fried Noodles"
+        },
+        {
+          "value": "Seafood Crispy Noodles"
+        },
+        {
+          "value": "Pan Fried Noodles with Seafood"
+        },
+        {
+          "value": "Combination Seafood Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Tender Green Pan Fried Noodles"
+      },
+      "synonyms": [
+        {
+          "value": "芥兰牛炒粉面"
+        },
+        {
+          "value": "Beef with Chinese Broccoli Pan Fried Noodles"
+        },
+        {
+          "value": "Gai Lan Beef Noodles"
+        },
+        {
+          "value": "Beef Tender Green Crispy Noodles"
+        },
+        {
+          "value": "Chinese Kale Beef Noodles"
+        },
+        {
+          "value": "Pan Fried Noodles Beef Greens"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Broccoli Pan Fried Noodles"
+      },
+      "synonyms": [
+        {
+          "value": "Beef with Broccli Pan Fried Noodles"
+        },
+        {
+          "value": "西兰花牛炒粉面"
+        },
+        {
+          "value": "Beef and Broccoli Pan Fried Noodles"
+        },
+        {
+          "value": "Broccoli Beef Crispy Noodles"
+        },
+        {
+          "value": "Pan Fried Noodles with Beef Broccoli"
+        },
+        {
+          "value": "Beef Broccoli Fried Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Black Bean Sauce Pan Fried Noodles"
+      },
+      "synonyms": [
+        {
+          "value": "豉汁牛肉炒面"
+        },
+        {
+          "value": "Black Bean Beef Pan Fried Noodles"
+        },
+        {
+          "value": "Beef Black Bean Crispy Noodles"
+        },
+        {
+          "value": "Pan Fried Noodles Beef Black Bean"
+        },
+        {
+          "value": "Crispy Noodles with Beef Black Bean"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken with Tender Green Pan Fried Noodles"
+      },
+      "synonyms": [
+        {
+          "value": "芥兰鸡炒面"
+        },
+        {
+          "value": "Chicken Chinese Broccoli Pan Fried Noodles"
+        },
+        {
+          "value": "Gai Lan Chicken Crispy Noodles"
+        },
+        {
+          "value": "Chicken Tender Green Crispy Noodles"
+        },
+        {
+          "value": "Chinese Kale Chicken Pan Fried Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken with Black Bean Sauce Pan Fried Noodles"
+      },
+      "synonyms": [
+        {
+          "value": "豉汁鸡炒面"
+        },
+        {
+          "value": "Black Bean Chicken Pan Fried Noodles"
+        },
+        {
+          "value": "Chicken Black Bean Crispy Noodles"
+        },
+        {
+          "value": "Pan Fried Noodles Chicken Black Bean"
+        },
+        {
+          "value": "Crispy Noodles with Chicken Black Bean"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp with Tender Green Pan Fried Noodles"
+      },
+      "synonyms": [
+        {
+          "value": "芥兰虾仁炒面"
+        },
+        {
+          "value": "Shrimp Chinese Broccoli Pan Fried Noodles"
+        },
+        {
+          "value": "Gai Lan Shrimp Crispy Noodles"
+        },
+        {
+          "value": "Shrimp Tender Green Crispy Noodles"
+        },
+        {
+          "value": "Chinese Kale Shrimp Pan Fried Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp with Mixed Vegetable Pan Fried Noodles"
+      },
+      "synonyms": [
+        {
+          "value": "杂菜虾仁炒面"
+        },
+        {
+          "value": "Mixed Vegetable Shrimp Pan Fried Noodles"
+        },
+        {
+          "value": "Shrimp Vegetable Crispy Noodles"
+        },
+        {
+          "value": "Pan Fried Noodles Shrimp Vegetables"
+        },
+        {
+          "value": "Vegetable Shrimp Crispy Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp with Black Bean Sauce Pan Fried Noodles"
+      },
+      "synonyms": [
+        {
+          "value": "豉汁虾仁炒面"
+        },
+        {
+          "value": "Black Bean Shrimp Pan Fried Noodles"
+        },
+        {
+          "value": "Shrimp Black Bean Crispy Noodles"
+        },
+        {
+          "value": "Pan Fried Noodles Shrimp Black Bean"
+        },
+        {
+          "value": "Crispy Noodles with Shrimp Black Bean"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "House Special Fried Rice"
+      },
+      "synonyms": [
+        {
+          "value": "招牌炒饭"
+        },
+        {
+          "value": "Special Fried Rice"
+        },
+        {
+          "value": "Chef Special Fried Rice"
+        },
+        {
+          "value": "Combination Fried Rice"
+        },
+        {
+          "value": "Mixed Fried Rice"
+        },
+        {
+          "value": "Deluxe Fried Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp Fried Rice"
+      },
+      "synonyms": [
+        {
+          "value": "虾仁炒饭"
+        },
+        {
+          "value": "Fried Rice with Shrimp"
+        },
+        {
+          "value": "Prawns Fried Rice"
+        },
+        {
+          "value": "Shrimp and Rice"
+        },
+        {
+          "value": "Stir Fried Shrimp Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Yang Chow Fried Rice"
+      },
+      "synonyms": [
+        {
+          "value": "扬州炒饭"
+        },
+        {
+          "value": "Yangzhou Fried Rice"
+        },
+        {
+          "value": "Yang Zhou Fried Rice"
+        },
+        {
+          "value": "House Fried Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Barbecued Pork Fried Rice"
+      },
+      "synonyms": [
+        {
+          "value": "叉烧炒饭"
+        },
+        {
+          "value": "Char Siu Fried Rice"
+        },
+        {
+          "value": "BBQ Pork Fried Rice"
+        },
+        {
+          "value": "Chinese BBQ Pork Rice"
+        },
+        {
+          "value": "Roast Pork Fried Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken Fried Rice"
+      },
+      "synonyms": [
+        {
+          "value": "鸡肉炒饭"
+        },
+        {
+          "value": "Fried Rice with Chicken"
+        },
+        {
+          "value": "Chicken and Rice"
+        },
+        {
+          "value": "Stir Fried Chicken Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef Fried Rice"
+      },
+      "synonyms": [
+        {
+          "value": "牛肉炒饭"
+        },
+        {
+          "value": "Fried Rice with Beef"
+        },
+        {
+          "value": "Beef and Rice"
+        },
+        {
+          "value": "Stir Fried Beef Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Fresh Vegetables Fried Rice"
+      },
+      "synonyms": [
+        {
+          "value": "蔬菜炒饭"
+        },
+        {
+          "value": "Vegetable Fried Rice"
+        },
+        {
+          "value": "Mixed Vegetable Fried Rice"
+        },
+        {
+          "value": "Garden Vegetable Rice"
+        },
+        {
+          "value": "Seasonal Vegetable Fried Rice"
+        },
+        {
+          "value": "Veggie Fried Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken with Salted Fish Fried Rice"
+      },
+      "synonyms": [
+        {
+          "value": "咸鱼鸡粒炒饭"
+        },
+        {
+          "value": "Salted Fish Chicken Fried Rice"
+        },
+        {
+          "value": "Chicken Salted Fish Rice"
+        },
+        {
+          "value": "Preserved Fish Chicken Rice"
+        },
+        {
+          "value": "Dried Fish Chicken Fried Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Steamed Rice"
+      },
+      "synonyms": [
+        {
+          "value": "白饭"
+        },
+        {
+          "value": "White Rice"
+        },
+        {
+          "value": "Plain Rice"
+        },
+        {
+          "value": "Bowl of Rice"
+        },
+        {
+          "value": "Plain White Rice"
+        },
+        {
+          "value": "Steam Rice"
+        },
+        {
+          "value": "Rice Bowl"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "House Special Chow Fun"
+      },
+      "synonyms": [
+        {
+          "value": "招牌炒粉"
+        },
+        {
+          "value": "House Special Chow Fun Noodles"
+        },
+        {
+          "value": "Special Chow Fun"
+        },
+        {
+          "value": "Combination Chow Fun"
+        },
+        {
+          "value": "Mixed Chow Fun"
+        },
+        {
+          "value": "Chef Special Chow Fun"
+        },
+        {
+          "value": "Deluxe Rice Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Seafood Chow Fun"
+      },
+      "synonyms": [
+        {
+          "value": "Sea Food Chow Fun"
+        },
+        {
+          "value": "海鲜炒粉"
+        },
+        {
+          "value": "Mixed Seafood Chow Fun"
+        },
+        {
+          "value": "Seafood Rice Noodles"
+        },
+        {
+          "value": "Combination Seafood Chow Fun"
+        },
+        {
+          "value": "Fresh Seafood Ho Fun"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp with Tender Green Chow Fun"
+      },
+      "synonyms": [
+        {
+          "value": "芥兰虾炒粉"
+        },
+        {
+          "value": "Shrimp with Chinese Broccoli Chow Fun"
+        },
+        {
+          "value": "Gai Lan Shrimp Rice Noodles"
+        },
+        {
+          "value": "Shrimp Tender Green Ho Fun"
+        },
+        {
+          "value": "Chinese Kale Shrimp Chow Fun"
+        },
+        {
+          "value": "Prawns with Greens Chow Fun"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp with Black Bean Sauce Chow Fun"
+      },
+      "synonyms": [
+        {
+          "value": "豉汁虾仁炒粉"
+        },
+        {
+          "value": "Black Bean Shrimp Chow Fun"
+        },
+        {
+          "value": "Shrimp Black Bean Rice Noodles"
+        },
+        {
+          "value": "Black Bean Prawns Ho Fun"
+        },
+        {
+          "value": "Shrimp Black Bean Flat Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Bean Sprout Chow Fun"
+      },
+      "synonyms": [
+        {
+          "value": "牛肉豆芽炒粉"
+               },
+        {
+          "value": "Bean Sprout Beef Chow Fun"
+        },
+        {
+          "value": "Beef Bean Sprout Rice Noodles"
+        },
+        {
+          "value": "Bean Sprout Beef Ho Fun"
+        },
+        {
+          "value": "Beef with Mung Bean Sprouts Chow Fun"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Black Bean Sauce Chow Fun"
+      },
+      "synonyms": [
+        {
+          "value": "豉汁牛肉炒粉"
+        },
+        {
+          "value": "Black Bean Beef Chow Fun"
+        },
+        {
+          "value": "Beef Black Bean Rice Noodles"
+        },
+        {
+          "value": "Black Bean Beef Ho Fun"
+        },
+        {
+          "value": "Beef Black Bean Flat Noodles"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Singapore Style Rice Noodle"
+      },
+      "synonyms": [
+        {
+          "value": "星洲炒米粉"
+        },
+        {
+          "value": "Singapore Rice Noodles"
+        },
+        {
+          "value": "Singapore Fried Rice Noodles"
+        },
+        {
+          "value": "Curry Singapore Noodles"
+        },
+        {
+          "value": "Singapore Style Mei Fun"
+        },
+        {
+          "value": "Curry Rice Vermicelli"
+        },
+        {
+          "value": "Singapore Mei Fun"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "House Special on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "招牌饭"
+        },
+        {
+          "value": "House Special Rice Dish"
+        },
+        {
+          "value": "Special Rice Combination"
+        },
+        {
+          "value": "Chef Special on Rice"
+        },
+        {
+          "value": "Mixed Special Rice"
+        },
+        {
+          "value": "Combination Rice Plate"
+        },
+        {
+          "value": "Deluxe Rice Dish"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Seafood on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "海鲜饭"
+        },
+        {
+          "value": "Sea Food on Rice"
+        },
+        {
+          "value": "Mixed Seafood on Rice"
+        },
+        {
+          "value": "Seafood Rice Plate"
+        },
+        {
+          "value": "Combination Seafood Rice"
+        },
+        {
+          "value": "Fresh Seafood Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp with Mixed Vegetables on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "杂菜虾仁饰"
+        },
+        {
+          "value": "Mixed Vegetable Shrimp on Rice"
+        },
+        {
+          "value": "Shrimp Vegetable Rice Dish"
+        },
+        {
+          "value": "Shrimp and Vegetables over Rice"
+        },
+        {
+          "value": "Vegetable Shrimp Rice Bowl"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp with Scrambled Egg on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "虾仁炒蛋饰"
+        },
+        {
+          "value": "Scrambled Egg Shrimp on Rice"
+        },
+        {
+          "value": "Shrimp and Egg Rice Bowl"
+        },
+        {
+          "value": "Egg Shrimp Rice Dish"
+        },
+        {
+          "value": "Shrimp Egg over Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Shrimp with Black Bean Sauce on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "豉汁虾仁饰"
+        },
+        {
+          "value": "Black Bean Shrimp on Rice"
+        },
+        {
+          "value": "Shrimp Black Bean Rice Bowl"
+        },
+        {
+          "value": "Black Bean Sauce Shrimp Rice"
+        },
+        {
+          "value": "Shrimp in Black Bean over Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "B.B.Q Pork with Bean Cake on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "叉烧豆腐饰"
+        },
+        {
+          "value": "BBQ Pork with Tofu on Rice"
+        },
+        {
+          "value": "Barbecued Pork Bean Cake Rice"
+        },
+        {
+          "value": "Char Siu Tofu Rice Bowl"
+        },
+        {
+          "value": "BBQ Pork Bean Curd over Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Pork with Original Juice on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "原汁猪肉饰"
+        },
+        {
+          "value": "Original Juice Pork on Rice"
+        },
+        {
+          "value": "Pork in Natural Sauce Rice"
+        },
+        {
+          "value": "Braised Pork Rice Bowl"
+        },
+        {
+          "value": "Pork with Gravy over Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Broccoli on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "牛肉西兰花饰"
+        },
+        {
+          "value": "Broccoli Beef on Rice"
+        },
+        {
+          "value": "Beef and Broccoli Rice Bowl"
+        },
+        {
+          "value": "Beef Broccoli over Rice"
+        },
+        {
+          "value": "Classic Beef Broccoli Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Oyster Sauce on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "蠕油牛肉饰"
+        },
+        {
+          "value": "Oyster Sauce Beef on Rice"
+        },
+        {
+          "value": "Beef in Oyster Sauce Rice Bowl"
+        },
+        {
+          "value": "Beef Oyster Sauce over Rice"
+        },
+        {
+          "value": "Cantonese Beef Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Ginger & Green Onions on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "姜葱牛肉饰"
+        },
+        {
+          "value": "Ginger Scallion Beef on Rice"
+        },
+        {
+          "value": "Beef Ginger Green Onion Rice Bowl"
+        },
+        {
+          "value": "Beef with Ginger and Green Onions Rice"
+        },
+        {
+          "value": "Scallion Ginger Beef over Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef with Tender Green on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "芥兰牛肉饰"
+        },
+        {
+          "value": "Tender Green Beef on Rice"
+        },
+        {
+          "value": "Beef Chinese Broccoli Rice Bowl"
+        },
+        {
+          "value": "Gai Lan Beef over Rice"
+        },
+        {
+          "value": "Chinese Kale Beef Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken with Black Bean Sauce on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "豉汁鸡饰"
+        },
+        {
+          "value": "Black Bean Chicken on Rice"
+        },
+        {
+          "value": "Chicken Black Bean Rice Bowl"
+        },
+        {
+          "value": "Black Bean Sauce Chicken Rice"
+        },
+        {
+          "value": "Chicken in Black Bean over Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken with Mixed Vegetables on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "杂菜鸡饰"
+        },
+        {
+          "value": "Mixed Vegetable Chicken on Rice"
+        },
+        {
+          "value": "Chicken Vegetable Rice Bowl"
+        },
+        {
+          "value": "Chicken and Vegetables over Rice"
+        },
+        {
+          "value": "Vegetable Chicken Rice Dish"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken with Curry on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "咖喇鸡饰"
+        },
+        {
+          "value": "Curry Chicken on Rice"
+        },
+        {
+          "value": "Chicken Curry Rice Bowl"
+        },
+        {
+          "value": "Curry Chicken over Rice"
+        },
+        {
+          "value": "Spicy Curry Chicken Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef Stew with Curry on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "咖喇牛腹饰"
+        },
+        {
+          "value": "Curry Beef Stew on Rice"
+        },
+        {
+          "value": "Beef Curry Stew Rice Bowl"
+        },
+        {
+          "value": "Curry Beef Brisket over Rice"
+        },
+        {
+          "value": "Spicy Beef Stew Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Beef Stew with Original Juice on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "原汁牛腹饰"
+        },
+        {
+          "value": "Original Juice Beef Stew on Rice"
+        },
+        {
+          "value": "Beef Stew Natural Sauce Rice"
+        },
+        {
+          "value": "Braised Beef Brisket Rice Bowl"
+        },
+        {
+          "value": "Beef Stew with Gravy over Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Spareribs with Black Bean Sauce on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "豉汁排骨饰"
+        },
+        {
+          "value": "Black Bean Spareribs on Rice"
+        },
+        {
+          "value": "Spareribs Black Bean Rice Bowl"
+        },
+        {
+          "value": "Black Bean Ribs over Rice"
+        },
+        {
+          "value": "Pork Ribs Black Bean Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Spareribs with Bean Cake on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "排骨豆腐饰"
+        },
+        {
+          "value": "Spareribs with Tofu on Rice"
+        },
+        {
+          "value": "Spareribs Bean Cake Rice Bowl"
+        },
+        {
+          "value": "Ribs and Tofu over Rice"
+        },
+        {
+          "value": "Pork Ribs Bean Curd Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Roasted Duck on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "烧鸭饰"
+        },
+        {
+          "value": "Roast Duck on Rice"
+        },
+        {
+          "value": "Duck Rice Bowl"
+        },
+        {
+          "value": "Roasted Duck over Rice"
+        },
+        {
+          "value": "Chinese Roasted Duck Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Roasted Duck with Bean Cake on Rice"
+      },
+      "synonyms": [
+        {
+          "value": "烧鸭豆腐饰"
+        },
+        {
+          "value": "Roasted Duck with Tofu on Rice"
+        },
+        {
+          "value": "Duck Bean Cake Rice Bowl"
+        },
+        {
+          "value": "Roast Duck and Tofu over Rice"
+        },
+        {
+          "value": "Duck Bean Curd Rice"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Tsing Tao"
+      },
+      "synonyms": [
+        {
+          "value": "青岛啤酒"
+        },
+        {
+          "value": "Tsingtao"
+        },
+        {
+          "value": "Qingdao Beer"
+        },
+        {
+          "value": "Chinese Beer"
+        },
+        {
+          "value": "Tsingtao Beer"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Heineken"
+      },
+      "synonyms": [
+        {
+          "value": "喜力啤酒"
+        },
+        {
+          "value": "Heineken Beer"
+        },
+        {
+          "value": "Dutch Beer"
+        },
+        {
+          "value": "Green Bottle Beer"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Corona"
+      },
+      "synonyms": [
+        {
+          "value": "科罗娜啤酒"
+        },
+        {
+          "value": "Corona Beer"
+        },
+        {
+          "value": "Mexican Beer"
+        },
+        {
+          "value": "Corona Extra"
+        },
+        {
+          "value": "Lime Beer"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Deep Fried Banana"
+      },
+      "synonyms": [
+        {
+          "value": "炸香蕉"
+        },
+        {
+          "value": "Fried Banana"
+        },
+        {
+          "value": "Crispy Fried Banana"
+        },
+        {
+          "value": "Battered Banana"
+        },
+        {
+          "value": "Golden Fried Banana"
+        },
+        {
+          "value": "Chinese Fried Banana"
+        },
+        {
+          "value": "Sweet Fried Banana"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Drinks"
+      },
+      "synonyms": [
+        {
+          "value": "饮料"
+        },
+        {
+          "value": "Beverages"
+        },
+        {
+          "value": "Soft Drinks"
+        },
+        {
+          "value": "Cold Drinks"
+        },
+        {
+          "value": "Sodas"
+        },
+        {
+          "value": "Refreshments"
+        },
+        {
+          "value": "Liquid Refreshments"
+        }
+      ]
+    }
+  ],
+  "valueSelectionSetting": {
+    "resolutionStrategy": "TopResolution"
+  }
+}

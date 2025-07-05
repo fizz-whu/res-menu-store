@@ -1,0 +1,49 @@
+{
+  "intentName": "RestaurantHoursIntent",
+  "description": "Intent to provide restaurant hours information",
+  "sampleUtterances": [
+    {
+      "utterance": "What are your hours"
+    },
+    {
+      "utterance": "When are you open"
+    },
+    {
+      "utterance": "What time do you close"
+    },
+    {
+      "utterance": "What are your operating hours"
+    },
+    {
+      "utterance": "Are you open now"
+    },
+    {
+      "utterance": "How late are you open"
+    },
+    {
+      "utterance": "What time do you open"
+    },
+    {
+      "utterance": "Are you open today"
+    },
+    {
+      "utterance": "What are your business hours"
+    },
+    {
+      "utterance": "When do you close"
+    }
+  ],
+  "intentClosingSetting": {
+    "closingResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "We're open Monday through Sunday from 11:00 AM to 10:00 PM. We're open 7 days a week!"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

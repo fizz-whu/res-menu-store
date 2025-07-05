@@ -1,0 +1,23 @@
+{
+  "name": "restaurant-hours-intent-tests",
+  "version": "1.0.0",
+  "description": "Comprehensive tests for RestaurantHoursIntent",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage",
+    "test:integration": "jest --testPathPattern=integration",
+    "test:unit": "jest --testPathPattern=unit",
+    "test:e2e": "jest --testPathPattern=e2e",
+    "test:all": "npm run test:unit && npm run test:integration && npm run test:e2e",
+    "lint": "eslint .",
+    "setup": "node setup-test-env.js"
+  },
+  "devDependencies": {
+    "@aws-sdk/client-lex-runtime-v2": "^3.490.0",
+    "@aws-sdk/client-lex-models-v2": "^3.490.0",
+    "jest": "^29.7.0",
+    "eslint": "^8.56.0",
+    "aws-sdk-mock": "^5.8.0"
+  }
+}
