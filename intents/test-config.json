@@ -1,0 +1,10 @@
+{
+  "botId": "RWRKZUM7UP",
+  "botVersion": "DRAFT",
+  "localeId": "en_US",
+  "intentName": "RestaurantHoursIntent",
+  "botAliasId": "TSTALIASID",
+  "region": "us-east-1",
+  "testTimeout": 10000,
+  "skipIntegrationTests": false
+}

@@ -1,4 +1,4 @@
-const { LexModelsV2Client, GetIntentCommand } = require('@aws-sdk/client-lexv2-models');
+const { LexModelsV2Client, GetIntentCommand } = require('@aws-sdk/client-lex-models-v2');
 const { LexRuntimeV2Client, RecognizeTextCommand } = require('@aws-sdk/client-lex-runtime-v2');
 
 // Test configuration
@@ -27,7 +27,7 @@ describe('AWS Lex Integration Tests', () => {
     test('should retrieve intent from AWS Lex', async () => {
       try {
         // First, get the intent ID by listing intents
-        const { ListIntentsCommand } = require('@aws-sdk/client-lexv2-models');
+        const { ListIntentsCommand } = require('@aws-sdk/client-lex-models-v2');
         const listCommand = new ListIntentsCommand({
           botId: TEST_CONFIG.botId,
           botVersion: TEST_CONFIG.botVersion,
