@@ -1,0 +1,86 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "62c00d2c-8099-40dc-a0d3-0e25f1ae04a9",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Mon, 14 Jul 2025 01:42:29 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "2037",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "62c00d2c-8099-40dc-a0d3-0e25f1ae04a9",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-amz-apigw-id": "NrQE4GuLvHcEcqw=",
+      "x-content-type-options": "nosniff",
+      "x-amzn-trace-id": "Root=1-68746085-7eb2fe1d355584163d70b498"
+    },
+    "RetryAttempts": 0
+  },
+  "intentId": "YCTY9OJFFV",
+  "intentName": "CheckMenu",
+  "sampleUtterances": [
+    {
+      "utterance": "What is on the menu?"
+    },
+    {
+      "utterance": "Could you tell me what is on the menu?"
+    },
+    {
+      "utterance": "I'd like to see the menu."
+    },
+    {
+      "utterance": "Please show me what's on the menu."
+    },
+    {
+      "utterance": "Can I get a look at the menu?"
+    },
+    {
+      "utterance": "Let me check out the menu."
+    },
+    {
+      "utterance": "I want to look over the menu."
+    },
+    {
+      "utterance": "What dishes are on the menu?"
+    },
+    {
+      "utterance": "What food options are on the menu?"
+    },
+    {
+      "utterance": "What meals are available on the menu?"
+    }
+  ],
+  "slotPriorities": [],
+  "botId": "RWRKZUM7UP",
+  "botVersion": "DRAFT",
+  "localeId": "en_US",
+  "creationDateTime": "2024-10-12 01:49:51.578000-04:00",
+  "lastUpdatedDateTime": "2024-10-12 01:49:51.578000-04:00",
+  "initialResponseSetting": {
+    "nextStep": {
+      "dialogAction": {
+        "type": "InvokeDialogCodeHook"
+      }
+    },
+    "codeHook": {
+      "enableCodeHookInvocation": true,
+      "active": true,
+      "postCodeHookSpecification": {
+        "successNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          }
+        },
+        "failureNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          }
+        },
+        "timeoutNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          }
+        }
+      }
+    }
+  }
+}

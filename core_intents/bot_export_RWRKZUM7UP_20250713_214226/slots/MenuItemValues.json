@@ -1,0 +1,765 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "bcb2e15c-443b-4e02-9695-6e2497294b25",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Mon, 14 Jul 2025 01:42:30 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "10754",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "bcb2e15c-443b-4e02-9695-6e2497294b25",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-amz-apigw-id": "NrQFCFPFPHcEA0w=",
+      "x-content-type-options": "nosniff",
+      "x-amzn-trace-id": "Root=1-68746086-7b62c5644fb215c272124309"
+    },
+    "RetryAttempts": 0
+  },
+  "slotTypeId": "IDOYKWXGKK",
+  "slotTypeName": "MenuItemValues",
+  "slotTypeValues": [
+    {
+      "sampleValue": {
+        "value": "BARBECUED PORK CHOW MEIN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BRAISED FISH FILLET"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SEAFOOD DELUXE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BRAISED BEAN CAKE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF STEW WITH CURRY ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP WITH CASHEW"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "HOUSE SPECIAL PAN FRIED NOODLES"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "ROASTED DUCK ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SWEET & SOUR CHICKEN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BARBECUED PORK WONTON SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH SNOW PEAS"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "FISH FILLET WITH BLACK BEAN SAUCE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Walnut Prawns"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "MINCED BEEF WITH EGG WHITE SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP WITH SNOW PEAS"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "HOUSE SPECIAL BEAN CAKE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Yellow Onion Pork Chop"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SPICY HOT BEAN CURD WITH MINCED PORK"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SUPERMEN SWEET AND SOUR PORK"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Orange Peel Chicken"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "ROASTED DUCK NOODLE SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN WITH MIXED VEGETABLES ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "VEGETARIAN’S SPECIAL"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CLAMS WITH BLACK BEAN SAUCE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "HOT & SOUR SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "FRESH VEGETABLES DELUXE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN WITH MIXED VEGETABLES"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP FRIED RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP WITH MIXED VEGETABLE PAN FRIED NOODLES"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "HEINEKEN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BARBECUED PORK FRIED RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Eggplant WITH Chicken, Shrimp In Special Sauce"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "ROASTED DUCK WONTON SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP WITH SCRAMBLED EGG ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WONTON SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN WITH BLACK BEAN SAUCE ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Crispy Fried Oyster"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SWEET AND SOUR WHOLE FISH"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP WITH LOBSTER SAUCE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "STEAMED RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "HOUSE SPECIAL CHOW FUN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH BLACK BEAN SAUCE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Crispy Fried Prawns (10)"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "LEMON CHICKEN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN WITH BLACK BEAN SAUCE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "TSING TAO"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Spring Egg Rolls (4)"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Minced Chicken WITH Lettuce Cup"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF STEW WITH ORIGINAL JUICE ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH TENDER GREEN PAN FRIED NOODLES"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Chicken Salad"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CURRY SHRIMP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "DOUBLE MUSHROOM WITH OYSTER SAUCE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP WONTON SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH OYSTER SAUCE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP WITH BLACK BEAN SAUCE ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN WITH SALTED FISH FRIED RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Spicy Salt Pepper Chicken Wings (10)"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SEAFOOD CHOW FUN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SPARERIBS WITH BLACK BEAN SAUCE ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CORONA"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "KUNG PAO TO FU"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "STEAMED WHOLE FISH"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Rainbow Fish Fillet"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF NOODLE SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH BEAN SPROUT CHOW FUN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP CHICKEN WITH CASHEW ALMOND"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Golden Pot Stickers (6)"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH MIXED VEGETABLES"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP WITH MIXED VEGETABLES ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "MU SHU PORK (FOUR PANCAKES)"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SEAFOOD PAN FRIED NOODLES"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Honey Glazed Barbecued Pork"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "HOUSE SPECIAL CHOW MEIN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN WITH CURRY ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH BROCCOLI PAN FRIED NOODLES"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP WITH BLACK BEAN SAUCE CHOW FUN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH TOMATO CHOW MEIN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH BROCCOLI"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SNOW PEAS WITH WATER CHESTNUTS"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP CHOW MEIN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CURRY BEEF"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Orange Peel Beef"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN WONTON SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "B.B.Q. PORK WITH BEAN CAKE ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "MIXED VEGETABLES WITH BEAN CAKE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "WOR WONTON SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "B.B.Q. PORK WITH TENDER GREEN ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN WITH TENDER GREEN PAN FRIED NOODLES"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SEAWEED WITH EGG FLOWER SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CANTONESE STYLE SPARERIBS"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "HOUSE SPECIAL FRIED RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Generals Chicken Wings (10)"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "RAINBOW CHICKEN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "YANG CHOW FRIED RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Spicy Salt Pepper Shrimp"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BARBECUED PORK WITH MIXED VEGETABLES"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP WITH TENDER GREEN PAN FRIED NOODLES"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN WITH BLACK BEAN SAUCE PAN FRIED NOODLES"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SPARERIBS WITH BLACK BEAN SAUCE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BARBECUED PORK NOODLE SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH BLACK BEAN SAUCE PAN FRIED NOODLES"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "EGGPLANT WITH GARLIC SAUCE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SPARERIBS WITH BEAN CAKE ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN NOODLE SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Sesame Chicken"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN WITH BROCCOLI"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Fried Tofu WITH Green Bean In Dry Spicy Garlic"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CASHEW ALMOND CHICKEN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "ROASTED DUCK WITH BEAN CAKE ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BROCCOLI WITH OYSTER SAUCE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN WITH DOUBLE MUSHROOMS"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CLAMS WITH GINGER SCALLIONS"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Ginger Green Onion WITH Oyster"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Spicy Salt Pepper Pork Chop"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "FRIED CHICKEN HALF 12.00 / WHOLE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "FRESH VEGETABLES FRIED RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SINGAPORE STYLE CHOW RICE NOODLE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH GINGER & SCALLIONS ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BARBECUED PORK WITH BEAN CAKE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CURRY CHICKEN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "KUNG PAO SHRIMP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SUCCULENT SPICY PORK WITH GARLIC SAUCE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN FRIED RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SUPERMEN SWEET & SOUR SHRIMP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP WITH BLACK BEAN SAUCE PAN FRIED NOODLES"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP WITH TENDER GREEN CHOW FUN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "MIXED VEGETABLES SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SEAFOOD ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN WITH CORN SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "KUNG PAO CHICKEN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH OYSTER SAUCE ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "CHICKEN CHOW MEIN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SEAFOOD WITH BEAN CAKE SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "MONGOLIAN BEEF"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP NOODLE SOUP"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH BROCCOLI ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Crispy Fried Squid WITH Spicy Pepper"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "DEEP-FRIED BANANA"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "DRINKS"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH TENDER GREEN ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "PEKING SPICY BEEF"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF FRIED RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "SHRIMP WITH DOUBLE MUSHROOMS"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "BEEF WITH BLACK BEAN SAUCE CHOW FUN"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "HOUSE SPECIAL ON RICE"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "ROASTED DUCK HALF 14.00 / WHOLE"
+      }
+    }
+  ],
+  "valueSelectionSetting": {
+    "resolutionStrategy": "OriginalValue"
+  },
+  "botId": "RWRKZUM7UP",
+  "botVersion": "DRAFT",
+  "localeId": "en_US",
+  "creationDateTime": "2024-10-12 01:49:51.159000-04:00",
+  "lastUpdatedDateTime": "2024-10-18 17:58:38.065000-04:00"
+}

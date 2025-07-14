@@ -1,0 +1,13 @@
+{
+  "export_info": {
+    "bot_id": "RWRKZUM7UP",
+    "export_timestamp": "2025-07-13T21:42:31.125835",
+    "export_directory": "/home/fizz/work/res-menu-store/core_intents/bot_export_RWRKZUM7UP_20250713_214226"
+  },
+  "files_exported": {
+    "intents": 10,
+    "slots": 8,
+    "lambda_functions": 0,
+    "config_files": 1
+  }
+}

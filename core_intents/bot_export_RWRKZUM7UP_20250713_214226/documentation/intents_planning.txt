@@ -1,0 +1,125 @@
+First Wave Intents:
+1 Order food
+
+Second Wave Intents
+1 Modify order
+2 View Menu
+3 Check order status
+4 Cancel order
+5 Check Pricing
+6 GetRestaurantInfo - Basic information
+
+(Hours, location, phone number
+Delivery radius and fees)
+
+7 Navigation Intents
+(StartOver - Reset the conversation
+Help - Get assistance with ordering
+RepeatOptions - Repeat menu items or choices
+GoBack - Return to previous step)
+
+
+8 Check Ingredient
+9 Get Recommendation
+
+
+Nice to have:
+1 ReorderPrevious
+2 ProcessPayment
+3 Report issue
+4 ProvideSpecialInstructions
+
+
+Do we Need:
+Schedule Order
+Join Reward
+
+****************************************************
+
+Original prompt:
+
+I'll help you identify the key intents needed for a Chinese restaurant food ordering system using Amazon Connect and Lex. Here are the essential intents you should consider:
+Core Ordering Intents
+OrderFood - Main intent for placing food orders
+
+Captures menu items, quantities, customizations (spice level, no MSG, etc.)
+Handles combo meals and individual dishes
+
+ModifyOrder - Changes to current order
+
+Add items, remove items, change quantities
+Modify preparation instructions
+
+ViewMenu - Browse available dishes
+
+Categories (appetizers, soups, entrees, desserts)
+Daily specials, chef recommendations
+Dietary filters (vegetarian, gluten-free, nut-free)
+
+Order Management Intents
+CheckOrderStatus - Track existing orders
+
+Estimated preparation/delivery time
+Order confirmation details
+
+CancelOrder - Cancel an order
+
+Full or partial cancellation
+Refund information
+
+ReorderPrevious - Quick reorder of past orders
+
+Favorite orders, last order
+
+Customer Information Intents
+ProvideDeliveryInfo - Delivery details
+
+Address, apartment/suite numbers
+Delivery instructions
+
+ProvideContactInfo - Phone number for order updates
+ChooseOrderType - Delivery vs pickup selection
+Payment Intents
+ProcessPayment - Payment method selection
+
+Credit card, cash on delivery, digital wallets
+Apply coupons or discounts
+
+CheckPricing - Price inquiries
+
+Individual item prices
+Total order cost with taxes and fees
+
+Support Intents
+GetRestaurantInfo - Basic information
+
+Hours, location, phone number
+Delivery radius and fees
+
+ReportIssue - Problems with orders
+
+Missing items, quality concerns
+Wrong order received
+
+ProvideSpecialInstructions - Special requests
+
+Allergy notifications
+Extra utensils, napkins
+Special preparation requests
+
+Navigation Intents
+StartOver - Reset the conversation
+Help - Get assistance with ordering
+RepeatOptions - Repeat menu items or choices
+GoBack - Return to previous step
+Additional Considerations
+You might also want to implement:
+
+CheckIngredients - For allergy concerns
+GetRecommendations - Suggest popular dishes
+ScheduleOrder - Future order scheduling
+JoinRewards - Loyalty program enrollment
+
+Each intent should have well-defined slots (like dish_name, quantity, spice_level) and appropriate prompts to gather missing information. Consider implementing confirmation prompts for critical actions like placing or canceling orders.
+Would you like me to elaborate on any specific intent or help you design the slot types and utterances for these intents?
+

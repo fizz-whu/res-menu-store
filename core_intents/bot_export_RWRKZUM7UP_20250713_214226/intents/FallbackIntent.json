@@ -1,0 +1,67 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "9649010c-56c7-44c9-b570-306192c0a8bc",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Mon, 14 Jul 2025 01:42:28 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "1828",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "9649010c-56c7-44c9-b570-306192c0a8bc",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-amz-apigw-id": "NrQEvG-ivHcEsgw=",
+      "x-content-type-options": "nosniff",
+      "x-amzn-trace-id": "Root=1-68746084-74469561550da97e44b061e6"
+    },
+    "RetryAttempts": 0
+  },
+  "intentId": "FALLBCKINT",
+  "intentName": "FallbackIntent",
+  "description": "Default intent when no other intent matches",
+  "parentIntentSignature": "AMAZON.FallbackIntent",
+  "botId": "RWRKZUM7UP",
+  "botVersion": "DRAFT",
+  "localeId": "en_US",
+  "creationDateTime": "2024-10-12 01:43:24.936000-04:00",
+  "lastUpdatedDateTime": "2024-11-18 22:17:38.316000-05:00",
+  "initialResponseSetting": {
+    "initialResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "How may I help you today."
+            }
+          }
+        }
+      ],
+      "allowInterrupt": true
+    },
+    "nextStep": {
+      "dialogAction": {
+        "type": "InvokeDialogCodeHook"
+      }
+    },
+    "codeHook": {
+      "enableCodeHookInvocation": true,
+      "active": true,
+      "postCodeHookSpecification": {
+        "successNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          }
+        },
+        "failureNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          }
+        },
+        "timeoutNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          }
+        }
+      }
+    }
+  }
+}

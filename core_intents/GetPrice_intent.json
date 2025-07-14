@@ -1,0 +1,129 @@
+{
+  "intentName": "GetPrice",
+  "description": "Intent for customers to inquire about menu item prices",
+  "sampleUtterances": [
+    {
+      "utterance": "How much is {DishName}"
+    },
+    {
+      "utterance": "What's the price of {DishName}"
+    },
+    {
+      "utterance": "How much does {DishName} cost"
+    },
+    {
+      "utterance": "Price for {DishName}"
+    },
+    {
+      "utterance": "Cost of {DishName}"
+    },
+    {
+      "utterance": "Tell me the price of {DishName}"
+    },
+    {
+      "utterance": "What does {DishName} cost"
+    },
+    {
+      "utterance": "How much for {DishName}"
+    },
+    {
+      "utterance": "Price check on {DishName}"
+    },
+    {
+      "utterance": "Can you tell me how much {DishName} costs"
+    },
+    {
+      "utterance": "I want to know the price of {DishName}"
+    },
+    {
+      "utterance": "What's the cost of {DishName}"
+    },
+    {
+      "utterance": "How expensive is {DishName}"
+    },
+    {
+      "utterance": "Is {DishName} expensive"
+    },
+    {
+      "utterance": "What do you charge for {DishName}"
+    },
+    {
+      "utterance": "How much would {DishName} be"
+    },
+    {
+      "utterance": "Check price {DishName}"
+    },
+    {
+      "utterance": "{DishName} price"
+    },
+    {
+      "utterance": "{DishName} cost"
+    },
+    {
+      "utterance": "Give me the price for {DishName}"
+    }
+  ],
+  "slots": [
+    {
+      "slotName": "DishName",
+      "description": "The name of the dish to check price for",
+      "slotTypeName": "DishType",
+      "valueElicitationSetting": {
+        "slotConstraint": "Required",
+        "promptSpecification": {
+          "messageGroups": [
+            {
+              "message": {
+                "plainTextMessage": {
+                  "value": "Which dish would you like to know the price for?"
+                }
+              }
+            }
+          ],
+          "maxRetries": 3
+        }
+      }
+    }
+  ],
+  "intentConfirmationSetting": {
+    "promptSpecification": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "Would you like me to check the price for {DishName}?"
+            }
+          }
+        }
+      ],
+      "maxRetries": 2
+    },
+    "declinationResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "No problem! Is there anything else I can help you with?"
+            }
+          }
+        }
+      ]
+    }
+  },
+  "fulfillmentCodeHook": {
+    "enabled": true
+  },
+  "closingSetting": {
+    "closingResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "Is there anything else you'd like to know about our menu or prices?"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
