@@ -1,0 +1,100 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "680beed7-9d06-498c-838a-2dcb61caa29f",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Mon, 14 Jul 2025 01:42:28 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "2388",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "680beed7-9d06-498c-838a-2dcb61caa29f",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-amz-apigw-id": "NrQErGsFPHcELJQ=",
+      "x-content-type-options": "nosniff",
+      "x-amzn-trace-id": "Root=1-68746083-587e1db864b314ea61fa9873"
+    },
+    "RetryAttempts": 0
+  },
+  "intentId": "B5MNHEYVDC",
+  "intentName": "ModifyOrder",
+  "sampleUtterances": [
+    {
+      "utterance": "I'd like to change my order for {MenuItem} to {NewQuantity} ."
+    },
+    {
+      "utterance": "Please modify my order to {NewQuantity} {MenuItem} ."
+    },
+    {
+      "utterance": "Could you update my order of {MenuItem} to be {NewQuantity} ?"
+    },
+    {
+      "utterance": "Change my order of {MenuItem} to have {NewQuantity} ."
+    },
+    {
+      "utterance": "Alter my existing order for {MenuItem} to instead be {NewQuantity} ."
+    },
+    {
+      "utterance": "Amend my order of {MenuItem} to {NewQuantity} ."
+    },
+    {
+      "utterance": "Revise my order for {MenuItem} to be {NewQuantity} ."
+    },
+    {
+      "utterance": "Adjust my order of {MenuItem} to {NewQuantity} ."
+    },
+    {
+      "utterance": "Modify my order for {MenuItem} to {NewQuantity} ."
+    },
+    {
+      "utterance": "Tweak my order of {MenuItem} to {NewQuantity} ."
+    }
+  ],
+  "slotPriorities": [
+    {
+      "priority": 2,
+      "slotId": "OFWZQWQCAV"
+    },
+    {
+      "priority": 3,
+      "slotId": "RJNB2X8G6O"
+    },
+    {
+      "priority": 1,
+      "slotId": "SJ7VWUZRNF"
+    }
+  ],
+  "botId": "RWRKZUM7UP",
+  "botVersion": "DRAFT",
+  "localeId": "en_US",
+  "creationDateTime": "2024-10-12 01:49:51.599000-04:00",
+  "lastUpdatedDateTime": "2024-10-12 01:49:51.599000-04:00",
+  "initialResponseSetting": {
+    "nextStep": {
+      "dialogAction": {
+        "type": "InvokeDialogCodeHook"
+      }
+    },
+    "codeHook": {
+      "enableCodeHookInvocation": true,
+      "active": true,
+      "postCodeHookSpecification": {
+        "successNextStep": {
+          "dialogAction": {
+            "type": "ElicitSlot",
+            "slotToElicit": "MenuItem"
+          }
+        },
+        "failureNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          }
+        },
+        "timeoutNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          }
+        }
+      }
+    }
+  }
+}

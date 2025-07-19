@@ -1,0 +1,275 @@
+{
+  "intentName": "OrderFood",
+  "description": "Enhanced intent for ordering food with price confirmation",
+  "sampleUtterances": [
+    {
+      "utterance": "I want to order {DishName}"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'd like {Quantity} orders of {DishName}"
+    },
+    {
+      "utterance": "Order {DishName}"
+    },
+    {
+      "utterance": "I want {DishName}"
+    },
+    {
+      "utterance": "Can I have {DishName}"
+    },
+    {
+      "utterance": "I'll take {DishName}"
+    },
+    {
+      "utterance": "Give me {DishName}"
+    },
+    {
+      "utterance": "I'd like to order {DishName}"
+    },
+    {
+      "utterance": "Place an order for {DishName}"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName}"
+    },
+    {
+      "utterance": "Can I order {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'll have {Quantity} {DishName}"
+    },
+    {
+      "utterance": "Get me {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'd like {DishName} with {Customization}"
+    },
+    {
+      "utterance": "Can I get {DishName} {Customization}"
+    },
+    {
+      "utterance": "Order {DishName} {Customization}"
+    },
+    {
+      "utterance": "I want {DishName} but {Customization}"
+    },
+    {
+      "utterance": "I'll take {Quantity} {DishName} with {Customization}"
+    },
+    {
+      "utterance": "Can I have {Quantity} {DishName} {Customization}"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName} please make it {Customization}"
+    },
+    {
+      "utterance": "Order {Quantity} {DishName} and make it {Customization}"
+    },
+    {
+      "utterance": "I'd like to order {Quantity} {DishName} {Customization}"
+    },
+    {
+      "utterance": "Can you make {DishName} {Customization}"
+    },
+    {
+      "utterance": "I want the {DishName}"
+    },
+    {
+      "utterance": "Let me get {DishName}"
+    },
+    {
+      "utterance": "I'll order {DishName}"
+    },
+    {
+      "utterance": "Put me down for {DishName}"
+    },
+    {
+      "utterance": "Add {DishName} to my order"
+    },
+    {
+      "utterance": "I need {DishName}"
+    },
+    {
+      "utterance": "Can I please have {DishName}"
+    },
+    {
+      "utterance": "I would like {DishName}"
+    },
+    {
+      "utterance": "May I have {DishName}"
+    },
+    {
+      "utterance": "Could I get {DishName}"
+    },
+    {
+      "utterance": "I'm ordering {DishName}"
+    },
+    {
+      "utterance": "Let me order {DishName}"
+    },
+    {
+      "utterance": "I choose {DishName}"
+    }
+  ],
+  "slots": [
+    {
+      "slotName": "DishName",
+      "description": "The name of the dish to order",
+      "slotTypeName": "DishType",
+      "valueElicitationSetting": {
+        "slotConstraint": "Required",
+        "promptSpecification": {
+          "messageGroups": [
+            {
+              "message": {
+                "plainTextMessage": {
+                  "value": "What dish would you like to order?"
+                }
+              }
+            }
+          ],
+          "maxRetries": 3
+        }
+      }
+    },
+    {
+      "slotName": "Quantity",
+      "description": "Number of items to order",
+      "slotTypeName": "AMAZON.Number",
+      "valueElicitationSetting": {
+        "slotConstraint": "Optional",
+        "defaultValueSpecification": {
+          "defaultValueList": [
+            {
+              "defaultValue": "1"
+            }
+          ]
+        },
+        "promptSpecification": {
+          "messageGroups": [
+            {
+              "message": {
+                "plainTextMessage": {
+                  "value": "How many {DishName} would you like?"
+                }
+              }
+            }
+          ],
+          "maxRetries": 2
+        }
+      }
+    },
+    {
+      "slotName": "Customization",
+      "description": "Special preparation requests or customizations",
+      "slotTypeName": "CustomizationType",
+      "valueElicitationSetting": {
+        "slotConstraint": "Optional",
+        "promptSpecification": {
+          "messageGroups": [
+            {
+              "message": {
+                "plainTextMessage": {
+                  "value": "Any special requests for your {DishName}? (like extra spicy, no MSG, etc.)"
+                }
+              }
+            }
+          ],
+          "maxRetries": 1
+        }
+      }
+    }
+  ],
+  "intentConfirmationSetting": {
+    "promptSpecification": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "Let me confirm your order: {Quantity} {DishName}"
+            }
+          },
+          "variations": [
+            {
+              "plainTextMessage": {
+                "value": "So you want {Quantity} {DishName}, is that correct?"
+              }
+            },
+            {
+              "plainTextMessage": {
+                "value": "Just to confirm: {Quantity} {DishName} with {Customization}?"
+              }
+            }
+          ]
+        }
+      ],
+      "maxRetries": 2
+    },
+    "declinationResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "No problem! What would you like to order instead?"
+            }
+          }
+        }
+      ]
+    },
+    "confirmationResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "Great! Let me process your order and get you the total price."
+            }
+          }
+        }
+      ]
+    }
+  },
+  "fulfillmentCodeHook": {
+    "enabled": true,
+    "fulfillmentUpdatesSpecification": {
+      "active": true,
+      "startResponse": {
+        "messageGroups": [
+          {
+            "message": {
+              "plainTextMessage": {
+                "value": "Let me check the price and place your order..."
+              }
+            }
+          }
+        ]
+      },
+      "updateResponse": {
+        "messageGroups": [
+          {
+            "message": {
+              "plainTextMessage": {
+                "value": "Processing your order..."
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "closingSetting": {
+    "closingResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "Your order has been placed! Is there anything else you'd like to order?"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

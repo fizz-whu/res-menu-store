@@ -1,0 +1,477 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "52544e04-e750-4c0c-bb89-dfcdb615c5c5",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Mon, 14 Jul 2025 01:42:28 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "8516",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "52544e04-e750-4c0c-bb89-dfcdb615c5c5",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-amz-apigw-id": "NrQEuG8aPHcEKlA=",
+      "x-content-type-options": "nosniff",
+      "x-amzn-trace-id": "Root=1-68746084-5d6902523fe649bd6db8ad57"
+    },
+    "RetryAttempts": 0
+  },
+  "intentId": "CXZFHNYDKF",
+  "intentName": "OrderFood",
+  "description": "Intent for ordering food from Chinese restaurant menu",
+  "sampleUtterances": [
+    {
+      "utterance": "I want {DishName} on Rice"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishName}"
+    },
+    {
+      "utterance": "One order of {DishName}"
+    },
+    {
+      "utterance": "I'll take the {DishName}"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "Give me {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I'll have {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I want {DishName}"
+    },
+    {
+      "utterance": "I want {DishName} Chow Fun"
+    },
+    {
+      "utterance": "Let me get {DishName}"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I want the {DishName}"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'd like the {DishName}"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishName} {Customization}"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I want {DishName} {Customization}"
+    },
+    {
+      "utterance": "I'll have # {Quantity}"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'd like number {Quantity}"
+    },
+    {
+      "utterance": "I want to order {DishName}"
+    },
+    {
+      "utterance": "I'd like {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName}"
+    },
+    {
+      "utterance": "{Quantity} orders of {DishName}"
+    },
+    {
+      "utterance": "Give me {DishName} on Rice"
+    },
+    {
+      "utterance": "Number {Quantity}"
+    },
+    {
+      "utterance": "I'll take {DishName}"
+    },
+    {
+      "utterance": "I need {DishName}"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishName} {Customization}"
+    },
+    {
+      "utterance": "{DishName} Chow Fun"
+    },
+    {
+      "utterance": "We need {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'd like {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I want {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "We want {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'll take {Quantity} {DishName}"
+    },
+    {
+      "utterance": "Give me the {DishName}"
+    },
+    {
+      "utterance": "I'll have {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I'd like {DishName} {Customization}"
+    },
+    {
+      "utterance": "I'll have {DishName}"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "Can I have {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'd like {Quantity} orders of {DishName}"
+    },
+    {
+      "utterance": "Can I get number {Quantity}"
+    },
+    {
+      "utterance": "We'll have {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'll have the {DishName}"
+    },
+    {
+      "utterance": "{DishName}"
+    },
+    {
+      "utterance": "Can I have the {DishName}"
+    },
+    {
+      "utterance": "I'd like {DishName}"
+    },
+    {
+      "utterance": "I need {Quantity} {DishName}"
+    },
+    {
+      "utterance": "Can I get {DishName} Chow Fun"
+    },
+    {
+      "utterance": "Can I get {DishName}"
+    },
+    {
+      "utterance": "Give me {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'd like {DishName} on Rice"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName} {Customization}"
+    },
+    {
+      "utterance": "Give me {DishName}"
+    },
+    {
+      "utterance": "{DishName} {Customization}"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "Can I get the {DishName}"
+    },
+    {
+      "utterance": "Let me get {Quantity} {DishName}"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "Can I have {DishName}"
+    },
+    {
+      "utterance": "Give me {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I'll have {Quantity} {DishName}"
+    },
+    {
+      "utterance": "I'd like to order {DishName}"
+    },
+    {
+      "utterance": "Can I get {Quantity} {DishName} {Customization}"
+    },
+    {
+      "utterance": "I'd like {Quantity} {DishName} on Rice"
+    },
+    {
+      "utterance": "I'll have {DishName} on Rice"
+    },
+    {
+      "utterance": "An order of {DishName}"
+    },
+    {
+      "utterance": "Can I get {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I'll have {Quantity} {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I want {Quantity} {DishName} Chow Fun"
+    },
+    {
+      "utterance": "I'll have {DishName} Chow Fun"
+    },
+    {
+      "utterance": "{Quantity} {DishName} {Customization}"
+    },
+    {
+      "utterance": "I'll have {DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "I'd like an order of {DishName}"
+    },
+    {
+      "utterance": "I want {Quantity} orders of {DishName}"
+    },
+    {
+      "utterance": "{Quantity} {DishName}"
+    },
+    {
+      "utterance": "{DishName} Pan Fried Noodles"
+    },
+    {
+      "utterance": "{DishName} on Rice"
+    },
+    {
+      "utterance": "Can I get {DishName} on Rice"
+    },
+    {
+      "utterance": "I want an order of {DishName}"
+    },
+    {
+      "utterance": "I want number {Quantity}"
+    }
+  ],
+  "fulfillmentCodeHook": {
+    "enabled": true,
+    "postFulfillmentStatusSpecification": {
+      "successResponse": {
+        "messageGroups": [
+          {
+            "message": {
+              "plainTextMessage": {
+                "value": "Your order will be ready soon."
+              }
+            }
+          }
+        ],
+        "allowInterrupt": true
+      },
+      "successNextStep": {
+        "dialogAction": {
+          "type": "EndConversation"
+        },
+        "intent": {}
+      },
+      "failureNextStep": {
+        "dialogAction": {
+          "type": "EndConversation"
+        },
+        "intent": {}
+      },
+      "timeoutNextStep": {
+        "dialogAction": {
+          "type": "EndConversation"
+        },
+        "intent": {}
+      }
+    },
+    "active": true
+  },
+  "slotPriorities": [
+    {
+      "priority": 1,
+      "slotId": "88PF5X0BAQ"
+    },
+    {
+      "priority": 2,
+      "slotId": "CDX4VIYTU7"
+    },
+    {
+      "priority": 3,
+      "slotId": "FYDKWATBAN"
+    }
+  ],
+  "intentConfirmationSetting": {
+    "promptSpecification": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "So you want {Quantity} {DishName}. Is that correct?"
+            }
+          }
+        }
+      ],
+      "maxRetries": 2,
+      "allowInterrupt": true,
+      "messageSelectionStrategy": "Random",
+      "promptAttemptsSpecification": {
+        "Initial": {
+          "allowInterrupt": true,
+          "allowedInputTypes": {
+            "allowAudioInput": true,
+            "allowDTMFInput": true
+          },
+          "audioAndDTMFInputSpecification": {
+            "startTimeoutMs": 4000,
+            "audioSpecification": {
+              "maxLengthMs": 15000,
+              "endTimeoutMs": 640
+            },
+            "dtmfSpecification": {
+              "maxLength": 513,
+              "endTimeoutMs": 5000,
+              "deletionCharacter": "*",
+              "endCharacter": "#"
+            }
+          },
+          "textInputSpecification": {
+            "startTimeoutMs": 30000
+          }
+        },
+        "Retry1": {
+          "allowInterrupt": true,
+          "allowedInputTypes": {
+            "allowAudioInput": true,
+            "allowDTMFInput": true
+          },
+          "audioAndDTMFInputSpecification": {
+            "startTimeoutMs": 4000,
+            "audioSpecification": {
+              "maxLengthMs": 15000,
+              "endTimeoutMs": 640
+            },
+            "dtmfSpecification": {
+              "maxLength": 513,
+              "endTimeoutMs": 5000,
+              "deletionCharacter": "*",
+              "endCharacter": "#"
+            }
+          },
+          "textInputSpecification": {
+            "startTimeoutMs": 30000
+          }
+        },
+        "Retry2": {
+          "allowInterrupt": true,
+          "allowedInputTypes": {
+            "allowAudioInput": true,
+            "allowDTMFInput": true
+          },
+          "audioAndDTMFInputSpecification": {
+            "startTimeoutMs": 4000,
+            "audioSpecification": {
+              "maxLengthMs": 15000,
+              "endTimeoutMs": 640
+            },
+            "dtmfSpecification": {
+              "maxLength": 513,
+              "endTimeoutMs": 5000,
+              "deletionCharacter": "*",
+              "endCharacter": "#"
+            }
+          },
+          "textInputSpecification": {
+            "startTimeoutMs": 30000
+          }
+        }
+      }
+    },
+    "declinationResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "Okay, let me know what you'd like to order."
+            }
+          }
+        }
+      ],
+      "allowInterrupt": true
+    },
+    "active": true,
+    "confirmationNextStep": {
+      "dialogAction": {
+        "type": "FulfillIntent"
+      },
+      "intent": {}
+    },
+    "declinationNextStep": {
+      "dialogAction": {
+        "type": "EndConversation"
+      },
+      "intent": {}
+    },
+    "failureNextStep": {
+      "dialogAction": {
+        "type": "StartIntent"
+      },
+      "intent": {
+        "name": "FallbackIntent"
+      }
+    },
+    "elicitationCodeHook": {
+      "enableCodeHookInvocation": true
+    }
+  },
+  "botId": "RWRKZUM7UP",
+  "botVersion": "DRAFT",
+  "localeId": "en_US",
+  "creationDateTime": "2025-06-22 23:55:31.497000-04:00",
+  "lastUpdatedDateTime": "2025-06-28 22:49:04.459000-04:00",
+  "initialResponseSetting": {
+    "initialResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "I'd be happy to help you place your order."
+            }
+          }
+        }
+      ],
+      "allowInterrupt": true
+    },
+    "nextStep": {
+      "dialogAction": {
+        "type": "ElicitSlot",
+        "slotToElicit": "DishName"
+      },
+      "intent": {}
+    }
+  }
+}

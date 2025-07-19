@@ -1,0 +1,107 @@
+{
+  "intentName": "CheckMenu",
+  "description": "Intent for customers to view menu items and categories",
+  "sampleUtterances": [
+    {
+      "utterance": "Show me the menu"
+    },
+    {
+      "utterance": "What's on the menu"
+    },
+    {
+      "utterance": "Can I see the menu"
+    },
+    {
+      "utterance": "Menu please"
+    },
+    {
+      "utterance": "What do you have"
+    },
+    {
+      "utterance": "What kind of food do you serve"
+    },
+    {
+      "utterance": "What dishes do you have"
+    },
+    {
+      "utterance": "Show menu"
+    },
+    {
+      "utterance": "Display menu"
+    },
+    {
+      "utterance": "I want to see your menu"
+    },
+    {
+      "utterance": "What are your specialties"
+    },
+    {
+      "utterance": "What's available"
+    },
+    {
+      "utterance": "What can I order"
+    },
+    {
+      "utterance": "Tell me about your food"
+    },
+    {
+      "utterance": "What are your popular dishes"
+    },
+    {
+      "utterance": "What do you recommend"
+    },
+    {
+      "utterance": "Show me what you have"
+    },
+    {
+      "utterance": "I'd like to see the menu"
+    },
+    {
+      "utterance": "Can you show me your dishes"
+    },
+    {
+      "utterance": "What options do you have"
+    },
+    {
+      "utterance": "List your dishes"
+    },
+    {
+      "utterance": "What's good here"
+    },
+    {
+      "utterance": "Show me your specialties"
+    },
+    {
+      "utterance": "What are today's specials"
+    },
+    {
+      "utterance": "I need to see the menu"
+    }
+  ],
+  "slots": [
+    {
+      "slotName": "MenuCategory",
+      "description": "Optional specific menu category to display",
+      "slotTypeName": "AMAZON.AlphaNumeric",
+      "valueElicitationSetting": {
+        "slotConstraint": "Optional"
+      }
+    }
+  ],
+  "fulfillmentCodeHook": {
+    "enabled": true
+  },
+  "closingSetting": {
+    "closingResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "Would you like to place an order or check any specific prices?"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

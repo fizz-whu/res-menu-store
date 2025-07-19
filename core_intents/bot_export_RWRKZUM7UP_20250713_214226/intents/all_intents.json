@@ -1,0 +1,1208 @@
+{
+  "ModifyOrder": {
+    "ResponseMetadata": {
+      "RequestId": "680beed7-9d06-498c-838a-2dcb61caa29f",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+        "date": "Mon, 14 Jul 2025 01:42:28 GMT",
+        "content-type": "application/x-amz-json-1.1",
+        "content-length": "2388",
+        "connection": "keep-alive",
+        "x-amzn-requestid": "680beed7-9d06-498c-838a-2dcb61caa29f",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-amz-apigw-id": "NrQErGsFPHcELJQ=",
+        "x-content-type-options": "nosniff",
+        "x-amzn-trace-id": "Root=1-68746083-587e1db864b314ea61fa9873"
+      },
+      "RetryAttempts": 0
+    },
+    "intentId": "B5MNHEYVDC",
+    "intentName": "ModifyOrder",
+    "sampleUtterances": [
+      {
+        "utterance": "I'd like to change my order for {MenuItem} to {NewQuantity} ."
+      },
+      {
+        "utterance": "Please modify my order to {NewQuantity} {MenuItem} ."
+      },
+      {
+        "utterance": "Could you update my order of {MenuItem} to be {NewQuantity} ?"
+      },
+      {
+        "utterance": "Change my order of {MenuItem} to have {NewQuantity} ."
+      },
+      {
+        "utterance": "Alter my existing order for {MenuItem} to instead be {NewQuantity} ."
+      },
+      {
+        "utterance": "Amend my order of {MenuItem} to {NewQuantity} ."
+      },
+      {
+        "utterance": "Revise my order for {MenuItem} to be {NewQuantity} ."
+      },
+      {
+        "utterance": "Adjust my order of {MenuItem} to {NewQuantity} ."
+      },
+      {
+        "utterance": "Modify my order for {MenuItem} to {NewQuantity} ."
+      },
+      {
+        "utterance": "Tweak my order of {MenuItem} to {NewQuantity} ."
+      }
+    ],
+    "slotPriorities": [
+      {
+        "priority": 2,
+        "slotId": "OFWZQWQCAV"
+      },
+      {
+        "priority": 3,
+        "slotId": "RJNB2X8G6O"
+      },
+      {
+        "priority": 1,
+        "slotId": "SJ7VWUZRNF"
+      }
+    ],
+    "botId": "RWRKZUM7UP",
+    "botVersion": "DRAFT",
+    "localeId": "en_US",
+    "creationDateTime": "2024-10-12 01:49:51.599000-04:00",
+    "lastUpdatedDateTime": "2024-10-12 01:49:51.599000-04:00",
+    "initialResponseSetting": {
+      "nextStep": {
+        "dialogAction": {
+          "type": "InvokeDialogCodeHook"
+        }
+      },
+      "codeHook": {
+        "enableCodeHookInvocation": true,
+        "active": true,
+        "postCodeHookSpecification": {
+          "successNextStep": {
+            "dialogAction": {
+              "type": "ElicitSlot",
+              "slotToElicit": "MenuItem"
+            }
+          },
+          "failureNextStep": {
+            "dialogAction": {
+              "type": "EndConversation"
+            }
+          },
+          "timeoutNextStep": {
+            "dialogAction": {
+              "type": "EndConversation"
+            }
+          }
+        }
+      }
+    }
+  },
+  "OrderFood": {
+    "ResponseMetadata": {
+      "RequestId": "52544e04-e750-4c0c-bb89-dfcdb615c5c5",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+        "date": "Mon, 14 Jul 2025 01:42:28 GMT",
+        "content-type": "application/x-amz-json-1.1",
+        "content-length": "8516",
+        "connection": "keep-alive",
+        "x-amzn-requestid": "52544e04-e750-4c0c-bb89-dfcdb615c5c5",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-amz-apigw-id": "NrQEuG8aPHcEKlA=",
+        "x-content-type-options": "nosniff",
+        "x-amzn-trace-id": "Root=1-68746084-5d6902523fe649bd6db8ad57"
+      },
+      "RetryAttempts": 0
+    },
+    "intentId": "CXZFHNYDKF",
+    "intentName": "OrderFood",
+    "description": "Intent for ordering food from Chinese restaurant menu",
+    "sampleUtterances": [
+      {
+        "utterance": "I want {DishName} on Rice"
+      },
+      {
+        "utterance": "Can I get {Quantity} {DishName} on Rice"
+      },
+      {
+        "utterance": "Give me {Quantity} {DishName}"
+      },
+      {
+        "utterance": "One order of {DishName}"
+      },
+      {
+        "utterance": "I'll take the {DishName}"
+      },
+      {
+        "utterance": "Can I get {Quantity} {DishName} Pan Fried Noodles"
+      },
+      {
+        "utterance": "Give me {DishName} Pan Fried Noodles"
+      },
+      {
+        "utterance": "I'll have {Quantity} {DishName} Chow Fun"
+      },
+      {
+        "utterance": "Give me {Quantity} {DishName} Chow Fun"
+      },
+      {
+        "utterance": "I want {DishName}"
+      },
+      {
+        "utterance": "I want {DishName} Chow Fun"
+      },
+      {
+        "utterance": "Let me get {DishName}"
+      },
+      {
+        "utterance": "I want {Quantity} {DishName} on Rice"
+      },
+      {
+        "utterance": "I want the {DishName}"
+      },
+      {
+        "utterance": "I'd like {Quantity} {DishName}"
+      },
+      {
+        "utterance": "I'd like the {DishName}"
+      },
+      {
+        "utterance": "Give me {Quantity} {DishName} Pan Fried Noodles"
+      },
+      {
+        "utterance": "Give me {Quantity} {DishName} {Customization}"
+      },
+      {
+        "utterance": "I'd like {Quantity} {DishName} Pan Fried Noodles"
+      },
+      {
+        "utterance": "I want {DishName} {Customization}"
+      },
+      {
+        "utterance": "I'll have # {Quantity}"
+      },
+      {
+        "utterance": "I want {Quantity} {DishName}"
+      },
+      {
+        "utterance": "I'd like number {Quantity}"
+      },
+      {
+        "utterance": "I want to order {DishName}"
+      },
+      {
+        "utterance": "I'd like {DishName} Pan Fried Noodles"
+      },
+      {
+        "utterance": "Can I get {Quantity} {DishName}"
+      },
+      {
+        "utterance": "{Quantity} orders of {DishName}"
+      },
+      {
+        "utterance": "Give me {DishName} on Rice"
+      },
+      {
+        "utterance": "Number {Quantity}"
+      },
+      {
+        "utterance": "I'll take {DishName}"
+      },
+      {
+        "utterance": "I need {DishName}"
+      },
+      {
+        "utterance": "I'd like {Quantity} {DishName} {Customization}"
+      },
+      {
+        "utterance": "{DishName} Chow Fun"
+      },
+      {
+        "utterance": "We need {Quantity} {DishName}"
+      },
+      {
+        "utterance": "I'd like {DishName} Chow Fun"
+      },
+      {
+        "utterance": "I want {DishName} Pan Fried Noodles"
+      },
+      {
+        "utterance": "We want {Quantity} {DishName}"
+      },
+      {
+        "utterance": "I'll take {Quantity} {DishName}"
+      },
+      {
+        "utterance": "Give me the {DishName}"
+      },
+      {
+        "utterance": "I'll have {Quantity} {DishName} on Rice"
+      },
+      {
+        "utterance": "I'd like {DishName} {Customization}"
+      },
+      {
+        "utterance": "I'll have {DishName}"
+      },
+      {
+        "utterance": "I want {Quantity} {DishName} Pan Fried Noodles"
+      },
+      {
+        "utterance": "Can I have {Quantity} {DishName}"
+      },
+      {
+        "utterance": "I'd like {Quantity} orders of {DishName}"
+      },
+      {
+        "utterance": "Can I get number {Quantity}"
+      },
+      {
+        "utterance": "We'll have {Quantity} {DishName}"
+      },
+      {
+        "utterance": "I'll have the {DishName}"
+      },
+      {
+        "utterance": "{DishName}"
+      },
+      {
+        "utterance": "Can I have the {DishName}"
+      },
+      {
+        "utterance": "I'd like {DishName}"
+      },
+      {
+        "utterance": "I need {Quantity} {DishName}"
+      },
+      {
+        "utterance": "Can I get {DishName} Chow Fun"
+      },
+      {
+        "utterance": "Can I get {DishName}"
+      },
+      {
+        "utterance": "Give me {DishName} Chow Fun"
+      },
+      {
+        "utterance": "I'd like {DishName} on Rice"
+      },
+      {
+        "utterance": "I want {Quantity} {DishName} {Customization}"
+      },
+      {
+        "utterance": "Give me {DishName}"
+      },
+      {
+        "utterance": "{DishName} {Customization}"
+      },
+      {
+        "utterance": "I'd like {Quantity} {DishName} Chow Fun"
+      },
+      {
+        "utterance": "Can I get the {DishName}"
+      },
+      {
+        "utterance": "Let me get {Quantity} {DishName}"
+      },
+      {
+        "utterance": "Can I get {Quantity} {DishName} Chow Fun"
+      },
+      {
+        "utterance": "Can I have {DishName}"
+      },
+      {
+        "utterance": "Give me {Quantity} {DishName} on Rice"
+      },
+      {
+        "utterance": "I'll have {Quantity} {DishName}"
+      },
+      {
+        "utterance": "I'd like to order {DishName}"
+      },
+      {
+        "utterance": "Can I get {Quantity} {DishName} {Customization}"
+      },
+      {
+        "utterance": "I'd like {Quantity} {DishName} on Rice"
+      },
+      {
+        "utterance": "I'll have {DishName} on Rice"
+      },
+      {
+        "utterance": "An order of {DishName}"
+      },
+      {
+        "utterance": "Can I get {DishName} Pan Fried Noodles"
+      },
+      {
+        "utterance": "I'll have {Quantity} {DishName} Pan Fried Noodles"
+      },
+      {
+        "utterance": "I want {Quantity} {DishName} Chow Fun"
+      },
+      {
+        "utterance": "I'll have {DishName} Chow Fun"
+      },
+      {
+        "utterance": "{Quantity} {DishName} {Customization}"
+      },
+      {
+        "utterance": "I'll have {DishName} Pan Fried Noodles"
+      },
+      {
+        "utterance": "I'd like an order of {DishName}"
+      },
+      {
+        "utterance": "I want {Quantity} orders of {DishName}"
+      },
+      {
+        "utterance": "{Quantity} {DishName}"
+      },
+      {
+        "utterance": "{DishName} Pan Fried Noodles"
+      },
+      {
+        "utterance": "{DishName} on Rice"
+      },
+      {
+        "utterance": "Can I get {DishName} on Rice"
+      },
+      {
+        "utterance": "I want an order of {DishName}"
+      },
+      {
+        "utterance": "I want number {Quantity}"
+      }
+    ],
+    "fulfillmentCodeHook": {
+      "enabled": true,
+      "postFulfillmentStatusSpecification": {
+        "successResponse": {
+          "messageGroups": [
+            {
+              "message": {
+                "plainTextMessage": {
+                  "value": "Your order will be ready soon."
+                }
+              }
+            }
+          ],
+          "allowInterrupt": true
+        },
+        "successNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          },
+          "intent": {}
+        },
+        "failureNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          },
+          "intent": {}
+        },
+        "timeoutNextStep": {
+          "dialogAction": {
+            "type": "EndConversation"
+          },
+          "intent": {}
+        }
+      },
+      "active": true
+    },
+    "slotPriorities": [
+      {
+        "priority": 1,
+        "slotId": "88PF5X0BAQ"
+      },
+      {
+        "priority": 2,
+        "slotId": "CDX4VIYTU7"
+      },
+      {
+        "priority": 3,
+        "slotId": "FYDKWATBAN"
+      }
+    ],
+    "intentConfirmationSetting": {
+      "promptSpecification": {
+        "messageGroups": [
+          {
+            "message": {
+              "plainTextMessage": {
+                "value": "So you want {Quantity} {DishName}. Is that correct?"
+              }
+            }
+          }
+        ],
+        "maxRetries": 2,
+        "allowInterrupt": true,
+        "messageSelectionStrategy": "Random",
+        "promptAttemptsSpecification": {
+          "Initial": {
+            "allowInterrupt": true,
+            "allowedInputTypes": {
+              "allowAudioInput": true,
+              "allowDTMFInput": true
+            },
+            "audioAndDTMFInputSpecification": {
+              "startTimeoutMs": 4000,
+              "audioSpecification": {
+                "maxLengthMs": 15000,
+                "endTimeoutMs": 640
+              },
+              "dtmfSpecification": {
+                "maxLength": 513,
+                "endTimeoutMs": 5000,
+                "deletionCharacter": "*",
+                "endCharacter": "#"
+              }
+            },
+            "textInputSpecification": {
+              "startTimeoutMs": 30000
+            }
+          },
+          "Retry1": {
+            "allowInterrupt": true,
+            "allowedInputTypes": {
+              "allowAudioInput": true,
+              "allowDTMFInput": true
+            },
+            "audioAndDTMFInputSpecification": {
+              "startTimeoutMs": 4000,
+              "audioSpecification": {
+                "maxLengthMs": 15000,
+                "endTimeoutMs": 640
+              },
+              "dtmfSpecification": {
+                "maxLength": 513,
+                "endTimeoutMs": 5000,
+                "deletionCharacter": "*",
+                "endCharacter": "#"
+              }
+            },
+            "textInputSpecification": {
+              "startTimeoutMs": 30000
+            }
+          },
+          "Retry2": {
+            "allowInterrupt": true,
+            "allowedInputTypes": {
+              "allowAudioInput": true,
+              "allowDTMFInput": true
+            },
+            "audioAndDTMFInputSpecification": {
+              "startTimeoutMs": 4000,
+              "audioSpecification": {
+                "maxLengthMs": 15000,
+                "endTimeoutMs": 640
+              },
+              "dtmfSpecification": {
+                "maxLength": 513,
+                "endTimeoutMs": 5000,
+                "deletionCharacter": "*",
+                "endCharacter": "#"
+              }
+            },
+            "textInputSpecification": {
+              "startTimeoutMs": 30000
+            }
+          }
+        }
+      },
+      "declinationResponse": {
+        "messageGroups": [
+          {
+            "message": {
+              "plainTextMessage": {
+                "value": "Okay, let me know what you'd like to order."
+              }
+            }
+          }
+        ],
+        "allowInterrupt": true
+      },
+      "active": true,
+      "confirmationNextStep": {
+        "dialogAction": {
+          "type": "FulfillIntent"
+        },
+        "intent": {}
+      },
+      "declinationNextStep": {
+        "dialogAction": {
+          "type": "EndConversation"
+        },
+        "intent": {}
+      },
+      "failureNextStep": {
+        "dialogAction": {
+          "type": "StartIntent"
+        },
+        "intent": {
+          "name": "FallbackIntent"
+        }
+      },
+      "elicitationCodeHook": {
+        "enableCodeHookInvocation": true
+      }
+    },
+    "botId": "RWRKZUM7UP",
+    "botVersion": "DRAFT",
+    "localeId": "en_US",
+    "creationDateTime": "2025-06-22 23:55:31.497000-04:00",
+    "lastUpdatedDateTime": "2025-06-28 22:49:04.459000-04:00",
+    "initialResponseSetting": {
+      "initialResponse": {
+        "messageGroups": [
+          {
+            "message": {
+              "plainTextMessage": {
+                "value": "I'd be happy to help you place your order."
+              }
+            }
+          }
+        ],
+        "allowInterrupt": true
+      },
+      "nextStep": {
+        "dialogAction": {
+          "type": "ElicitSlot",
+          "slotToElicit": "DishName"
+        },
+        "intent": {}
+      }
+    }
+  },
+  "FallbackIntent": {
+    "ResponseMetadata": {
+      "RequestId": "9649010c-56c7-44c9-b570-306192c0a8bc",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+        "date": "Mon, 14 Jul 2025 01:42:28 GMT",
+        "content-type": "application/x-amz-json-1.1",
+        "content-length": "1828",
+        "connection": "keep-alive",
+        "x-amzn-requestid": "9649010c-56c7-44c9-b570-306192c0a8bc",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-amz-apigw-id": "NrQEvG-ivHcEsgw=",
+        "x-content-type-options": "nosniff",
+        "x-amzn-trace-id": "Root=1-68746084-74469561550da97e44b061e6"
+      },
+      "RetryAttempts": 0
+    },
+    "intentId": "FALLBCKINT",
+    "intentName": "FallbackIntent",
+    "description": "Default intent when no other intent matches",
+    "parentIntentSignature": "AMAZON.FallbackIntent",
+    "botId": "RWRKZUM7UP",
+    "botVersion": "DRAFT",
+    "localeId": "en_US",
+    "creationDateTime": "2024-10-12 01:43:24.936000-04:00",
+    "lastUpdatedDateTime": "2024-11-18 22:17:38.316000-05:00",
+    "initialResponseSetting": {
+      "initialResponse": {
+        "messageGroups": [
+          {
+            "message": {
+              "plainTextMessage": {
+                "value": "How may I help you today."
+              }
+            }
+          }
+        ],
+        "allowInterrupt": true
+      },
+      "nextStep": {
+        "dialogAction": {
+          "type": "InvokeDialogCodeHook"
+        }
+      },
+      "codeHook": {
+        "enableCodeHookInvocation": true,
+        "active": true,
+        "postCodeHookSpecification": {
+          "successNextStep": {
+            "dialogAction": {
+              "type": "EndConversation"
+            }
+          },
+          "failureNextStep": {
+            "dialogAction": {
+              "type": "EndConversation"
+            }
+          },
+          "timeoutNextStep": {
+            "dialogAction": {
+              "type": "EndConversation"
+            }
+          }
+        }
+      }
+    }
+  },
+  "RestaurantHoursIntent": {
+    "ResponseMetadata": {
+      "RequestId": "a1ee738d-da4c-4ce2-8af6-c36b242145ca",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+        "date": "Mon, 14 Jul 2025 01:42:28 GMT",
+        "content-type": "application/x-amz-json-1.1",
+        "content-length": "1282",
+        "connection": "keep-alive",
+        "x-amzn-requestid": "a1ee738d-da4c-4ce2-8af6-c36b242145ca",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-amz-apigw-id": "NrQExHLKvHcEgzg=",
+        "x-content-type-options": "nosniff",
+        "x-amzn-trace-id": "Root=1-68746084-45995d012046ca811d62818b"
+      },
+      "RetryAttempts": 0
+    },
+    "intentId": "G7TOX6KJVM",
+    "intentName": "RestaurantHoursIntent",
+    "description": "Intent to provide restaurant hours information",
+    "sampleUtterances": [
+      {
+        "utterance": "What are your hours"
+      },
+      {
+        "utterance": "When are you open"
+      },
+      {
+        "utterance": "What time do you close"
+      },
+      {
+        "utterance": "What are your operating hours"
+      },
+      {
+        "utterance": "Are you open now"
+      },
+      {
+        "utterance": "How late are you open"
+      },
+      {
+        "utterance": "What time do you open"
+      },
+      {
+        "utterance": "Are you open today"
+      },
+      {
+        "utterance": "What are your business hours"
+      },
+      {
+        "utterance": "When do you close"
+      }
+    ],
+    "intentClosingSetting": {
+      "closingResponse": {
+        "messageGroups": [
+          {
+            "message": {
+              "plainTextMessage": {
+                "value": "We're open Monday through Sunday from 11:00 AM to 10:00 PM. We're open 7 days a week!"
+              }
+            }
+          }
+        ],
+        "allowInterrupt": true
+      },
+      "active": true
+    },
+    "botId": "RWRKZUM7UP",
+    "botVersion": "DRAFT",
+    "localeId": "en_US",
+    "creationDateTime": "2025-07-03 22:23:20.794000-04:00",
+    "lastUpdatedDateTime": "2025-07-03 23:39:21.062000-04:00"
+  },
+  "PlaceOrder": {
+    "ResponseMetadata": {
+      "RequestId": "54b23bd2-42e8-49b2-a432-0431c1ad6d95",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+        "date": "Mon, 14 Jul 2025 01:42:28 GMT",
+        "content-type": "application/x-amz-json-1.1",
+        "content-length": "6395",
+        "connection": "keep-alive",
+        "x-amzn-requestid": "54b23bd2-42e8-49b2-a432-0431c1ad6d95",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-amz-apigw-id": "NrQE0GE0PHcEqqw=",
+        "x-content-type-options": "nosniff",
+        "x-amzn-trace-id": "Root=1-68746084-52c70a62779554cd79a76ee4"
+      },
+      "RetryAttempts": 0
+    },
+    "intentId": "RMTXXL74GP",
+    "intentName": "PlaceOrder",
+    "sampleUtterances": [
+      {
+        "utterance": "Remove all the utterance and this is just for testing."
+      }
+    ],
+    "fulfillmentCodeHook": {
+      "enabled": true,
+      "postFulfillmentStatusSpecification": {
+        "successResponse": {
+          "messageGroups": [
+            {
+              "message": {
+                "plainTextMessage": {
+                  "value": "Your order will be ready soon."
+                }
+              }
+            }
+          ],
+          "allowInterrupt": true
+        },
+        "failureResponse": {
+          "messageGroups": [
+            {
+              "message": {
+                "plainTextMessage": {
+                  "value": "Sorry, your order is not placed yet."
+                }
+              }
+            }
+          ],
+          "allowInterrupt": true
+        },
+        "successNextStep": {
+          "dialogAction": {
+            "type": "CloseIntent"
+          },
+          "intent": {}
+        },
+        "failureNextStep": {
+          "dialogAction": {
+            "type": "CloseIntent"
+          },
+          "intent": {}
+        },
+        "timeoutNextStep": {
+          "dialogAction": {
+            "type": "CloseIntent"
+          },
+          "intent": {}
+        }
+      },
+      "active": true
+    },
+    "slotPriorities": [
+      {
+        "priority": 1,
+        "slotId": "TZ1L6NRGBB"
+      },
+      {
+        "priority": 2,
+        "slotId": "P9NOGJOFSK"
+      },
+      {
+        "priority": 3,
+        "slotId": "UONI0YESQO"
+      }
+    ],
+    "intentConfirmationSetting": {
+      "promptSpecification": {
+        "messageGroups": [
+          {
+            "message": {
+              "plainTextMessage": {
+                "value": "I am going to place your order."
+              }
+            }
+          }
+        ],
+        "maxRetries": 4,
+        "allowInterrupt": true,
+        "messageSelectionStrategy": "Random",
+        "promptAttemptsSpecification": {
+          "Initial": {
+            "allowInterrupt": true,
+            "allowedInputTypes": {
+              "allowAudioInput": true,
+              "allowDTMFInput": true
+            },
+            "audioAndDTMFInputSpecification": {
+              "startTimeoutMs": 4000,
+              "audioSpecification": {
+                "maxLengthMs": 15000,
+                "endTimeoutMs": 640
+              },
+              "dtmfSpecification": {
+                "maxLength": 513,
+                "endTimeoutMs": 5000,
+                "deletionCharacter": "*",
+                "endCharacter": "#"
+              }
+            },
+            "textInputSpecification": {
+              "startTimeoutMs": 30000
+            }
+          },
+          "Retry1": {
+            "allowInterrupt": true,
+            "allowedInputTypes": {
+              "allowAudioInput": true,
+              "allowDTMFInput": true
+            },
+            "audioAndDTMFInputSpecification": {
+              "startTimeoutMs": 4000,
+              "audioSpecification": {
+                "maxLengthMs": 15000,
+                "endTimeoutMs": 640
+              },
+              "dtmfSpecification": {
+                "maxLength": 513,
+                "endTimeoutMs": 5000,
+                "deletionCharacter": "*",
+                "endCharacter": "#"
+              }
+            },
+            "textInputSpecification": {
+              "startTimeoutMs": 30000
+            }
+          },
+          "Retry2": {
+            "allowInterrupt": true,
+            "allowedInputTypes": {
+              "allowAudioInput": true,
+              "allowDTMFInput": true
+            },
+            "audioAndDTMFInputSpecification": {
+              "startTimeoutMs": 4000,
+              "audioSpecification": {
+                "maxLengthMs": 15000,
+                "endTimeoutMs": 640
+              },
+              "dtmfSpecification": {
+                "maxLength": 513,
+                "endTimeoutMs": 5000,
+                "deletionCharacter": "*",
+                "endCharacter": "#"
+              }
+            },
+            "textInputSpecification": {
+              "startTimeoutMs": 30000
+            }
+          },
+          "Retry3": {
+            "allowInterrupt": true,
+            "allowedInputTypes": {
+              "allowAudioInput": true,
+              "allowDTMFInput": true
+            },
+            "audioAndDTMFInputSpecification": {
+              "startTimeoutMs": 4000,
+              "audioSpecification": {
+                "maxLengthMs": 15000,
+                "endTimeoutMs": 640
+              },
+              "dtmfSpecification": {
+                "maxLength": 513,
+                "endTimeoutMs": 5000,
+                "deletionCharacter": "*",
+                "endCharacter": "#"
+              }
+            },
+            "textInputSpecification": {
+              "startTimeoutMs": 30000
+            }
+          },
+          "Retry4": {
+            "allowInterrupt": true,
+            "allowedInputTypes": {
+              "allowAudioInput": true,
+              "allowDTMFInput": true
+            },
+            "audioAndDTMFInputSpecification": {
+              "startTimeoutMs": 4000,
+              "audioSpecification": {
+                "maxLengthMs": 15000,
+                "endTimeoutMs": 640
+              },
+              "dtmfSpecification": {
+                "maxLength": 513,
+                "endTimeoutMs": 5000,
+                "deletionCharacter": "*",
+                "endCharacter": "#"
+              }
+            },
+            "textInputSpecification": {
+              "startTimeoutMs": 30000
+            }
+          }
+        }
+      },
+      "declinationResponse": {
+        "messageGroups": [
+          {
+            "message": {
+              "plainTextMessage": {
+                "value": "Okey, your order will not be submitted"
+              }
+            }
+          }
+        ],
+        "allowInterrupt": true
+      },
+      "active": true,
+      "confirmationNextStep": {
+        "dialogAction": {
+          "type": "FulfillIntent"
+        },
+        "intent": {}
+      },
+      "declinationNextStep": {
+        "dialogAction": {
+          "type": "EndConversation"
+        },
+        "intent": {}
+      },
+      "failureNextStep": {
+        "dialogAction": {
+          "type": "StartIntent"
+        },
+        "intent": {
+          "name": "FallbackIntent"
+        }
+      },
+      "elicitationCodeHook": {
+        "enableCodeHookInvocation": true
+      }
+    },
+    "intentClosingSetting": {
+      "closingResponse": {
+        "messageGroups": [
+          {
+            "message": {
+              "plainTextMessage": {
+                "value": "Thank you, you order will be ready for pick up shortly!"
+              }
+            }
+          }
+        ],
+        "allowInterrupt": true
+      },
+      "active": true,
+      "nextStep": {
+        "dialogAction": {
+          "type": "EndConversation"
+        },
+        "intent": {}
+      }
+    },
+    "botId": "RWRKZUM7UP",
+    "botVersion": "DRAFT",
+    "localeId": "en_US",
+    "creationDateTime": "2024-10-12 01:49:51.533000-04:00",
+    "lastUpdatedDateTime": "2025-06-28 18:27:28.592000-04:00",
+    "initialResponseSetting": {
+      "nextStep": {
+        "dialogAction": {
+          "type": "InvokeDialogCodeHook"
+        }
+      },
+      "codeHook": {
+        "enableCodeHookInvocation": true,
+        "active": true,
+        "postCodeHookSpecification": {
+          "successNextStep": {
+            "dialogAction": {
+              "type": "ElicitSlot",
+              "slotToElicit": "MenuItem"
+            }
+          },
+          "failureNextStep": {
+            "dialogAction": {
+              "type": "EndConversation"
+            }
+          },
+          "timeoutNextStep": {
+            "dialogAction": {
+              "type": "EndConversation"
+            }
+          }
+        }
+      }
+    }
+  },
+  "GetPrice": {
+    "ResponseMetadata": {
+      "RequestId": "2e209b98-a755-4ef4-96ea-c26698835076",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+        "date": "Mon, 14 Jul 2025 01:42:29 GMT",
+        "content-type": "application/x-amz-json-1.1",
+        "content-length": "2161",
+        "connection": "keep-alive",
+        "x-amzn-requestid": "2e209b98-a755-4ef4-96ea-c26698835076",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-amz-apigw-id": "NrQE2EMhPHcEReQ=",
+        "x-content-type-options": "nosniff",
+        "x-amzn-trace-id": "Root=1-68746085-2bbd07ad26bdbed17dc37aa2"
+      },
+      "RetryAttempts": 0
+    },
+    "intentId": "TFYEDB1DCT",
+    "intentName": "GetPrice",
+    "sampleUtterances": [
+      {
+        "utterance": "What is the price of {MenuItem} ?"
+      },
+      {
+        "utterance": "May I know the cost of {MenuItem} ?"
+      },
+      {
+        "utterance": "Could you tell me how much {MenuItem} costs?"
+      },
+      {
+        "utterance": "Please let me know the amount for {MenuItem} ."
+      },
+      {
+        "utterance": "I would like to find out the price for {MenuItem} ."
+      },
+      {
+        "utterance": "Can you provide the rate for {MenuItem} ?"
+      },
+      {
+        "utterance": "How much does {MenuItem} cost?"
+      },
+      {
+        "utterance": "What's the charge for {MenuItem} ?"
+      },
+      {
+        "utterance": "What is the fee for {MenuItem} ?"
+      },
+      {
+        "utterance": "How much do I need to pay for {MenuItem} ?"
+      }
+    ],
+    "slotPriorities": [
+      {
+        "priority": 1,
+        "slotId": "FJBQ3NCTKW"
+      }
+    ],
+    "botId": "RWRKZUM7UP",
+    "botVersion": "DRAFT",
+    "localeId": "en_US",
+    "creationDateTime": "2024-10-12 01:49:51.557000-04:00",
+    "lastUpdatedDateTime": "2024-10-12 01:49:51.557000-04:00",
+    "initialResponseSetting": {
+      "nextStep": {
+        "dialogAction": {
+          "type": "InvokeDialogCodeHook"
+        }
+      },
+      "codeHook": {
+        "enableCodeHookInvocation": true,
+        "active": true,
+        "postCodeHookSpecification": {
+          "successNextStep": {
+            "dialogAction": {
+              "type": "ElicitSlot",
+              "slotToElicit": "MenuItem"
+            }
+          },
+          "failureNextStep": {
+            "dialogAction": {
+              "type": "EndConversation"
+            }
+          },
+          "timeoutNextStep": {
+            "dialogAction": {
+              "type": "EndConversation"
+            }
+          }
+        }
+      }
+    }
+  },
+  "CheckMenu": {
+    "ResponseMetadata": {
+      "RequestId": "62c00d2c-8099-40dc-a0d3-0e25f1ae04a9",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+        "date": "Mon, 14 Jul 2025 01:42:29 GMT",
+        "content-type": "application/x-amz-json-1.1",
+        "content-length": "2037",
+        "connection": "keep-alive",
+        "x-amzn-requestid": "62c00d2c-8099-40dc-a0d3-0e25f1ae04a9",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-amz-apigw-id": "NrQE4GuLvHcEcqw=",
+        "x-content-type-options": "nosniff",
+        "x-amzn-trace-id": "Root=1-68746085-7eb2fe1d355584163d70b498"
+      },
+      "RetryAttempts": 0
+    },
+    "intentId": "YCTY9OJFFV",
+    "intentName": "CheckMenu",
+    "sampleUtterances": [
+      {
+        "utterance": "What is on the menu?"
+      },
+      {
+        "utterance": "Could you tell me what is on the menu?"
+      },
+      {
+        "utterance": "I'd like to see the menu."
+      },
+      {
+        "utterance": "Please show me what's on the menu."
+      },
+      {
+        "utterance": "Can I get a look at the menu?"
+      },
+      {
+        "utterance": "Let me check out the menu."
+      },
+      {
+        "utterance": "I want to look over the menu."
+      },
+      {
+        "utterance": "What dishes are on the menu?"
+      },
+      {
+        "utterance": "What food options are on the menu?"
+      },
+      {
+        "utterance": "What meals are available on the menu?"
+      }
+    ],
+    "slotPriorities": [],
+    "botId": "RWRKZUM7UP",
+    "botVersion": "DRAFT",
+    "localeId": "en_US",
+    "creationDateTime": "2024-10-12 01:49:51.578000-04:00",
+    "lastUpdatedDateTime": "2024-10-12 01:49:51.578000-04:00",
+    "initialResponseSetting": {
+      "nextStep": {
+        "dialogAction": {
+          "type": "InvokeDialogCodeHook"
+        }
+      },
+      "codeHook": {
+        "enableCodeHookInvocation": true,
+        "active": true,
+        "postCodeHookSpecification": {
+          "successNextStep": {
+            "dialogAction": {
+              "type": "EndConversation"
+            }
+          },
+          "failureNextStep": {
+            "dialogAction": {
+              "type": "EndConversation"
+            }
+          },
+          "timeoutNextStep": {
+            "dialogAction": {
+              "type": "EndConversation"
+            }
+          }
+        }
+      }
+    }
+  }
+}

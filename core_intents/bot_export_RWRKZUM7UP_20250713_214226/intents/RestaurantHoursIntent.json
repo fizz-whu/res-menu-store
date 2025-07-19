@@ -1,0 +1,73 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "a1ee738d-da4c-4ce2-8af6-c36b242145ca",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Mon, 14 Jul 2025 01:42:28 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "1282",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "a1ee738d-da4c-4ce2-8af6-c36b242145ca",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-amz-apigw-id": "NrQExHLKvHcEgzg=",
+      "x-content-type-options": "nosniff",
+      "x-amzn-trace-id": "Root=1-68746084-45995d012046ca811d62818b"
+    },
+    "RetryAttempts": 0
+  },
+  "intentId": "G7TOX6KJVM",
+  "intentName": "RestaurantHoursIntent",
+  "description": "Intent to provide restaurant hours information",
+  "sampleUtterances": [
+    {
+      "utterance": "What are your hours"
+    },
+    {
+      "utterance": "When are you open"
+    },
+    {
+      "utterance": "What time do you close"
+    },
+    {
+      "utterance": "What are your operating hours"
+    },
+    {
+      "utterance": "Are you open now"
+    },
+    {
+      "utterance": "How late are you open"
+    },
+    {
+      "utterance": "What time do you open"
+    },
+    {
+      "utterance": "Are you open today"
+    },
+    {
+      "utterance": "What are your business hours"
+    },
+    {
+      "utterance": "When do you close"
+    }
+  ],
+  "intentClosingSetting": {
+    "closingResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "We're open Monday through Sunday from 11:00 AM to 10:00 PM. We're open 7 days a week!"
+            }
+          }
+        }
+      ],
+      "allowInterrupt": true
+    },
+    "active": true
+  },
+  "botId": "RWRKZUM7UP",
+  "botVersion": "DRAFT",
+  "localeId": "en_US",
+  "creationDateTime": "2025-07-03 22:23:20.794000-04:00",
+  "lastUpdatedDateTime": "2025-07-03 23:39:21.062000-04:00"
+}

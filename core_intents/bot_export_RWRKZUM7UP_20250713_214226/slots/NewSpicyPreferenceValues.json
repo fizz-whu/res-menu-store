@@ -1,0 +1,65 @@
+{
+  "ResponseMetadata": {
+    "RequestId": "9ea853bb-f41f-44ba-888f-53ef1cd117bb",
+    "HTTPStatusCode": 200,
+    "HTTPHeaders": {
+      "date": "Mon, 14 Jul 2025 01:42:29 GMT",
+      "content-type": "application/x-amz-json-1.1",
+      "content-length": "782",
+      "connection": "keep-alive",
+      "x-amzn-requestid": "9ea853bb-f41f-44ba-888f-53ef1cd117bb",
+      "strict-transport-security": "max-age=31536000; includeSubDomains",
+      "x-amz-apigw-id": "NrQE9F9lPHcEZMQ=",
+      "x-content-type-options": "nosniff",
+      "x-amzn-trace-id": "Root=1-68746085-1d485f2222d9d2ec2b900479"
+    },
+    "RetryAttempts": 0
+  },
+  "slotTypeId": "8CDALF2DU0",
+  "slotTypeName": "NewSpicyPreferenceValues",
+  "slotTypeValues": [
+    {
+      "sampleValue": {
+        "value": "Mild"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Medium"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Spicy"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Extra Spicy"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Not Spicy"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Hot"
+      }
+    },
+    {
+      "sampleValue": {
+        "value": "Very Spicy"
+      }
+    }
+  ],
+  "valueSelectionSetting": {
+    "resolutionStrategy": "OriginalValue"
+  },
+  "botId": "RWRKZUM7UP",
+  "botVersion": "DRAFT",
+  "localeId": "en_US",
+  "creationDateTime": "2024-10-12 01:49:51.192000-04:00",
+  "lastUpdatedDateTime": "2024-10-18 12:09:32.517000-04:00"
+}

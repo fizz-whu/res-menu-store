@@ -1,0 +1,78 @@
+{
+  "bot_info": {
+    "ResponseMetadata": {
+      "RequestId": "09f033ac-c72a-4e0a-8aa7-8fe55f8ed69a",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+        "date": "Mon, 14 Jul 2025 01:42:27 GMT",
+        "content-type": "application/x-amz-json-1.1",
+        "content-length": "450",
+        "connection": "keep-alive",
+        "x-amzn-requestid": "09f033ac-c72a-4e0a-8aa7-8fe55f8ed69a",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-amz-apigw-id": "NrQEjE4sPHcEONA=",
+        "x-content-type-options": "nosniff",
+        "x-amzn-trace-id": "Root=1-68746083-79491a64651e173f2daae3e5"
+      },
+      "RetryAttempts": 0
+    },
+    "botId": "RWRKZUM7UP",
+    "botName": "CnRes001",
+    "description": "Bot for chinese restaurant",
+    "roleArn": "arn:aws:iam::495599767527:role/aws-service-role/lexv2.amazonaws.com/AWSServiceRoleForLexV2Bots_QLJNIU5NQ3A",
+    "dataPrivacy": {
+      "childDirected": false
+    },
+    "idleSessionTTLInSeconds": 300,
+    "botStatus": "Available",
+    "creationDateTime": "2024-10-12 01:40:15.830000-04:00",
+    "lastUpdatedDateTime": "2024-10-12 01:40:15.830000-04:00",
+    "botType": "Bot"
+  },
+  "locale_info": {
+    "ResponseMetadata": {
+      "RequestId": "4f56c42b-2fb6-42b4-a2bb-28e825a94f4c",
+      "HTTPStatusCode": 200,
+      "HTTPHeaders": {
+        "date": "Mon, 14 Jul 2025 01:42:27 GMT",
+        "content-type": "application/x-amz-json-1.1",
+        "content-length": "829",
+        "connection": "keep-alive",
+        "x-amzn-requestid": "4f56c42b-2fb6-42b4-a2bb-28e825a94f4c",
+        "strict-transport-security": "max-age=31536000; includeSubDomains",
+        "x-amz-apigw-id": "NrQEnFVpPHcEN3A=",
+        "x-content-type-options": "nosniff",
+        "x-amzn-trace-id": "Root=1-68746083-5f59c53268984cc02ee548f7"
+      },
+      "RetryAttempts": 0
+    },
+    "botId": "RWRKZUM7UP",
+    "botVersion": "DRAFT",
+    "localeId": "en_US",
+    "localeName": "English (US)",
+    "nluIntentConfidenceThreshold": 0.4,
+    "voiceSettings": {
+      "voiceId": "Joanna",
+      "engine": "neural"
+    },
+    "intentsCount": 7,
+    "slotTypesCount": 5,
+    "botLocaleStatus": "Built",
+    "creationDateTime": "2024-10-12 01:43:24.410000-04:00",
+    "lastUpdatedDateTime": "2024-10-12 01:43:27.110000-04:00",
+    "lastBuildSubmittedDateTime": "2025-07-03 22:41:10.550000-04:00",
+    "generativeAISettings": {
+      "buildtimeSettings": {
+        "descriptiveBotBuilder": {
+          "enabled": true,
+          "bedrockModelSpecification": {
+            "modelArn": "arn:aws:bedrock:us-west-2::foundation-model/anthropic.claude-v2"
+          }
+        }
+      }
+    }
+  },
+  "export_timestamp": "2025-07-13T21:42:27.688245",
+  "bot_id": "RWRKZUM7UP",
+  "locale_id": "en_US"
+}
