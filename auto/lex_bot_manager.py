@@ -142,34 +142,8 @@ class LexBotManager:
         for i, item in enumerate(all_items, 1):
             component_type = item['type']
             name = item['name']
-            
-            if component_type == 'lambda_functions':
-                # Show Lambda function with usage information
-                connection_type = item.get('connection_type', 'unknown')
-                usage = item.get('usage', [])
-                
-                print(f"{i}. [{component_type.upper()}] {name} ({connection_type.upper()})")
-                
-                if usage:
-                    print(f"    Used in:")
-                    for use in usage:
-                        intent_name = use['intent_name']
-                        hook_type = use['hook_type']
-                        description = use['description']
-                        locale_info = use['locale']
-                        print(f"      - Intent: {intent_name} ({hook_type}) - {description} [Locale: {locale_info}]")
-                else:
-                    if connection_type == 'direct':
-                        print(f"    Usage: Connected to bot but no specific intent usage found")
-                    elif connection_type == 'inferred':
-                        print(f"    Usage: Potentially related (name/description match)")
-                    elif connection_type == 'debug':
-                        print(f"    Usage: Debug mode - verify connection manually")
-                    else:
-                        print(f"    Usage: Unknown connection")
-            else:
-                locale = item.get('locale', 'N/A')
-                print(f"{i}. [{component_type.upper()}] {name} (Locale: {locale})")
+            locale = item.get('locale', 'N/A')
+            print(f"{i}. [{component_type.upper()}] {name} (Locale: {locale})")
         
         print(f"{len(all_items) + 1}. Exit")
         
@@ -327,24 +301,14 @@ class LexBotManager:
 
 
 def main():
-    parser = argparse.ArgumentParser(description='Amazon Lex Bot Manager - Manages Lex intents and slots')
+    parser = argparse.ArgumentParser(description='Amazon Lex Bot Manager - Manages Lex intents and slots only')
     parser.add_argument('--csv', default='bot_ids.csv', help='CSV file containing bot IDs (default: bot_ids.csv)')
     parser.add_argument('--upload', help='Upload a modified component file')
     parser.add_argument('--debug', action='store_true', help='Enable debug output')
-    parser.add_argument('--lambda', action='store_true', help='Also manage Lambda functions (uses lambda_function_manager)')
     
     args = parser.parse_args()
     
     manager = LexBotManager(debug=args.debug)
-    
-    # Import Lambda manager if requested
-    lambda_manager = None
-    if args.lambda_:
-        try:
-            from lambda_function_manager import LambdaFunctionManager
-            lambda_manager = LambdaFunctionManager(debug=args.debug)
-        except ImportError:
-            print("Warning: lambda_function_manager.py not found. Lambda functions will not be managed.")
     
     if args.upload:
         # Upload mode
@@ -379,31 +343,12 @@ def main():
             print(f"\nFetching components for bot: {bot_id} in region: {region}")
             components = manager.list_bot_components(bot_id, region)
             
-            # Add Lambda functions if Lambda manager is available
-            if lambda_manager:
-                lex_client = manager.get_clients(region)['lex']
-                lambda_functions = lambda_manager.find_lambda_functions_for_bot(
-                    lex_client, bot_id, region, 
-                    include_fallback=False, 
-                    export_bot=False
-                )
-                components['lambda_functions'] = lambda_functions
-                
-                # Show Lambda usage summary if any Lambda functions were found
-                if lambda_functions:
-                    lambda_manager.display_lambda_usage_summary(lambda_functions)
-            
             while True:
                 selected_component = manager.display_selection_menu(components)
                 if selected_component is None:
                     break
                 
-                # Handle Lambda function downloads differently
-                if selected_component.get('type') == 'lambda_functions' and lambda_manager:
-                    selected_component['bot_id'] = bot_id  # Add bot_id for download directory
-                    file_path = lambda_manager.download_lambda_function(selected_component)
-                else:
-                    file_path = manager.download_component(selected_component)
+                file_path = manager.download_component(selected_component)
                 
                 if file_path:
                     print(f"\nComponent downloaded to: {file_path}")

@@ -1,0 +1,21 @@
+{
+  "configuration": {
+    "FunctionName": "test_dynamo_write_0",
+    "Runtime": "python3.11",
+    "Handler": "lambda_function.lambda_handler",
+    "Description": "",
+    "Timeout": 3,
+    "MemorySize": 128,
+    "TracingConfig": {
+      "Mode": "PassThrough"
+    }
+  },
+  "code_info": {
+    "location": "https://awslambda-us-west-2-tasks.s3.us-west-2.amazonaws.com/snapshots/495599767527/test_dynamo_write_0-448256f3-5046-4dbe-81cb-498c93e8d228?versionId=oGjSraTg37hLPplm7a4rVoOv.dsVI8yS&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEI3%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQCQ2F9%2BCi%2BKMkfO7AArlph6L6Sm4VNkXjSqghz%2FQIrawQIgDLE94muSuZGeFlytkJbnB2f7Q6leMxDgQE3%2BDn5PluoqkgIIpv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FARAFGgw1MDIyOTcwNzYxNjMiDKlYSenuA6BP8Kwo3SrmARZ4AQzMFye5I1rcyohR0%2BghMF%2Fxwj4Qh8Gdh8e4GovyZFqjYsIH8vib54HMLknAq6j2KrTGVppsIGZgkyrlogWNsEtwL%2FwmIFxHHNKCLiYobxkxuXbLwdxVhzHDbwsogU1xVsclNLyaGoj%2BSbWWEZlUUxPXdZU2ELt52sAsnp88vX%2FPXDjr3TmpN4l%2BNTyuVYIpG%2BS6lozYmAcmdmbV28Zg5Jv%2F%2FpmAAvR5Z5Y%2FLaSbGviLscexlJAmEDL9CUAb8oivbfdwjuvFJcM%2FfoVyr3KCyyODd3XKaE5xhRY%2Fzc18eMyq2PVAMJOd7sMGOo8BmLWPbPS63i%2BEhzzaKA%2FdhS%2FpY4L9wL%2F4Au6QjT5mDNw5N8of%2F7JgwO1xjzqr%2FpBvuz0uyfKdL0dk7wMPDZ5%2Bg1ervbPoaCRwNhRNPNeNXoaNkktwveGOC9a%2FCTMKnIxMux8yn8eJGEhySbcQRNYiU%2Bz9ulrEsZmMAZw2sDuO4pBMJPwRUMIxnktr45zNNhM%3D&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20250719T210206Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Credential=ASIAXJ4Z5EHB2VF6XMV4%2F20250719%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Signature=f98b489dd6f6b6bd1d7dce24eba6e2b2642bd6e8706997161eec4d8af2363f30",
+    "repository_type": "S3",
+    "code_sha256": "KFqFO16QMB0I5RhzrQUVkjPoLI7MLvAW+DnkZtjIik8=",
+    "code_size": 1701,
+    "code_extracted": false,
+    "reason": "No module named 'requests'"
+  }
+}
