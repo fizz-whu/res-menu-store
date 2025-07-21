@@ -1,0 +1,23 @@
+{
+  "slotName": "NumberOfPeople",
+  "description": "Number of people for the family dinner",
+  "slotTypeId": "AMAZON.Number",
+  "obfuscationSetting": {
+    "obfuscationSettingType": "None"
+  },
+  "valueElicitationSetting": {
+    "slotConstraint": "Required",
+    "promptSpecification": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "How many people will be dining? (Minimum 2 people required)"
+            }
+          }
+        }
+      ],
+      "maxRetries": 2
+    }
+  }
+}

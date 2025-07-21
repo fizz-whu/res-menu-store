@@ -1,0 +1,32 @@
+{
+  "name": "CnResBot",
+  "description": "Chinese Restaurant Ordering Bot",
+  "intents": [
+    {
+      "intentName": "OrderFamilyDinnerIntent",
+      "intentVersion": "$LATEST"
+    }
+  ],
+  "clarificationPrompt": {
+    "messages": [
+      {
+        "contentType": "PlainText",
+        "content": "I didn't understand that. Would you like to order a family dinner?"
+      }
+    ],
+    "maxAttempts": 3
+  },
+  "abortStatement": {
+    "messages": [
+      {
+        "contentType": "PlainText",
+        "content": "Sorry, I'm having trouble understanding. Please try again later."
+      }
+    ]
+  },
+  "voiceId": "Joanna",
+  "childDirected": false,
+  "locale": "en-US",
+  "idleSessionTTLInSeconds": 600,
+  "processBehavior": "BUILD"
+}

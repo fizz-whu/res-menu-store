@@ -1,0 +1,74 @@
+{
+  "name": "OrderFamilyDinnerIntent",
+  "description": "Intent for ordering family dinner packages (Hong Kong or Peking style)",
+  "sampleUtterances": [
+    "I want to order a family dinner",
+    "We'd like the family dinner for {NumberOfPeople}",
+    "Can I get the family meal for {NumberOfPeople} people",
+    "Order family dinner",
+    "How much is the family dinner for {NumberOfPeople}",
+    "I want the {FamilyDinnerStyle} family dinner for {NumberOfPeople}",
+    "Can I get the {FamilyDinnerStyle} family dinner",
+    "Family dinner {FamilyDinnerStyle} for {NumberOfPeople}",
+    "We need a {FamilyDinnerStyle} family meal for {NumberOfPeople} people",
+    "{NumberOfPeople} people for the {FamilyDinnerStyle} family dinner",
+    "Get me the {FamilyDinnerStyle} dinner package for {NumberOfPeople}",
+    "I'd like to order {FamilyDinnerStyle} for {NumberOfPeople} persons",
+    "What's included in the {FamilyDinnerStyle} family dinner",
+    "Family dinner for {NumberOfPeople} {FamilyDinnerStyle} please",
+    "{FamilyDinnerStyle} style family meal"
+  ],
+  "slots": [
+    {
+      "name": "NumberOfPeople",
+      "slotType": "AMAZON.NUMBER",
+      "slotConstraint": "Required",
+      "valueElicitationPrompt": {
+        "messages": [
+          {
+            "contentType": "PlainText",
+            "content": "How many people will be dining? (Minimum 2 people required)"
+          }
+        ],
+        "maxAttempts": 2
+      },
+      "priority": 1
+    },
+    {
+      "name": "FamilyDinnerStyle",
+      "slotType": "FamilyDinnerStyles",
+      "slotTypeVersion": "$LATEST",
+      "slotConstraint": "Required",
+      "valueElicitationPrompt": {
+        "messages": [
+          {
+            "contentType": "PlainText",
+            "content": "Would you prefer the Hong Kong style or Peking style family dinner?"
+          }
+        ],
+        "maxAttempts": 2
+      },
+      "priority": 2
+    }
+  ],
+  "confirmationPrompt": {
+    "messages": [
+      {
+        "contentType": "PlainText",
+        "content": "So you'd like a {FamilyDinnerStyle} family dinner for {NumberOfPeople} people. Is that correct?"
+      }
+    ],
+    "maxAttempts": 2
+  },
+  "rejectionStatement": {
+    "messages": [
+      {
+        "contentType": "PlainText",
+        "content": "Okay, let me know if you'd like to order a family dinner later."
+      }
+    ]
+  },
+  "fulfillmentActivity": {
+    "type": "ReturnIntent"
+  }
+}

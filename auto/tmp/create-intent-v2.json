@@ -1,0 +1,76 @@
+{
+  "intentName": "OrderFamilyDinnerIntent",
+  "description": "Intent for ordering family dinner packages (Hong Kong or Peking style)",
+  "sampleUtterances": [
+    {
+      "utterance": "I want to order a family dinner"
+    },
+    {
+      "utterance": "We'd like the family dinner for {NumberOfPeople}"
+    },
+    {
+      "utterance": "Can I get the family meal for {NumberOfPeople} people"
+    },
+    {
+      "utterance": "Order family dinner"
+    },
+    {
+      "utterance": "How much is the family dinner for {NumberOfPeople}"
+    },
+    {
+      "utterance": "I want the {FamilyDinnerStyle} family dinner for {NumberOfPeople}"
+    },
+    {
+      "utterance": "Can I get the {FamilyDinnerStyle} family dinner"
+    },
+    {
+      "utterance": "Family dinner {FamilyDinnerStyle} for {NumberOfPeople}"
+    },
+    {
+      "utterance": "We need a {FamilyDinnerStyle} family meal for {NumberOfPeople} people"
+    },
+    {
+      "utterance": "{NumberOfPeople} people for the {FamilyDinnerStyle} family dinner"
+    },
+    {
+      "utterance": "Get me the {FamilyDinnerStyle} dinner package for {NumberOfPeople}"
+    },
+    {
+      "utterance": "I'd like to order {FamilyDinnerStyle} for {NumberOfPeople} persons"
+    },
+    {
+      "utterance": "What's included in the {FamilyDinnerStyle} family dinner"
+    },
+    {
+      "utterance": "Family dinner for {NumberOfPeople} {FamilyDinnerStyle} please"
+    },
+    {
+      "utterance": "{FamilyDinnerStyle} style family meal"
+    }
+  ],
+  "intentConfirmationSetting": {
+    "promptSpecification": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "So you'd like a {FamilyDinnerStyle} family dinner for {NumberOfPeople} people. Is that correct?"
+            }
+          }
+        }
+      ],
+      "maxRetries": 2
+    },
+    "declinationResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "Okay, let me know if you'd like to order a family dinner later."
+            }
+          }
+        }
+      ]
+    }
+  }
+}

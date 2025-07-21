@@ -1,0 +1,20 @@
+{
+  "slotName": "FamilyDinnerStyle",
+  "description": "Style of family dinner (Hong Kong or Peking)",
+  "slotTypeId": "XQH9BMXWGO",
+  "valueElicitationSetting": {
+    "slotConstraint": "Required",
+    "promptSpecification": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "Would you prefer the Hong Kong style or Peking style family dinner?"
+            }
+          }
+        }
+      ],
+      "maxRetries": 2
+    }
+  }
+}

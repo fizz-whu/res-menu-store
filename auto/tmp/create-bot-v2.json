@@ -1,0 +1,9 @@
+{
+  "botName": "CnRes001",
+  "description": "Chinese Restaurant Ordering Bot",
+  "roleArn": "arn:aws:iam::495599767527:role/aws-service-role/lexv2.amazonaws.com/AWSServiceRoleForLexV2Bots_39W524KBLXW",
+  "dataPrivacy": {
+    "childDirected": false
+  },
+  "idleSessionTTLInSeconds": 300
+}

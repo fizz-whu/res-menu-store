@@ -1,0 +1,26 @@
+{
+  "intentName": "OrderFamilyDinnerIntent",
+  "slotPriorities": [
+    {
+      "priority": 1,
+      "slotId": "FW4RP068DT"
+    },
+    {
+      "priority": 2,
+      "slotId": "LLDPYC3PIB"
+    }
+  ],
+  "intentClosingSetting": {
+    "closingResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "Perfect! I've placed your order for a {FamilyDinnerStyle} family dinner for {NumberOfPeople} people. Your order will be ready in approximately 25-30 minutes."
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "slotTypeName": "FamilyDinnerStyles",
+  "description": "Custom slot type for family dinner styles",
+  "slotTypeValues": [
+    {
+      "sampleValue": {
+        "value": "Hong Kong style"
+      },
+      "synonyms": [
+        {
+          "value": "Hong Kong"
+        },
+        {
+          "value": "HK"
+        },
+        {
+          "value": "HK style"
+        },
+        {
+          "value": "hong kong"
+        },
+        {
+          "value": "hongkong"
+        }
+      ]
+    },
+    {
+      "sampleValue": {
+        "value": "Peking style"
+      },
+      "synonyms": [
+        {
+          "value": "Peking"
+        },
+        {
+          "value": "Beijing"
+        },
+        {
+          "value": "Beijing style"
+        },
+        {
+          "value": "peking"
+        },
+        {
+          "value": "beijing"
+        }
+      ]
+    }
+  ],
+  "valueSelectionSetting": {
+    "resolutionStrategy": "TopResolution"
+  }
+}
