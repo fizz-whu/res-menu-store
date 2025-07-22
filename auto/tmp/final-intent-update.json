@@ -1,0 +1,434 @@
+{
+  "intentName": "OrderFamilyDinnerIntent",
+  "description": "Intent for ordering family dinner packages (Hong Kong or Peking style)",
+  "sampleUtterances": [
+    {
+      "utterance": "I want to order a family dinner"
+    },
+    {
+      "utterance": "We'd like the family dinner for {NumberOfPeople}"
+    },
+    {
+      "utterance": "Can I get the family meal for {NumberOfPeople} people"
+    },
+    {
+      "utterance": "Order family dinner"
+    },
+    {
+      "utterance": "How much is the family dinner for {NumberOfPeople}"
+    },
+    {
+      "utterance": "I want the {FamilyDinnerStyle} family dinner for {NumberOfPeople}"
+    },
+    {
+      "utterance": "Can I get the {FamilyDinnerStyle} family dinner"
+    },
+    {
+      "utterance": "Family dinner {FamilyDinnerStyle} for {NumberOfPeople}"
+    },
+    {
+      "utterance": "We need a {FamilyDinnerStyle} family meal for {NumberOfPeople} people"
+    },
+    {
+      "utterance": "{NumberOfPeople} people for the {FamilyDinnerStyle} family dinner"
+    },
+    {
+      "utterance": "Get me the {FamilyDinnerStyle} dinner package for {NumberOfPeople}"
+    },
+    {
+      "utterance": "I'd like to order {FamilyDinnerStyle} for {NumberOfPeople} persons"
+    },
+    {
+      "utterance": "What's included in the {FamilyDinnerStyle} family dinner"
+    },
+    {
+      "utterance": "Family dinner for {NumberOfPeople} {FamilyDinnerStyle} please"
+    },
+    {
+      "utterance": "{FamilyDinnerStyle} style family meal"
+    },
+    {
+      "utterance": "Book a table for {NumberOfPeople} with {FamilyDinnerStyle} family dinner"
+    },
+    {
+      "utterance": "Reserve {FamilyDinnerStyle} family package for {NumberOfPeople}"
+    },
+    {
+      "utterance": "We want {NumberOfPeople} person {FamilyDinnerStyle} dinner"
+    },
+    {
+      "utterance": "Table for {NumberOfPeople} with the {FamilyDinnerStyle} set"
+    },
+    {
+      "utterance": "Could we get the {FamilyDinnerStyle} family set for {NumberOfPeople}"
+    },
+    {
+      "utterance": "Family set dinner {FamilyDinnerStyle}"
+    },
+    {
+      "utterance": "What does the {FamilyDinnerStyle} family dinner include"
+    },
+    {
+      "utterance": "How many dishes in the {FamilyDinnerStyle} family meal"
+    },
+    {
+      "utterance": "Price for {FamilyDinnerStyle} family dinner {NumberOfPeople} people"
+    },
+    {
+      "utterance": "{NumberOfPeople} person {FamilyDinnerStyle} set menu"
+    },
+    {
+      "utterance": "Order {FamilyDinnerStyle} dinner set for {NumberOfPeople}"
+    },
+    {
+      "utterance": "We'll take the {FamilyDinnerStyle} family option for {NumberOfPeople}"
+    },
+    {
+      "utterance": "Family meal {FamilyDinnerStyle} style please"
+    },
+    {
+      "utterance": "Can you do {FamilyDinnerStyle} family dinner for {NumberOfPeople} guests"
+    },
+    {
+      "utterance": "Party of {NumberOfPeople} wants {FamilyDinnerStyle} family dinner"
+    },
+    {
+      "utterance": "I need a family dinner"
+    },
+    {
+      "utterance": "Family dinner please"
+    },
+    {
+      "utterance": "Do you have family dinners"
+    },
+    {
+      "utterance": "Show me family dinner options"
+    },
+    {
+      "utterance": "What family dinners do you offer"
+    },
+    {
+      "utterance": "I'm interested in the family dinner"
+    },
+    {
+      "utterance": "Tell me about your family dinners"
+    },
+    {
+      "utterance": "Family dinner menu"
+    },
+    {
+      "utterance": "Family package"
+    },
+    {
+      "utterance": "Family set meal"
+    },
+    {
+      "utterance": "Group dinner for {NumberOfPeople}"
+    },
+    {
+      "utterance": "Large dinner for {NumberOfPeople} people"
+    },
+    {
+      "utterance": "Dinner for a group of {NumberOfPeople}"
+    },
+    {
+      "utterance": "We're a family of {NumberOfPeople}"
+    },
+    {
+      "utterance": "Table service for {NumberOfPeople} with family meal"
+    },
+    {
+      "utterance": "{NumberOfPeople} people need dinner"
+    },
+    {
+      "utterance": "Shared meal for {NumberOfPeople}"
+    },
+    {
+      "utterance": "Banquet style for {NumberOfPeople}"
+    },
+    {
+      "utterance": "Set menu for {NumberOfPeople} people"
+    },
+    {
+      "utterance": "Complete dinner for {NumberOfPeople}"
+    },
+    {
+      "utterance": "Full meal for {NumberOfPeople} persons"
+    },
+    {
+      "utterance": "What's the cost of family dinner"
+    },
+    {
+      "utterance": "How much for family meal"
+    },
+    {
+      "utterance": "Family dinner pricing"
+    },
+    {
+      "utterance": "Cost of {FamilyDinnerStyle} family dinner"
+    },
+    {
+      "utterance": "Price per person for family dinner"
+    },
+    {
+      "utterance": "Total cost for {NumberOfPeople} people family dinner"
+    },
+    {
+      "utterance": "How much does the {FamilyDinnerStyle} cost"
+    },
+    {
+      "utterance": "What's the price for {NumberOfPeople} people"
+    },
+    {
+      "utterance": "Family dinner rate"
+    },
+    {
+      "utterance": "Charge for family meal"
+    },
+    {
+      "utterance": "{FamilyDinnerStyle} family dinner cost"
+    },
+    {
+      "utterance": "I want {FamilyDinnerStyle}"
+    },
+    {
+      "utterance": "Give me {FamilyDinnerStyle} style"
+    },
+    {
+      "utterance": "{FamilyDinnerStyle} please"
+    },
+    {
+      "utterance": "We prefer {FamilyDinnerStyle}"
+    },
+    {
+      "utterance": "I'll have the {FamilyDinnerStyle}"
+    },
+    {
+      "utterance": "Make it {FamilyDinnerStyle} style"
+    },
+    {
+      "utterance": "{FamilyDinnerStyle} option"
+    },
+    {
+      "utterance": "Choose {FamilyDinnerStyle}"
+    },
+    {
+      "utterance": "Select {FamilyDinnerStyle} family dinner"
+    },
+    {
+      "utterance": "We want the {FamilyDinnerStyle} version"
+    },
+    {
+      "utterance": "{FamilyDinnerStyle} family meal option"
+    },
+    {
+      "utterance": "{NumberOfPeople} people dining"
+    },
+    {
+      "utterance": "For {NumberOfPeople} guests"
+    },
+    {
+      "utterance": "{NumberOfPeople} person table"
+    },
+    {
+      "utterance": "Group of {NumberOfPeople}"
+    },
+    {
+      "utterance": "We are {NumberOfPeople} people"
+    },
+    {
+      "utterance": "{NumberOfPeople} diners"
+    },
+    {
+      "utterance": "Party size {NumberOfPeople}"
+    },
+    {
+      "utterance": "{NumberOfPeople} adults"
+    },
+    {
+      "utterance": "{NumberOfPeople} persons total"
+    },
+    {
+      "utterance": "Serving {NumberOfPeople} people"
+    },
+    {
+      "utterance": "{NumberOfPeople} individuals"
+    },
+    {
+      "utterance": "What comes with the family dinner"
+    },
+    {
+      "utterance": "Family dinner contents"
+    },
+    {
+      "utterance": "What dishes are included"
+    },
+    {
+      "utterance": "Family meal components"
+    },
+    {
+      "utterance": "What do I get with family dinner"
+    },
+    {
+      "utterance": "Family dinner details"
+    },
+    {
+      "utterance": "Contents of {FamilyDinnerStyle} family meal"
+    },
+    {
+      "utterance": "What's in the {FamilyDinnerStyle} family dinner"
+    },
+    {
+      "utterance": "Describe the {FamilyDinnerStyle} family meal"
+    },
+    {
+      "utterance": "Tell me about {FamilyDinnerStyle} family dinner"
+    },
+    {
+      "utterance": "{FamilyDinnerStyle} family dinner description"
+    },
+    {
+      "utterance": "List of dishes in family meal"
+    },
+    {
+      "utterance": "Can I order family dinner for pickup"
+    },
+    {
+      "utterance": "Family dinner for delivery"
+    },
+    {
+      "utterance": "Take out family meal"
+    },
+    {
+      "utterance": "Family dinner to go"
+    },
+    {
+      "utterance": "Order family dinner for later"
+    },
+    {
+      "utterance": "Schedule family dinner"
+    },
+    {
+      "utterance": "Book family dinner for tonight"
+    },
+    {
+      "utterance": "Reserve family meal"
+    },
+    {
+      "utterance": "Family dinner reservation"
+    },
+    {
+      "utterance": "Advance order family dinner"
+    },
+    {
+      "utterance": "Pre-order family meal"
+    },
+    {
+      "utterance": "Do you serve family dinners"
+    },
+    {
+      "utterance": "Are family dinners available"
+    },
+    {
+      "utterance": "Can I get a family dinner"
+    },
+    {
+      "utterance": "Do you have family meals"
+    },
+    {
+      "utterance": "Family dinner availability"
+    },
+    {
+      "utterance": "Is family dinner on the menu"
+    },
+    {
+      "utterance": "Can you do family dinners"
+    },
+    {
+      "utterance": "Family meal service"
+    },
+    {
+      "utterance": "Do you offer family packages"
+    },
+    {
+      "utterance": "Family dining options"
+    },
+    {
+      "utterance": "Large group meals"
+    },
+    {
+      "utterance": "I need food for {NumberOfPeople} people"
+    },
+    {
+      "utterance": "Feed {NumberOfPeople} people"
+    },
+    {
+      "utterance": "Meal for {NumberOfPeople}"
+    },
+    {
+      "utterance": "Dinner to share among {NumberOfPeople}"
+    },
+    {
+      "utterance": "Something for {NumberOfPeople} to eat"
+    },
+    {
+      "utterance": "Food for a family of {NumberOfPeople}"
+    },
+    {
+      "utterance": "Enough food for {NumberOfPeople}"
+    },
+    {
+      "utterance": "Chinese family dinner"
+    },
+    {
+      "utterance": "Traditional family meal"
+    },
+    {
+      "utterance": "Authentic family dinner"
+    },
+    {
+      "utterance": "Classic family meal"
+    },
+    {
+      "utterance": "Regular family dinner"
+    },
+    {
+      "utterance": "Standard family meal"
+    },
+    {
+      "utterance": "Typical family dinner"
+    },
+    {
+      "utterance": "Special family meal"
+    },
+    {
+      "utterance": "Deluxe family dinner"
+    },
+    {
+      "utterance": "Premium family meal"
+    }
+  ],
+  "slotPriorities": [
+    {
+      "priority": 1,
+      "slotId": "FW4RP068DT"
+    },
+    {
+      "priority": 2,
+      "slotId": "LLDPYC3PIB"
+    }
+  ],
+  "intentClosingSetting": {
+    "closingResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "Perfect! I've placed your order for a {FamilyDinnerStyle} family dinner for {NumberOfPeople} people. Your order will be ready in approximately 25-30 minutes."
+            }
+          }
+        }
+      ]
+    }
+  }
+}

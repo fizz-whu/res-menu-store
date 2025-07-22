@@ -1,0 +1,232 @@
+{
+  "intentName": "RestaurantHoursIntent",
+  "description": "Intent to provide restaurant hours and operating schedule",
+  "sampleUtterances": [
+    {
+      "utterance": "What are your hours"
+    },
+    {
+      "utterance": "When are you open"
+    },
+    {
+      "utterance": "What time do you open"
+    },
+    {
+      "utterance": "What time do you close"
+    },
+    {
+      "utterance": "Are you open now"
+    },
+    {
+      "utterance": "What are your operating hours"
+    },
+    {
+      "utterance": "When do you open and close"
+    },
+    {
+      "utterance": "Hours of operation"
+    },
+    {
+      "utterance": "Business hours"
+    },
+    {
+      "utterance": "Opening hours"
+    },
+    {
+      "utterance": "Store hours"
+    },
+    {
+      "utterance": "Restaurant hours"
+    },
+    {
+      "utterance": "What time are you open until"
+    },
+    {
+      "utterance": "How late are you open"
+    },
+    {
+      "utterance": "What time do you start serving"
+    },
+    {
+      "utterance": "When do you stop serving"
+    },
+    {
+      "utterance": "Are you open today"
+    },
+    {
+      "utterance": "Are you open tomorrow"
+    },
+    {
+      "utterance": "What days are you open"
+    },
+    {
+      "utterance": "Do you open every day"
+    },
+    {
+      "utterance": "Are you open on weekends"
+    },
+    {
+      "utterance": "Are you open on Sunday"
+    },
+    {
+      "utterance": "Are you open on Monday"
+    },
+    {
+      "utterance": "Are you open on Saturday"
+    },
+    {
+      "utterance": "Weekend hours"
+    },
+    {
+      "utterance": "Weekday hours"
+    },
+    {
+      "utterance": "Sunday hours"
+    },
+    {
+      "utterance": "Monday hours"
+    },
+    {
+      "utterance": "Saturday hours"
+    },
+    {
+      "utterance": "What are Jade Cafe hours"
+    },
+    {
+      "utterance": "When is Jade Cafe open"
+    },
+    {
+      "utterance": "Hours"
+    },
+    {
+      "utterance": "Open hours"
+    },
+    {
+      "utterance": "Schedule"
+    },
+    {
+      "utterance": "Operating schedule"
+    },
+    {
+      "utterance": "When can I come in"
+    },
+    {
+      "utterance": "What time should I come"
+    },
+    {
+      "utterance": "Can I come now"
+    },
+    {
+      "utterance": "Are you currently open"
+    },
+    {
+      "utterance": "Still open"
+    },
+    {
+      "utterance": "Closed yet"
+    },
+    {
+      "utterance": "How early do you open"
+    },
+    {
+      "utterance": "How late do you stay open"
+    },
+    {
+      "utterance": "What time for lunch"
+    },
+    {
+      "utterance": "What time for dinner"
+    },
+    {
+      "utterance": "Lunch hours"
+    },
+    {
+      "utterance": "Dinner hours"
+    },
+    {
+      "utterance": "Do you serve lunch"
+    },
+    {
+      "utterance": "Do you serve dinner"
+    },
+    {
+      "utterance": "When do you serve food"
+    },
+    {
+      "utterance": "Food service hours"
+    },
+    {
+      "utterance": "Kitchen hours"
+    },
+    {
+      "utterance": "When does the kitchen close"
+    },
+    {
+      "utterance": "Last order time"
+    },
+    {
+      "utterance": "Can I still order"
+    },
+    {
+      "utterance": "Is it too late to order"
+    },
+    {
+      "utterance": "Are you taking orders"
+    },
+    {
+      "utterance": "Do you close for lunch"
+    },
+    {
+      "utterance": "Any breaks during the day"
+    },
+    {
+      "utterance": "Continuous service"
+    },
+    {
+      "utterance": "All day dining"
+    },
+    {
+      "utterance": "Open all day"
+    },
+    {
+      "utterance": "Seven days a week"
+    },
+    {
+      "utterance": "Daily hours"
+    },
+    {
+      "utterance": "Every day hours"
+    },
+    {
+      "utterance": "Regular hours"
+    },
+    {
+      "utterance": "Normal hours"
+    },
+    {
+      "utterance": "Standard hours"
+    },
+    {
+      "utterance": "Typical hours"
+    },
+    {
+      "utterance": "Holiday hours"
+    },
+    {
+      "utterance": "Special hours"
+    }
+  ],
+  "intentClosingSetting": {
+    "closingResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "Jade Cafe is open from 11:00 AM to 9:00 PM, seven days a week! We serve lunch and dinner continuously throughout our operating hours. Come visit us anytime during these hours - we're here to serve you every day of the week!"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

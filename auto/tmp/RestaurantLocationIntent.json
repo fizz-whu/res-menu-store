@@ -1,0 +1,193 @@
+{
+  "intentName": "RestaurantLocationIntent",
+  "description": "Intent to provide restaurant location and address information",
+  "sampleUtterances": [
+    {
+      "utterance": "What's your address"
+    },
+    {
+      "utterance": "Where are you located"
+    },
+    {
+      "utterance": "What is the restaurant address"
+    },
+    {
+      "utterance": "Where is Jade Cafe"
+    },
+    {
+      "utterance": "Can you give me your address"
+    },
+    {
+      "utterance": "Where can I find you"
+    },
+    {
+      "utterance": "What's the location"
+    },
+    {
+      "utterance": "How do I get there"
+    },
+    {
+      "utterance": "Where is the restaurant"
+    },
+    {
+      "utterance": "What's your location"
+    },
+    {
+      "utterance": "Can you tell me where you are"
+    },
+    {
+      "utterance": "What street are you on"
+    },
+    {
+      "utterance": "Where is your restaurant located"
+    },
+    {
+      "utterance": "What's the restaurant's address"
+    },
+    {
+      "utterance": "Where can I find Jade Cafe"
+    },
+    {
+      "utterance": "What's your street address"
+    },
+    {
+      "utterance": "How can I find you"
+    },
+    {
+      "utterance": "Where are you"
+    },
+    {
+      "utterance": "Location"
+    },
+    {
+      "utterance": "Address"
+    },
+    {
+      "utterance": "Directions to your restaurant"
+    },
+    {
+      "utterance": "Where should I go"
+    },
+    {
+      "utterance": "What's your full address"
+    },
+    {
+      "utterance": "Tell me your address"
+    },
+    {
+      "utterance": "I need your address"
+    },
+    {
+      "utterance": "Can you provide the address"
+    },
+    {
+      "utterance": "What city are you in"
+    },
+    {
+      "utterance": "Are you in San Francisco"
+    },
+    {
+      "utterance": "Where in San Francisco"
+    },
+    {
+      "utterance": "What neighborhood"
+    },
+    {
+      "utterance": "Address please"
+    },
+    {
+      "utterance": "Where do I go to eat"
+    },
+    {
+      "utterance": "What's the address for pickup"
+    },
+    {
+      "utterance": "Where do I pick up my order"
+    },
+    {
+      "utterance": "Pickup location"
+    },
+    {
+      "utterance": "Restaurant location"
+    },
+    {
+      "utterance": "Where to find you"
+    },
+    {
+      "utterance": "Physical address"
+    },
+    {
+      "utterance": "Street address"
+    },
+    {
+      "utterance": "What's the zip code"
+    },
+    {
+      "utterance": "GPS coordinates"
+    },
+    {
+      "utterance": "Map location"
+    },
+    {
+      "utterance": "Nearest cross street"
+    },
+    {
+      "utterance": "How to get to your restaurant"
+    },
+    {
+      "utterance": "Directions"
+    },
+    {
+      "utterance": "Navigation to restaurant"
+    },
+    {
+      "utterance": "Where exactly are you located"
+    },
+    {
+      "utterance": "Can you give me directions"
+    },
+    {
+      "utterance": "What's nearby your restaurant"
+    },
+    {
+      "utterance": "Landmarks near you"
+    },
+    {
+      "utterance": "Is there parking"
+    },
+    {
+      "utterance": "Where can I park"
+    },
+    {
+      "utterance": "Parking availability"
+    },
+    {
+      "utterance": "How do I find parking"
+    },
+    {
+      "utterance": "Is it easy to find"
+    },
+    {
+      "utterance": "Are you hard to find"
+    },
+    {
+      "utterance": "Any landmarks"
+    },
+    {
+      "utterance": "What's your cross street"
+    }
+  ],
+  "intentClosingSetting": {
+    "closingResponse": {
+      "messageGroups": [
+        {
+          "message": {
+            "plainTextMessage": {
+              "value": "Jade Cafe is located at 1688 Bryant Street, San Francisco, CA 94103. We're in the Mission District and there's street parking available nearby. Feel free to call if you need any additional directions!"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
